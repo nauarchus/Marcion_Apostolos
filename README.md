@@ -6,7 +6,7 @@ A repository dedicated to hosting expert-curated, normalized, and enriched datas
 
 ## Licenses & Terms of Re-Use
 
-*See the Licenses page in this repo for detailed information about dataset licenses and terms of reuse.*
+See the [Licenses](https://github.com/nauarchus/Marcion_Apostolos/blob/main/LICENSE.md) page in this repo for detailed information about dataset licenses and terms of reuse.
 
 ## Bibliography
 
