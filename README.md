@@ -17,7 +17,7 @@ A repository dedicated to hosting expert-curated datasets of the Apostolos/Apost
 
 ## Bibliography
 
-If you make use of any of this data in publications, code, or other projects, please cite as follows. Publications are placed in the same order as in the table.
+If you make use of any of this data in publications, code, or other projects, please cite as follows.
 
 > Bilby, Mark G., Jack Bull, and K. Lance Lotharp. "Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s Greek Reconstructions of Marcion's Apostolos." *Journal of Open Humanities Data* 9.27 (2023): 1–5. [doi:10.5334/johd.122](https://doi.org/10.5334/johd.122)
 
