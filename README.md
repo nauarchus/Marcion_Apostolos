@@ -2,18 +2,11 @@
 
 ## Description
 
-A repository dedicated to hosting expert-curated datasets of the Apostolos/Apostolikon of Marcion.
+A repository dedicated to hosting expert-curated, normalized, and enriched datasets of the Apostolos/Apostolikon of Marcion of Sinope.
 
 ## Licenses & Terms of Re-Use
 
 *See the Licenses page in this repo for detailed information about dataset licenses and terms of reuse.*
-
-| Author                | Title                 | Lang | Date      | CTS URN           | Dataset DOI                                           | License       |
-|-----------------------|-----------------------|------|-----------|-------------------|-----------------------------------------------------|---------------|
-| W. C. van Manen      | Apostolos Marcionis | grc  | 1887      | tlg2958.tlg00301  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| T. Zahn              | Apostolos Marcionis | grc  | 1892      | tlg2958.tlg00302  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| A. von Harnack       | Apostolos Marcionis | grc  | 1924      | tlg2958.tlg00303  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-
 
 ## Bibliography
 
