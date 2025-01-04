@@ -1,5 +1,3 @@
-# Marcion_Apostolos
-
 ## Description
 
 A repository dedicated to hosting expert-curated, normalized, and enriched datasets of the Apostolos/Apostolikon of Marcion of Sinope.
