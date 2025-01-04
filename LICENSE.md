@@ -1,6 +1,6 @@
 ## Licenses & Terms of Re-Use
 
-All data and code in this repo are copyright © 2024 by Mark G. Bilby, Jack Bull, and K. Lance Lotharp unless otherwise noted in the files. 
+All data and code in this repo are copyright © 2024 Mark G. Bilby, Jack Bull, and K. Lance Lotharp unless otherwise noted in the files. 
 
 These normalized datasets were peer-reviewed and published in the *Journal of Open Humanites Data* and deposited in the Harvard Dataverse. Use of the datasets archived in the Harvard Dataverse remains subject to the license terms elaborated in those respective locations.
 
