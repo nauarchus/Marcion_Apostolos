@@ -2,7 +2,9 @@
 
 All data and code in this repo are copyright © 2024 by Mark G. Bilby, Jack Bull, and K. Lance Lotharp unless otherwise noted in the files. 
 
-These normalized datasets were peer-reviewed and published in the *Journal of Open Humanites Data* and deposited in the Harvard Dataverse. Files in this repo reflect further corrections, refinements, and transformations beyond those previous publications. Use of the datasets archived in the Harvard Dataverse remains subject to the license terms elaborated in those respective locations. All other rights reserved.
+These normalized datasets were peer-reviewed and published in the *Journal of Open Humanites Data* and deposited in the Harvard Dataverse. Use of the datasets archived in the Harvard Dataverse remains subject to the license terms elaborated in those respective locations.
+
+Files in this repo reflect further corrections, refinements, and transformations beyond those previous publications. Licenses for these follow-on works are indicated in the following table. All other rights reserved.
 
 | Author                | Lang | Date      | CTS URN           | JOHD Dataset DOI                                           | License       |
 |-----------------------|------|-----------|-------------------|-----------------------------------------------------|---------------|
