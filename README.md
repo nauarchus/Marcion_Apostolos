@@ -16,8 +16,6 @@ Each dataset currently has four manifestations:
 
 All datasets use UTF-8 encoding and composed Unicode characters. When comparing these datasets with datasets that use decomposed unicode characters (such as GLAUx and Opera Graeca Adnotata), it may be necessary to convert between composed and decomposed characters for best results.
 
-See the [Licenses](https://github.com/nauarchus/Marcion_Apostolos/blob/main/LICENSE.md) page in this repo for detailed information about dataset licenses and terms of reuse.
-
 ## Bibliography
 
 If you make use of any of this data in publications, code, or other projects, please cite as follows.
