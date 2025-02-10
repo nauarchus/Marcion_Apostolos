@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg2958" projid="greekLit:tlg2958" urn="urn:cts:greekLit:tlg2958.tlg00303" xml:lang="grc">
+   
+   <ti:title xml:lang="eng">Apostolos of Marcion</ti:title>
+   <ti:title xml:lang="eng">Apostolikon of Marcion</ti:title>
+   <ti:title xml:lang="lat">Apostolos Marcionis</ti:title>
+ 
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg00303.src-grc1" workUrn="urn:cts:greekLit:tlg2958.tlg00303" xml:lang="grc">
+      <ti:label xml:lang="eng">Apostolos of Marcion [Harnack]</ti:label>
+	<ti:label
+   </ti:edition>
+        
+</ti:work>
