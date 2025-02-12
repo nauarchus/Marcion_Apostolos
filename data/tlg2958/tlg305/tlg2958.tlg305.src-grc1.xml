@@ -19,9 +19,16 @@
 				<pubPlace>Kansas City, KS, USA</pubPlace>
 				<distributor>@nauarchus account on GitHub</distributor>
 				<availability>
-					<p> © 2025 Jason D. BeDuhn and Mark G. Bilby.
-						Those wishing to use this data for any purpose, including research,
-						should read out to Mark G. Bilby to request permissions.</p>
+					<licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Available
+						under a
+						Creative Commons Attribution Non-commerical No-derivatives 4.0 International
+						License</licence>
+					<p> © 2025 Jason D. BeDuhn and Clavis Consulting, LLC (Kansas).
+						Those wishing to make commercial or derivative use of this data
+						should read out to Jason D. BeDuhn and/or Mark G. Bilby (as principal of
+						Clavis Consulting, LLC (Kansas)) to request permissions.
+						None of this data may be used in or for large language models, neural
+						nets, or machine learning projects without prior written permission.</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>

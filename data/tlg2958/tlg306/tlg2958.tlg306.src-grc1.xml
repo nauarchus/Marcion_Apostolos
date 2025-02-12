@@ -21,9 +21,14 @@
 				<pubPlace>Kansas City, KS, USA</pubPlace>
 				<distributor>@nauarchus account on GitHub</distributor>
 				<availability>
-					<p> © 2025 Markus Vinzent, Mark G. Bilby, Jack Bull, K. Lance Lotharp. All
-						rights reserved. Those wishing to use this data for any purpose, including
-						research, should read out to Mark G. Bilby to request permissions.</p>
+					<p> © 2025 Markus Vinzent, Mark G. Bilby, Jack Bull, K. Lance Lotharp.
+						All rights reserved.
+						Those wishing to use this data for any purpose, including research,
+						commercial uses, and/or derivative uses,
+						should read out to Markus Vinzent and Mark G. Bilby to request
+						explicit written permissions.
+						None of this data may be used in or for large language models, neural
+						nets, or machine learning projects without prior written permission.</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
