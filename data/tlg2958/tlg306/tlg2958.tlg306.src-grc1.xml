@@ -21,12 +21,12 @@
 				<pubPlace>Kansas City, KS, USA</pubPlace>
 				<distributor>@nauarchus account on GitHub</distributor>
 				<availability>
-					<p> © 2025 Markus Vinzent, Mark G. Bilby, Jack Bull, K. Lance Lotharp.
-						All rights reserved.
+					<p> TEI-XML digital edition © Clavis Consulting, LLC (Kansas).
+						Print edition © 2025 Narr Francke Attempto Verlag. All rights reserved.
 						Those wishing to use this data for any purpose, including research,
 						commercial uses, and/or derivative uses,
-						should read out to Markus Vinzent and Mark G. Bilby to request
-						explicit written permissions.
+						should read out to Narr Francke Attempto Verlag,
+						Markus Vinzent and Mark G. Bilby to request explicit written permissions.
 						None of this data may be used in or for large language models, neural
 						nets, or machine learning projects without prior written permission.</p>
 				</availability>
@@ -349,15 +349,18 @@
 							<p> ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="19">
-							<p> φανερὰ δέ ἐστι τὰ ἔργα τῆς σαρκός, ἅτινά ἐστι μοιχεία,
+							<p xml:id="Gal5.19"> φανερὰ δέ ἐστι τὰ ἔργα τῆς σαρκός,
+								ἅτινά ἐστι μοιχεία,
 								ἀκαθαρσία, ἀσέλγεια, </p>
 						</div>
 						<div type="textpart" subtype="verse" n="20">
-							<p> εἰδωλολατρεῖαι, φαρμακεῖαι, ἔχθραι, ἔρεις, ζῆλοι, θυμοί,
+							<p xml:id="Gal5.20" corresp="#Gal5.19">
+								εἰδωλολατρεῖαι, φαρμακεῖαι, ἔχθραι, ἔρεις, ζῆλοι, θυμοί,
 								ἐριθεῖαι, διχοστασίαι, αἱρέσεις, </p>
 						</div>
 						<div type="textpart" subtype="verse" n="21">
-							<p> φθόνοι, μέθαι, κῶμοι, καθὼς προεῖπον, ὅτι οἱ τὰ τοιαῦτα
+							<p xml:id="Gal5.21" corresp="#Gal5.19">
+								φθόνοι, μέθαι, κῶμοι, καθὼς προεῖπον, ὅτι οἱ τὰ τοιαῦτα
 								πράσσοντες βασιλείαν θεοῦ οὐ κληρονομήσουσιν. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="24">
@@ -367,45 +370,50 @@
 					</div>
 					<div type="textpart" subtype="chapter" n="6">
 						<div type="textpart" subtype="verse" n="2">
-							<p> Ἀλλήλων τὰ βάρη βαστάζετε, καὶ οὕτως ἀναπληρώσετε τὸν
+							<p> Ἀλλήλων τὰ βάρη βαστάζετε,
+								καὶ οὕτως ἀναπληρώσετε τὸν
 								νόμον τοῦ Χριστοῦ. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="6">
-							<p> Κοινωνείτω δὲ ὁ κατηχούμενος ἐν λόγῳ τῷ κατηχοῦντι ἐν
-								πᾶσιν ἀγαθοῖς. </p>
+							<p> Κοινωνείτω δὲ ὁ κατηχούμενος ἐν λόγῳ
+								τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="7">
-							<p> Πλανᾶσθε, θεὸς οὐ μυκτηρίζεται· ἃ γὰρ ἐὰν σπείρῃ
-								ἄνθρωπος, ταῦτα καὶ θερίσει· </p>
+							<p> Πλανᾶσθε· </p>
+							<p> θεὸς οὐ μυκτηρίζεται· </p>
+							<p> ἃ γὰρ ἐὰν σπείρῃ ἄνθρωπος,
+								ταῦτα καὶ θερίσει· </p>
 						</div>
 						<div type="textpart" subtype="verse" n="8">
-							<p> ὅτι ὁ σπείρων εἰς τὴν φθορὰν ἑαυτοῦ ἐκ τῆς φθορᾶς
-								θερίσει φθοράν, ὁ δὲ σπείρων εἰς τὴν ζωὴν ἐκ τῆς ζωῆς
-								θερίσει ζωὴν. </p>
+							<p> ὅτι ὁ σπείρων εἰς τὴν φθορὰν ἑαυτοῦ
+								ἐκ τῆς φθορᾶς θερίσει φθοράν,
+								ὁ δὲ σπείρων εἰς τὴν ζωὴν
+								ἐκ τῆς ζωῆς θερίσει ζωὴν. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="9">
-							<p> τὸ δὲ καλὸν ποιοῦντες μὴ ἐκκακῶμεν, καιρῷ δὲ ἰδίῳ
-								θερίσομεν. </p>
+							<p> τὸ δὲ καλὸν ποιοῦντες μὴ ἐκκακῶμεν,
+								καιρῷ δὲ ἰδίῳ θερίσομεν. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> ἄρα ὡς καιρὸν ἔχομεν, ἐργαζώμεθα τὸ ἀγαθὸν. </p>
+							<p> ἄρα ὡς καιρὸν ἔχομεν,
+								ἐργαζώμεθα τὸ ἀγαθὸν. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί, οὗτοι ἀναγκάζουσιν
-								ὑμᾶς περιτέμνεσθαι, μόνον ἵνα τῷ σταυρῷ τοῦ Χριστοῦ μὴ
-								διώκονται· </p>
+							<p> ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί,
+								οὗτοι ἀναγκάζουσιν ὑμᾶς περιτέμνεσθαι,
+								μόνον ἵνα τῷ σταυρῷ τοῦ Χριστοῦ μὴ διώκονται· </p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν ἀλλὰ
-								θέλουσιν ὑμᾶς περιτέμνεσθαι ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ
+							<p> οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν, 
+								ἀλλὰ θέλουσιν ὑμᾶς περιτέμνεσθαι ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ
 								καυχήσωνται. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
 							<p> ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ. </p>
 						</div>
 						<div type="textpart" subtype="verse" n="17">
-							<p> ἐγὼ γὰρ τὰ στίγματα τοῦ Χριστοῦ ἐν τῷ σώματί μου
-								βαστάζω. </p>
+							<p> ἐγὼ γὰρ τὰ στίγματα τοῦ Χριστοῦ 
+							ἐν τῷ σώματί μου βαστάζω. </p>
 						</div>
 					</div>
 				</div>
