@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg2958" projid="greekLit:tlg2958" urn="urn:cts:greekLit:tlg2958.tlg305" xml:lang="grc">
+   
+   <ti:title xml:lang="eng">Apostolos of Marcion [BeDuhn]</ti:title>
+   <ti:title xml:lang="eng">Apostolikon of Marcion [BeDuhn]</ti:title>
+   <ti:title xml:lang="lat">Apostolos Marcionis [BeDuhn]</ti:title>
+ 
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg305.src-grc1" workUrn="urn:cts:greekLit:tlg2958.tlg305" xml:lang="grc">
+      <ti:label xml:lang="eng">Apostolos of Marcion [BeDuhn]</ti:label>
+	<ti:label
+   </ti:edition>
+        
+</ti:work>
