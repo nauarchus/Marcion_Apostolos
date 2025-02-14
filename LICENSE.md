@@ -11,11 +11,11 @@ Files in this repo reflect further corrections, refinements, and transformations
 
 | Author                | Lang | Date      | CTS URN           | JOHD Dataset DOI                                           | License       |
 |-----------------------|------|-----------|-------------------|-----------------------------------------------------|---------------|
-| van Manen      | grc  | 1887      | tlg2958.tlg00301  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| Zahn              | grc  | 1892      | tlg2958.tlg00302  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| Harnack       | grc  | 1924      | tlg2958.tlg00303  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| BeDuhn      | grc  | 2025      | tlg2958.tlg00305  | NA | CC BY-NC-ND 4.0     |
-| Vinzent, Bilby, Bull, Lotharp | grc  | 2025      | tlg2958.tlg00306  | NA | CC BY-NC-ND 4.0     |
+| van Manen      | grc  | 1887      | tlg2958.tlg003.src-grc1  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| Zahn              | grc  | 1892      | tlg2958.tlg003.src-grc2  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| Harnack       | grc  | 1924      | tlg2958.tlg003.src-grc3  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| BeDuhn      | grc  | 2025      | tlg2958.tlg003.src-grc5  | NA | CC BY-NC-ND 4.0     |
+| Vinzent, Bilby, Bull, Lotharp | grc  | 2025      | tlg2958.tlg003.src-grc6  | NA | CC BY-NC-ND 4.0     |
 
 ## General Disclaimer
 
