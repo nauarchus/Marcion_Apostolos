@@ -9,13 +9,13 @@ The last two of these normalized datasets are being submitted for publication. N
 
 Files in this repo reflect further corrections, refinements, and transformations beyond those previous publications. Licenses for these follow-on works are indicated in the following table. All other rights reserved.
 
-| Author                | Lang | Date      | CTS URN           | JOHD Dataset DOI                                           | License       |
+| Author                 | Date      | CTS URN           | JOHD Dataset DOI                                           | License       |
 |-----------------------|------|-----------|-------------------|-----------------------------------------------------|---------------|
-| van Manen      | grc  | 1887      | tlg2958.tlg003.src-grc1  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| Zahn              | grc  | 1892      | tlg2958.tlg003.src-grc2  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| Harnack       | grc  | 1924      | tlg2958.tlg003.src-grc3  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
-| BeDuhn      | grc  | 2025      | tlg2958.tlg003.src-grc5  | NA | CC BY-NC-ND 4.0     |
-| Vinzent, Bilby, Bull, Lotharp | grc  | 2025      | tlg2958.tlg003.src-grc6  | NA | CC BY-NC-ND 4.0     |
+| van Manen      | 1887      | tlg2958.tlg003.src-grc1  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| Zahn             | 1892      | tlg2958.tlg003.src-grc2  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| Harnack       | 1924      | tlg2958.tlg003.src-grc3  | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW) | CC BY 4.0     |
+| BeDuhn       | 2025      | tlg2958.tlg003.src-grc5  | NA | CC BY-NC-ND 4.0     |
+| Vinzent, Bilby, Bull, Lotharp | 2025      | tlg2958.tlg003.src-grc6  | NA | CC BY-NC-ND 4.0     |
 
 ## General Disclaimer
 
