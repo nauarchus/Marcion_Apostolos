@@ -6,6 +6,8 @@ The first three of these normalized datasets were peer-reviewed and published in
 
 The last two of these normalized datasets are being submitted for publication. No commercial or derivative uses may be made from them, and at present they should only be cited as forthcoming, and not cited at a granular level, since they are subject to change until the print publications materialize. The more restrictive licenses (CC BY-NC or CC BY-NC-ND) are based on negotiated agreements with the authors and/or copyright holders of the corresponding print works and are applied to protect our research team's work in progress. Those wishing to make commercial and/or derivative use of this data should read out to the rights holders to request permissions. None of this data may be used in or for large language models, neural nets, or machine learning projects without prior written permission.
 
+Please reach out if you have any questions, are requesting permissions for certain uses, or would like to join or collaborate with our team.
+
 
 | Author                          | Date | CTS URN                   | JOHD Dataset DOI                                           | License           |
 |---------------------------------|------|---------------------------|------------------------------------------------------------|-------------------|
