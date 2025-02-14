@@ -22,3 +22,6 @@ If you make use of any of this data in publications, code, or other projects, pl
 
 > Bilby, Mark G., Jack Bull, and K. Lance Lotharp. "Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s Greek Reconstructions of Marcion's Apostolos." *Journal of Open Humanities Data* 9.27 (2023): 1–5. [doi:10.5334/johd.122](https://doi.org/10.5334/johd.122)
 
+> BeDuhn, Jason D., and Mark G. Bilby. "Normalized Datasets of BeDuhn's Apostolikon." (forthcoming)
+
+> Vinzent, Markus, Mark G. Bilby, Jack Bull, and K. Lance Lotharp. Die älteste Sammlung der paulinischen Briefe und die Entstehung der kanonischen Paulusbriefsammlung. 4 vol. Tübingen: Narr Francke, 2025.

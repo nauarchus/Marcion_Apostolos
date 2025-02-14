@@ -2,9 +2,10 @@
 
 All data and code in this repo are copyright © 2024 Mark G. Bilby, Jack Bull, and K. Lance Lotharp unless otherwise noted in the files. 
 
-The first three of these normalized datasets were peer-reviewed and published in the *Journal of Open Humanites Data* and deposited in the Harvard Dataverse. Use of the datasets archived in the Harvard Dataverse remains subject to the license terms elaborated in those respective locations.
+The first three of these normalized datasets were peer-reviewed and published in the *Journal of Open Humanites Data* and deposited in the Harvard Dataverse. Use of the datasets archived in the Harvard Dataverse remains subject to the license terms elaborated in those respective locations. Files in this repository reflect further corrections, refinements, and transformations beyond those previous publications. Licenses for these follow-on works are indicated in the following table. The openly licensed (CC-BY 4.0) datasets allow for generous usage. 
 
-The last two of these normalized datasets are being submitted for publication. No commercial or derivative uses may be made from them, and they should only be cited as forthcoming, and not cited at a granular level, since they are subject to change until the print publications materialize.
+The last two of these normalized datasets are being submitted for publication. No commercial or derivative uses may be made from them, and at present they should only be cited as forthcoming, and not cited at a granular level, since they are subject to change until the print publications materialize. The more restrictive licenses (CC BY-NC or CC BY-NC-ND) are based on negotiated agreements with the authors and/or copyright holders of the corresponding print works and are applied to protect our research team's work in progress. Those wishing to make commercial and/or derivative use of this data should read out to the rights holders to request permissions. None of this data may be used in or for large language models, neural nets, or machine learning projects without prior written permission.
+
 
 Files in this repo reflect further corrections, refinements, and transformations beyond those previous publications. Licenses for these follow-on works are indicated in the following table. All other rights reserved.
 
