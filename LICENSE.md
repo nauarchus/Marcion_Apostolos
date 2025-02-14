@@ -7,7 +7,9 @@ The first three of these normalized datasets were peer-reviewed and published in
 The last two of these normalized datasets are being submitted for publication. No commercial or derivative uses may be made from them, and at present they should only be cited as forthcoming, and not cited at a granular level, since they are subject to change until the print publications materialize. The more restrictive licenses (CC BY-NC or CC BY-NC-ND) are based on negotiated agreements with the authors and/or copyright holders of the corresponding print works and are applied to protect our research team's work in progress. Those wishing to make commercial and/or derivative use of this data should read out to the rights holders to request permissions. None of this data may be used in or for large language models, neural nets, or machine learning projects without prior written permission.
 
 The van Manen, Zahn, and Harnack datasets are © 2024 by Mark G. Bilby, Jack Bull, and K. Lance Lotharp. 
+
 The BeDuhn datasets are © 2024 by Jason D. BeDuhn and Mark G. Bilby. 
+
 The Vinzent, Bilby, Bull, and Lotharp edition datasets are © 2025 by Markus Vinzent, Mark G. Bilby, Jack Bull, and K. Lance Lotharp.
 
 Please reach out if you have any questions, are requesting permissions for certain uses, or would like to join or collaborate with our team.
