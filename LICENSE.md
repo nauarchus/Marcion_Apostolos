@@ -6,6 +6,7 @@ The first three of these normalized datasets were peer-reviewed and published in
 
 The last two of these normalized datasets are being submitted for publication. No commercial or derivative uses may be made from them, and at present they should only be cited as forthcoming, and not cited at a granular level, since they are subject to change until the print publications materialize. The more restrictive licenses (CC BY-NC or CC BY-NC-ND) are based on negotiated agreements with the authors and/or copyright holders of the corresponding print works and are applied to protect our research team's work in progress. Those wishing to make commercial and/or derivative use of this data should read out to the rights holders to request permissions. None of this data may be used in or for large language models, neural nets, or machine learning projects without prior written permission.
 
+
 | Author                          | Date | CTS URN                   | JOHD Dataset DOI                                           | License           |
 |---------------------------------|------|---------------------------|------------------------------------------------------------|-------------------|
 | van Manen                      | 1887 | tlg2958.tlg003.src-grc1   | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW)   | CC BY 4.0        |
@@ -13,6 +14,7 @@ The last two of these normalized datasets are being submitted for publication. N
 | Harnack                         | 1924 | tlg2958.tlg003.src-grc3   | [10.7910/DVN/ZUVKQW](https://doi.org/10.7910/DVN/ZUVKQW)   | CC BY 4.0        |
 | BeDuhn                          | 2025 | tlg2958.tlg003.src-grc5   | NA                                                         | CC BY-NC-ND 4.0  |
 | Vinzent, Bilby, Bull, Lotharp   | 2025 | tlg2958.tlg003.src-grc6   | NA                                                         | CC BY-NC-ND 4.0  |
+
 
 
 ## General Disclaimer
