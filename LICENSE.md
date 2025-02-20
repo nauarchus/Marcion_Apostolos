@@ -6,7 +6,7 @@ The last two of these normalized datasets are being submitted for publication. N
 
 The van Manen, Zahn, and Harnack datasets are © 2024 by Mark G. Bilby, Jack Bull, and K. Lance Lotharp. 
 
-The BeDuhn datasets are © 2024 by Jason D. BeDuhn and Mark G. Bilby. 
+The BeDuhn datasets are © 2025 by Jason D. BeDuhn and Mark G. Bilby. 
 
 The Vinzent, Bilby, Bull, and Lotharp edition datasets are © 2025 by Markus Vinzent, Mark G. Bilby, Jack Bull, and K. Lance Lotharp.
 
