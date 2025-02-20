@@ -8,7 +8,7 @@ See the [Licenses](https://github.com/nauarchus/Marcion_Apostolos/blob/main/LICE
 
 ## File Types and Encodings
 
-Each dataset currently has four manifestations:
+Each dataset typically has four manifestations:
 * .txt file with human-readable Greek and each verse having its own row
 * .txt file with words lemmatized and morphologically tagged following the BibleWorks Greek Morphology schema
 * .xml file formatted according to the conventions of the Perseus Digital Library and/or Patristic Text Archive
