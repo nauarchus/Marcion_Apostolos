@@ -16,6 +16,10 @@ Each dataset typically has four manifestations:
 
 All datasets use UTF-8 encoding and decomposed Unicode characters. When comparing these datasets with datasets that use composed unicode characters, it may be necessary to convert between composed and decomposed characters for best results.
 
+## File Names and CTS_URN Conventions
+
+The files in this repository all adopt the cts_urn author identifer prefix for Marcion of Sinope (tlg2958) and effectively mint new cts_urn document id for the Apostolos of Marcion (tlg003). The number after "grc" corresponds to its edition, following the historical order of the respective publications.
+
 ## Bibliography
 
 If you make use of any of this data in publications, code, or other projects, please cite as follows.
