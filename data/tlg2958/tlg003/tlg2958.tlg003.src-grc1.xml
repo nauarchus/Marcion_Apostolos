@@ -1,123 +1,247 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
-				<title type="work">Apostolos</title>
-				<author ref="https://viaf.org/viaf/98032732">Marcion of Sinope</author>
-				<editor ref="https://viaf.org/viaf/59890715">Willem Christiaan van Manen</editor>
-				<editor ref="http://viaf.org/viaf/307315499">Mark G. Bilby</editor>
-				<editor ref="https://orcid.org/0000-0003-0797-2710">K. Lance Lotharp</editor>
-				<editor ref="https://orcid.org/0000-0003-4606-239X">Jack Bull</editor>
-				<principal>Mark G. Bilby</principal>
+				<title type="work">
+					Apostolos
+				</title>
+				<author ref="https://viaf.org/viaf/98032732">
+					Marcion of Sinope
+				</author>
+				<editor xml:id="Manen" ref="https://viaf.org/viaf/59890715">
+					Willem Christiaan van Manen
+				</editor>
+				<editor ref="http://viaf.org/viaf/307315499">
+					Mark G. Bilby
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-0797-2710">
+					K. Lance Lotharp
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-4606-239X">
+					Jack Bull
+				</editor>
+				<principal>
+					Mark G. Bilby
+				</principal>
 				<respStmt>
-					<resp>Transcription by</resp>
-					<name>Mark G. Bilby</name>
-					<name>Jack Bull</name>
-					<name>K. Lance Lotharp</name>
+					<resp>
+						Transcribed, normalized, and encoded by
+					</resp>
+					<persName xml:id="MGB">
+						Mark G. Bilby
+					</persName>
+					<persName>
+						Jack Bull
+					</persName>
+					<persName>
+						K. Lance Lotharp
+					</persName>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Clavis Consulting, LLC (Kansas)</publisher>
-				<pubPlace>Kansas City, KS, USA</pubPlace>
-				<distributor>@nauarchus account on GitHub</distributor>
+				<publisher>
+					Clavis Consulting, LLC, Kansas
+				</publisher>
+				<pubPlace>
+					Kansas City, KS, USA
+				</pubPlace>
+				<distributor>
+					@nauarchus account on GitHub
+				</distributor>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/">Available under a
-						Creative Commons Attribution 4.0 International License</licence>
-					<p> © 2025 Clavis Consulting, LLC (Kansas), Jack Bull, and K. Lance Lotharp</p>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						Available under a
+						Creative Commons Attribution 4.0 International License
+					</licence>
+					<p>
+						© 2025 Clavis Consulting, LLC, Kansas, Jack Bull, and K. Lance Lotharp
+					</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<biblStruct>
-
 					<monogr>
-						<title level="j">Theologisch Tijdschrift</title>
-						<idno type="LC">19007136</idno>
-						<respStmt>
-							<resp>Onder Redactie Van</resp>
-							<name>F. W. B. van Bell</name>
-							<name>H. P. Berlage</name>
-							<name>S. Hoekstra Bz.</name>
-							<name>Ph. R. Hugenholtz</name>
-							<name>A. Kuenen</name>
-							<name>A. D. Loman</name>
-							<name>H. Oort</name>
-							<name>L. W. E. Rauwenhoff</name>
-							<name>C. P. Tiele</name>
-						</respStmt>
-						<imprint>
-							<pubPlace>Leiden</pubPlace>
-							<publisher>S. C. van Doesburgh</publisher>
-							<date>1887</date>
-						</imprint>
-						<biblScope unit="volume">21</biblScope>
-						<biblScope unit="page">451-533</biblScope>
-					</monogr>
-					<analytic>
-						<author ref="https://viaf.org/viaf/59890715">Willem Christiaan van Manen</author>
-						<title level="a">Marcion's brief van Paulus aan de Galatiërs</title>
-						<idno type="ARK">13960/s28vzsvnnq4</idno>
+						<author ref="https://viaf.org/viaf/59890715">
+							Willem Christiaan van Manen
+						</author>
+						<title level="a">
+							Marcion's brief van Paulus aan de Galatiërs
+						</title>
+						<title level="j">
+							Theologisch Tijdschrift
+						</title>
+						<idno type="ARK">
+							13960/s28vzsvnnq4
+						</idno>
 						<ref target="https://n2t.net/ark:/13960/s28vzsvnnq4">
-							https://n2t.net/ark:/13960/s28vzsvnnq4</ref>
-					</analytic>
-					<monogr>
-						<title level="j">Journal of Open Humanities Data</title>
-						<idno type="issn">2059-481X</idno>
-						<idno type="doi">10.5334/johd.122</idno>
-						<ref target="https://doi.org/10.5334/johd.122">
-							https://doi.org/10.5334/johd.122</ref>
+							https://n2t.net/ark:/13960/s28vzsvnnq4
+						</ref>
+						<idno type="LC">
+							19007136
+						</idno>
 						<respStmt>
-							<resp>by</resp>
-							<name>Mark G. Bilby</name>
-							<name>Jack Bull</name>
-							<name>K. Lance Lotharp</name>
+							<resp>
+								Onder Redactie Van
+							</resp>
+							<name>
+								F. W. B. van Bell
+							</name>
+							<name>
+								H. P. Berlage
+							</name>
+							<name>
+								S. Hoekstra Bz.
+							</name>
+							<name>
+								Ph. R. Hugenholtz
+							</name>
+							<name>
+								A. Kuenen
+							</name>
+							<name>
+								A. D. Loman
+							</name>
+							<name>
+								H. Oort
+							</name>
+							<name>
+								L. W. E. Rauwenhoff
+							</name>
+							<name>
+								C. P. Tiele
+							</name>
 						</respStmt>
 						<imprint>
-							<publisher>Ubiquity Press</publisher>
-							<date>2023</date>
+							<pubPlace>
+								Leiden
+							</pubPlace>
+							<publisher>
+								S. C. van Doesburgh
+							</publisher>
+							<date>
+								1887
+							</date>
 						</imprint>
-						<biblScope unit="page">1-5</biblScope>
+						<biblScope unit="volume">
+							21
+						</biblScope>
+						<biblScope unit="page">
+							451-533
+						</biblScope>
 					</monogr>
-					<analytic>
-						<author ref="http://viaf.org/viaf/307315499">Mark Glen Bilby</author>
-						<author ref="https://orcid.org/0000-0003-0797-2710">K. Lance Lotharp</author>
-						<author ref="https://orcid.org/0000-0003-4606-239X">Jack Bull</author>
-						<title level="a">Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
-							Greek Reconstructions of Marcion's Apostolos</title>
-						<idno type="doi">10.7910/DVN/ZUVKQW</idno>
+					<monogr>
+						<author ref="http://viaf.org/viaf/307315499">
+							Mark Glen Bilby
+						</author>
+						<author ref="https://orcid.org/0000-0003-0797-2710">
+							K. Lance Lotharp
+						</author>
+						<author ref="https://orcid.org/0000-0003-4606-239X">
+							Jack Bull
+						</author>
+						<title level="a">
+							Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
+							Greek Reconstructions of Marcion's Apostolos
+						</title>
+						<title level="j">
+							Journal of Open Humanities Data
+						</title>
+						<idno type="issn">
+							2059-481X
+						</idno>
+						<idno type="doi">
+							10.5334/johd.122
+						</idno>
+						<ref target="https://doi.org/10.5334/johd.122">
+							https://doi.org/10.5334/johd.122
+						</ref>
+						<idno type="doi">
+							10.7910/DVN/ZUVKQW
+						</idno>
 						<ref target="https://doi.org/10.7910/DVN/ZUVKQW">
-							https://doi.org/10.7910/DVN/ZUVKQW</ref>
-					</analytic>
-
+							https://doi.org/10.7910/DVN/ZUVKQW
+						</ref>
+						<respStmt>
+							<resp>
+								by
+							</resp>
+							<name>
+								Mark G. Bilby
+							</name>
+							<name>
+								Jack Bull
+							</name>
+							<name>
+								K. Lance Lotharp
+							</name>
+						</respStmt>
+						<imprint>
+							<publisher>
+								Ubiquity Press
+							</publisher>
+							<date>
+								2023
+							</date>
+						</imprint>
+						<biblScope unit="page">
+							1-5
+						</biblScope>
+					</monogr>
 				</biblStruct>
+				<listBibl>
+					<bibl xml:id="EOCM">
+						<abbr type="siglum">
+							EOCM
+						</abbr>
+						<author>
+							Constantin Tischendorf
+						</author>
+						<title level="m">
+							Novum Testamentum Graece
+						</title>
+						<biblScope unit="vol">
+							1
+						</biblScope>
+						<pubPlace>
+							Leipzig
+						</pubPlace>
+						<publisher>
+							Giesecke &amp; Devrient
+						</publisher>
+						<date when="1869">
+							1869
+						</date>
+					</bibl>
+				</listBibl>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
-			<!--<tagsDecl> 
- <rendition id="large"> </rendition> 
- <rendition id="blockquote"> </rendition> 
- <rendition id="header"> </rendition> 
- <tagUsage render="header" gi="head"> </tagUsage> 
- <tagUsage render="blockquote" gi="q"> poetical language within the running text </tagUsage> 
- <tagUsage render="large" gi="quote"> material quoted from other biblical texts </tagUsage> 
- </tagsDecl>-->
+			<!--
+			<tagsDecl>
+			<rendition id="large"> </rendition>
+			<rendition id="blockquote"> </rendition>
+			<rendition id="header"> </rendition>
+			<tagUsage render="header" gi="head"> </tagUsage>
+			<tagUsage render="blockquote" gi="q"> poetical language within the running text </tagUsage>
+			<tagUsage render="large" gi="quote"> material quoted from other biblical texts </tagUsage>
+			</tagsDecl>
+			-->
 			<refsDecl n="CTS">
-				<cRefPattern n="verse" matchPattern="(\w+).(\w+)"
-					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-					<p> This pointer pattern extracts chapter and verse</p>
+				<cRefPattern n="verse" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+					<p>
+						This pointer pattern extracts chapter and verse
+					</p>
 				</cRefPattern>
-				<cRefPattern n="chapter" matchPattern="(\w+)"
-					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-					<p> This pointer pattern extracts chapter</p>
+				<cRefPattern n="chapter" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+					<p>
+						This pointer pattern extracts chapter
+					</p>
 				</cRefPattern>
 			</refsDecl>
 		</encodingDesc>
 		<profileDesc>
-			<langUsage>
-				<language ident="grc">Greek</language>
-				<language ident="eng">English</language>
-			</langUsage>
 		</profileDesc>
 	</teiHeader>
 	<text xml:lang="grc">
@@ -125,564 +249,852 @@
 			<div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg2958.tlg00301-src-grc1">
 				<pb n="528" />
 				<div type="textpart" subtype="book" n="Gal">
-					<head>ΠΡΟΣ ΓΑΛΑΤΑΣ</head>
+					<head>
+						ΠΡΟΣ ΓΑΛΑΤΑΣ
+					</head>
 					<div type="textpart" subtype="chapter" n="1">
 						<div type="textpart" subtype="verse" n="1">
 							<milestone unit="para" />
-							<p> Παῦλος ἀπόστολος οὐκ ἀπ᾽ ἀνθρώπων οὐδὲ δι᾽ ἀνθρώπου,
-								ἀλλὰ διὰ Ἰησοῦ
-								Χριστοῦ τοῦ ἐγείραντος αὑτὸν ἐκ νεκρῶν, </p>
+							<p>
+								Παῦλος, 
+								ἀπόστολος οὐκ ἀπ᾽ ἀνθρώπων οὐδὲ δι᾽ ἀνθρώπου,
+								ἀλλὰ διὰ Ἰησοῦ Χριστοῦ τοῦ ἐγείραντος αὑτὸν ἐκ νεκρῶν,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="2">
-							<p> καὶ οἱ σὺν ἐμοὶ πάντες ἀδελφοί ταῖς ἐκκλησίαις τῆς
-								Γαλατίας· </p>
+							<p>
+								καὶ οἱ σὺν ἐμοὶ, 
+								πάντες ἀδελφοί ταῖς ἐκκλησίαις τῆς Γαλατίας·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="3">
-							<p> Χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς καὶ κυρίου ἡμῶν
-								Ἰησοῦ Χριστοῦ. </p>
+							<p>
+								Χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς καὶ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ.
+							</p>
 						</div>
 						<pb n="529" />
 						<div type="textpart" subtype="verse" n="6">
 							<milestone unit="para" />
-							<p> θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε, ἀπὸ τοῦ καλέσαντος
-								ὑμᾶς εἰς
-								(τὴν) χάριν, εἰς ἕτερον εὐαγγέλιον, </p>
+							<p>
+								θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε,
+								ἀπὸ τοῦ καλέσαντος ὑμᾶς εἰς τὴν
+								<app type="variants">
+									<lem resp="#Manen">
+										τὴν
+									</lem>
+									<rdg resp="#Manen" type="proposition" cert="low">
+										τὴν
+									</rdg>
+								</app>
+								χάριν,
+								εἰς ἕτερον εὐαγγέλιον,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="7">
-							<p> ὃ οὐκ ἔστιν, εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ
-								θέλοντες
-								μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ. </p>
+							<p>
+								ὃ οὐκ ἔστιν,
+								εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς, 
+								καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="8">
-							<p> κἂν τε ἡμεῖς ἢ ἄγγελος εὐαγγελίσηται ὑμῖν </p>
+							<p>
+								κἂν τε ἡμεῖς ἢ ἄγγελος εὐαγγελίσηται ὑμῖν
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9">
-							<p> παρ᾽ ὃ παρελάβετε, ἀνάθεμα ἔστω. </p>
+							<p>
+								παρ᾽ ὃ παρελάβετε,
+								ἀνάθεμα ἔστω.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> ἄρτι γὰρ ἀνθρώπους πείθω, ἢ τὸν θεόν; ἢ ζητῶ
-								ἀνθρώποις ἀρέσκειν; εἰ
-								ἀνθρώποις ἤρεσκον, Χριστοῦ δοῦλος οὐκ ἂν ἤμην. </p>
+							<p>
+								ἄρτι γὰρ ἀνθρώπους πείθω,
+								ἢ τὸν θεόν;
+								ἢ ζητῶ ἀνθρώποις ἀρέσκειν;
+								εἰ ἀνθρώποις ἤρεσκον,
+								Χριστοῦ δοῦλος οὐκ ἂν ἤμην.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11">
-							<p> γνωρίζω γὰρ ὑμῖν, ἀδελφοί, τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν
-								ὑπ᾽ ἐμοῦ,
-								ὅτι οὐκ ἔστι κατὰ ἄνθρωπον· </p>
+							<p>
+								γνωρίζω γὰρ ὑμῖν,
+								ἀδελφοί,
+								τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν ὑπ᾽ ἐμοῦ,
+								ὅτι οὐκ ἔστι κατὰ ἄνθρωπον·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό, ἀλλὰ δι᾽
-								ἀποκαλύψεως
-								Ἰησοῦ Χριστοῦ. </p>
+							<p>
+								οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό,
+								ἀλλὰ δι᾽ ἀποκαλύψεως Ἰησοῦ Χριστοῦ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="15">
-							<p> ὅτε δὲ εὐδόκησεν ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ
-								καλέσας εἰς
-								τὴν χάριν (αὐτοῦ) </p>
+							<p>
+								ὅτε δὲ εὐδόκησεν ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ καλέσας εἰς τὴν χάριν
+								αὐτοῦ
+								<app type="variants">
+									<lem resp="#Manen">
+										αὐτοῦ
+									</lem>
+									<rdg resp="#Manen" type="proposition" cert="low">
+										αὐτοῦ
+									</rdg>
+								</app>
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="16">
-							<p> ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοὶ, ἵνα εὐαγγελίζωμαι
-								αὐτὸν ἐν τοῖς
-								ἔθνεσιν, εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι, </p>
+							<p>
+								ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοὶ,
+								ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν,
+								εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="17">
-							<p> οὐδὲ ἀπῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ
-								ἀποστόλους, ἀλλὰ
-								ἀπῆλθον εἰς Ἀραβίαν, καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν. </p>
+							<p>
+								οὐδὲ ἀπῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους,
+								ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν,
+								καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="18">
-							<p> ἔπειτα μετὰ ἔτη τρία ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι
-								Κηφᾶν, καὶ
-								ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε· </p>
+							<p>
+								ἔπειτα μετὰ ἔτη τρία ἀνῆλθον εἰς Ἱεροσόλυμα ἱστορῆσαι Κηφᾶν,
+								καὶ ἐπέμεινα πρὸς αὐτὸν ἡμέρας δεκαπέντε·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="19">
-							<p> ἕτερον δὲ τῶν ἀποστόλων οὐκ εἶδον, εἰ μὴ Ἰάκωβον τὸν
-								ἀδελφὸν τοῦ
-								κυρίου. </p>
+							<p>
+								ἕτερον δὲ τῶν ἀποστόλων οὐκ εἶδον,
+								εἰ μὴ Ἰάκωβον τὸν ἀδελφὸν τοῦ κυρίου.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="20">
-							<p> ἃ δὲ γράφω ὑμῖν, ἰδοὺ ἐνώπιον τοῦ θεοῦ, ὅτι οὐ
-								ψεύδομαι. </p>
+							<p>
+								ἃ δὲ γράφω ὑμῖν,
+								ἰδοὺ ἐνώπιον τοῦ θεοῦ,
+								ὅτι οὐ ψεύδομαι.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="21">
-							<p> ἔπειτα ἦλθον εἰς τὰ κλίματα τῆς Συρίας καὶ τῆς Κιλικίας. </p>
+							<p>
+								ἔπειτα ἦλθον εἰς τὰ κλίματα τῆς Συρίας καὶ τῆς Κιλικίας.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="22">
-							<p> ἤμην δὲ ἀγνοούμενος τῷ προσώπῳ ταῖς ἐκκλησίαις τῆς
-								Ἰουδαίας ταῖς ἐν
-								Χριστῷ. </p>
+							<p>
+								ἤμην δὲ ἀγνοούμενος τῷ προσώπῳ ταῖς ἐκκλησίαις τῆς Ἰουδαίας ταῖς ἐν Χριστῷ.
+							</p>
 						</div>
 					</div>
 					<div type="textpart" subtype="chapter" n="2">
 						<div type="textpart" subtype="verse" n="1">
-							<p> ἔπειτα διὰ δεκατεσσάρων ἐτῶν πάλιν ἀνέβην εἰς Ἱεροσόλυμα
-								μετὰ
-								Βαρναβᾶ συνπαραλαβὼν καὶ Τίτον· </p>
+							<p>
+								ἔπειτα διὰ δεκατεσσάρων ἐτῶν πάλιν ἀνέβην εἰς Ἱεροσόλυμα μετὰ Βαρναβᾶ συνπαραλαβὼν καὶ Τίτον·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="2">
-							<p> ἀνέβην δὲ κατὰ ἀποκάλυψιν, καὶ ἀνεθέμην αὐτοῖς τὸ
-								εὐαγγέλιον ὃ
-								κηρύσσω ἐν τοῖς ἔθνεσιν. </p>
+							<p>
+								ἀνέβην δὲ κατὰ ἀποκάλυψιν,
+								καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον ὃ κηρύσσω ἐν τοῖς ἔθνεσιν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="3">
-							<p> ἀλλ᾽ οὐδὲ Τίτος (σὺν ἐμοί) Ἕλλην ὤν ἠναγκάσθη
-								περιτμηθῆναι </p>
+							<p>
+								ἀλλ᾽ οὐδὲ Τίτος
+								σὺν ἐμοί
+								<app type="variants">
+									<lem resp="#Manen">
+										σὺν ἐμοί
+									</lem>
+									<rdg resp="#Manen" type="proposition" cert="low">
+										σὺν ἐμοί
+									</rdg>
+								</app>
+								Ἕλλην ὤν ἠναγκάσθη περιτμηθῆναι
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="4">
-							<p> διὰ τοὺς παρεισάκτους ψευδαδέλφους, οἵτινες παρεισῆλθον
-								κατασκοπῆσαι
-								τὴν ἐλευθερίαν ἡμῶν, ἣν ἔχομεν ἐν Χριστῷ Ἰησοῦ, ἵνα
-								ἡμᾶς
-								καταδουλώσωσιν. </p>
+							<p>
+								διὰ τοὺς παρεισάκτους ψευδαδέλφους,
+								οἵτινες παρεισῆλθον κατασκοπῆσαι τὴν ἐλευθερίαν ἡμῶν,
+								ἣν ἔχομεν ἐν Χριστῷ Ἰησοῦ,
+								ἵνα ἡμᾶς καταδουλώσωσιν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="5">
-							<p> οὐδὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ, ἵνα ἡ ἀλήθεια
-								τοῦ εὐαγγελίου
-								διαμείνῃ πρὸς ὑμᾶς. </p>
+							<p>
+								οὐδὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ,
+								ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="6">
-							<p> ἀπὸ δὲ τῶν δοκούντων εἶναί τι (). ὁποῖοί ποτε ἦσαν
-								οὐδέν μοι
-								διαφέρει· πρόσωπον θεὸς οὐ λαμβάνει. ἐμοὶ γὰρ οὐδὲν
-								προσανέθεντο </p>
+							<p>
+								ἀπὸ δὲ τῶν δοκούντων εἶναί τι
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								.
+								ὁποῖοί ποτε ἦσαν οὐδέν μοι διαφέρει·
+								πρόσωπον θεὸς οὐ λαμβάνει.
+								ἐμοὶ γὰρ οὐδὲν προσανέθεντο
+							</p>
 						</div>
 						<pb n="530" />
 						<div type="textpart" subtype="verse" n="7">
-							<p> ἀλλὰ τοὐναντίον, ἰδόντες ὅτι πεπίστευμαι τὸ εὐαγγέλιον
-								τῆς
-								ἀκροβυστίας </p>
+							<p>
+								ἀλλὰ τοὐναντίον,
+								ἰδόντες ὅτι πεπίστευμαι τὸ εὐαγγέλιον τῆς ἀκροβυστίας
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9">
-							<p> καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι, Ἰάκωβος καὶ Κηφᾶς
-								καὶ
-								Ἰωάννης, οἱ δοκοῦντες στῦλοι εἶναι, δεξιὰς ἔδωκαν ἐμοὶ
-								καὶ Βαρναβᾷ
-								κοινωνίας, ἵνα ἡμεῖς εἰς τὰ ἔθνη, αὐτοὶ δὲ εἰς τὴν
-								περιτομήν. </p>
+							<p>
+								καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι,
+								Ἰάκωβος καὶ Κηφᾶς καὶ Ἰωάννης,
+								οἱ δοκοῦντες στῦλοι εἶναι,
+								δεξιὰς ἔδωκαν ἐμοὶ καὶ Βαρναβᾷ κοινωνίας,
+								ἵνα ἡμεῖς εἰς τὰ ἔθνη,
+								αὐτοὶ δὲ εἰς τὴν περιτομήν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11">
-							<p> ὅτε δὲ ἦλθε Κηφᾶς εἰς Ἀντιόχειαν, κατὰ πρόσωπον αὐτῷ
-								ἀντέστην, ὅτι
-								κατεγνωσμένος ἦν. </p>
+							<p>
+								ὅτε δὲ ἦλθε Κηφᾶς εἰς Ἀντιόχειαν,
+								κατὰ πρόσωπον αὐτῷ ἀντέστην,
+								ὅτι κατεγνωσμένος ἦν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> πρὸ τοῦ γὰρ ἐλθεῖν Ἰακώβον, μετὰ τῶν ἐθνῶν συνήσθιεν·
+							<p>
+								πρὸ τοῦ γὰρ ἐλθεῖν Ἰακώβον,
+								μετὰ τῶν ἐθνῶν συνήσθιεν·
 								ὅτε δὲ ἦλθεν,
-								ὑπέστελλε καὶ ἀφώριζεν ἑαυτόν, φοβούμενος τοὺς ἐκ
-								περιτομῆς, </p>
+								ὑπέστελλε καὶ ἀφώριζεν ἑαυτόν,
+								φοβούμενος τοὺς ἐκ περιτομῆς,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> καὶ συνυπεκρίθησαν αὐτῷ οἱ λοιποὶ Ἰουδαῖοι, ὥστε καὶ
-								Βαρναβᾶς
-								συναπήχθη αὐτῶν τῇ ὑποκρίσει. </p>
+							<p>
+								καὶ συνυπεκρίθησαν αὐτῷ οἱ λοιποὶ Ἰουδαῖοι,
+								ὥστε καὶ Βαρναβᾶς συναπήχθη αὐτῶν τῇ ὑποκρίσει.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
-							<p> ἀλλ᾽ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν
-								τοῦ
-								εὐαγγελίου, εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων· Εἰ σὺ
-								Ἰουδαῖος ὑπάρχων
-								ἐθνικῶς ζῇς, πῶς τὰ ἔθνη ἀναγκάζεις Ἰουδαΐζειν; </p>
+							<p>
+								ἀλλ᾽ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου,
+								εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων·
+								Εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς ζῇς,
+								πῶς τὰ ἔθνη ἀναγκάζεις Ἰουδαΐζειν;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="15">
-							<p> ἡμεῖς φύσει Ἰουδαῖοι καὶ οὐκ ἐξ ἐθνῶν (). </p>
+							<p>
+								ἡμεῖς φύσει Ἰουδαῖοι καὶ οὐκ ἐξ ἐθνῶν
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="18">
-							<p> εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ, παραβάτην
-								ἐμαυτὸν συνιστάνω. </p>
+							<p>
+								εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ,
+								παραβάτην ἐμαυτὸν συνιστάνω.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="19">
-							<p> ἐγὼ γὰρ διὰ νόμου νόμῳ ἀπέθανον, ἵνα θεῷ ζήσω.
-								Χριστῷ συνεσταύρωμαι· </p>
+							<p>
+								ἐγὼ γὰρ διὰ νόμου νόμῳ ἀπέθανον,
+								ἵνα θεῷ ζήσω.
+								Χριστῷ συνεσταύρωμαι·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="20">
-							<p> ζῶ δὲ οὐκέτι ἐγώ, ζῇ δὲ ἐν ἐμοὶ Χριστός· ὃ δὲ νῦν
-								ζῶ ἐν σαρκί, ἐν
-								πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ καὶ Χριστοῦ τοῦ
-								ἀγαπήσαντός με καὶ
-								παραδόντος ἑαυτὸν ὑπὲρ ἐμοῦ. </p>
+							<p>
+								ζῶ δὲ οὐκέτι ἐγώ,
+								ζῇ δὲ ἐν ἐμοὶ Χριστός·
+								ὃ δὲ νῦν ζῶ ἐν σαρκί,
+								ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ καὶ Χριστοῦ τοῦ ἀγαπήσαντός με καὶ παραδόντος ἑαυτὸν ὑπὲρ ἐμοῦ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="21">
-							<p> οὐκ ἀθετῶ τὴν χάριν· εἰ γὰρ διὰ νόμου δικαιοσύνη, ἄρα
-								Χριστὸς δωρεὰν
-								ἀπέθανεν. </p>
+							<p>
+								οὐκ ἀθετῶ τὴν χάριν·
+								εἰ γὰρ διὰ νόμου δικαιοσύνη,
+								ἄρα Χριστὸς δωρεὰν ἀπέθανεν.
+							</p>
 						</div>
 					</div>
 					<div type="textpart" subtype="chapter" n="3">
 						<div type="textpart" subtype="verse" n="1">
 							<milestone unit="para" />
-							<p> Ὦ ἀνόητοι Γαλάται, τίς ὑμᾶς ἐβάσκανεν, οἷς κατ᾽
-								ὀφθαλμοὺς Ἰησοῦς
-								Χριστὸς προεγράφη ἐσταυρωμένος; </p>
+							<p>
+								Ὦ ἀνόητοι Γαλάται,
+								τίς ὑμᾶς ἐβάσκανεν,
+								οἷς κατ᾽ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="2">
-							<p> τοῦτο μόνον θέλω μαθεῖν ἀφ᾽ ὑμῶν, ἐξ ἔργων νόμου τὸ
-								πνεῦμα ἐλάβετε ἢ
-								ἐξ ἀκοῆς πίστεως; </p>
+							<p>
+								τοῦτο μόνον θέλω μαθεῖν ἀφ᾽ ὑμῶν,
+								ἐξ ἔργων νόμου τὸ πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="3">
-							<p> οὕτως ἀνόητοί ἐστε· ἐναρξάμενοι πνεύματι νῦν σαρκὶ
-								ἐπιτελεῖσθε; </p>
+							<p>
+								οὕτως ἀνόητοί ἐστε·
+								ἐναρξάμενοι πνεύματι νῦν σαρκὶ ἐπιτελεῖσθε;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="4">
-							<p> τοσαῦτα ἐπάθετε εἰκῇ; εἴγε καὶ εἰκῇ, </p>
+							<p>
+								τοσαῦτα ἐπάθετε εἰκῇ;
+								εἴγε καὶ εἰκῇ,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="5">
-							<p> ὁ ἐπιχορηγῶν ὑμῖν τὸ πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν
-								ὑμῖν (). </p>
+							<p>
+								ὁ ἐπιχορηγῶν ὑμῖν τὸ πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν ὑμῖν
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11a">
-							<p> Μάθετε ὅτι ὁ δίκαιος ἐκ πίστεως ζήσεται. </p>
+							<p>
+								Μάθετε ὅτι ὁ δίκαιος ἐκ πίστεως ζήσεται.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> ὅσοι γὰρ ὑπὸ νόμον, ὑπὸ κατάραν εἰσίν· ὅτι
-								ἐπικατάρατος πᾶς ὃς οὐκ
-								ἐμμένει πᾶσι τοῖς ἐγγεγραμμένοις ἐν τῷ βιβλίῳ τοῦ
-								νόμου, τοῦ ποιῆσαι
-								αὐτά. </p>
+							<p>
+								ὅσοι γὰρ ὑπὸ νόμον,
+								ὑπὸ κατάραν εἰσίν·
+								ὅτι ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει πᾶσι τοῖς ἐγγεγραμμένοις ἐν τῷ βιβλίῳ τοῦ νόμου,
+								τοῦ ποιῆσαι αὐτά.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11b">
-							<p> ἐν νόμῳ οὐδεὶς δικαιοῦται. </p>
+							<p>
+								ἐν νόμῳ οὐδεὶς δικαιοῦται.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> ὁ δὲ νόμος οὐκ ἔστιν ἐκ πίστεως· ὁ δὲ ποιήσας αὐτὰ
-								ζήσεται ἐν
-								αὐτοῖς. </p>
+							<p>
+								ὁ δὲ νόμος οὐκ ἔστιν ἐκ πίστεως·
+								ὁ δὲ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> Χριστὸς ἡμᾶς ἐξηγόρασεν <pb n="531" />ἐκ τῆς κατάρας τοῦ
-								νόμου, γενόμενος ὑπὲρ ἡμῶν κατάρα, ὅτι· Ἐπικατάρατος πᾶς
-								ὁ κρεμάμενος ἐπὶ ξύλου. </p>
+							<p>
+								Χριστὸς ἡμᾶς ἐξηγόρασεν
+								<pb n="531" />
+								ἐκ τῆς κατάρας τοῦ νόμου,
+								γενόμενος ὑπὲρ ἡμῶν κατάρα,
+								ὅτι·
+								Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
-							<p> ἐλάβομεν οὖν τὴν εὐλογίαν τοῦ πνεύματος διὰ τῆς πίστεως. </p>
+							<p>
+								ἐλάβομεν οὖν τὴν εὐλογίαν τοῦ πνεύματος διὰ τῆς πίστεως.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="26">
-							<p> πάντες γὰρ υἱοὶ ἐστε τῆς πίστεως, </p>
+							<p>
+								πάντες γὰρ υἱοὶ ἐστε τῆς πίστεως,
+							</p>
 						</div>
 					</div>
 					<div type="textpart" subtype="chapter" n="4">
 						<div type="textpart" subtype="verse" n="3">
-							<p> (ἔτι) κατὰ ἄνθρωπον λέγω· ὅτε ἦμεν νήπιοι, ὑπὸ τὰ
-								στοιχεῖα τοῦ
-								κόσμου ἦμεν δεδουλωμένοι· </p>
+							<p>
+								ἔτι
+								<app type="variants">
+									<lem resp="#Manen">
+										ἔτι
+									</lem>
+									<rdg resp="#Manen" type="proposition" cert="low">
+										ἔτι
+									</rdg>
+								</app>
+								κατὰ ἄνθρωπον λέγω·
+								ὅτε ἦμεν νήπιοι,
+								ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἦμεν δεδουλωμένοι·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="4">
-							<p> ὅτε δὲ ἦλθε τὸ πλήρωμα τοῦ χρόνου, ἀπέστειλεν ὁ θεὸς
-								τὸν υἱὸν αὐτοῦ, </p>
+							<p>
+								ὅτε δὲ ἦλθε τὸ πλήρωμα τοῦ χρόνου,
+								ἀπέστειλεν ὁ θεὸς τὸν υἱὸν αὐτοῦ,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="5">
-							<p> ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ, ἵνα τὴν υἱοθεσίαν
-								ἀπολάβωμεν. </p>
+							<p>
+								ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ,
+								ἵνα τὴν υἱοθεσίαν ἀπολάβωμεν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="6">
-							<p> ὅτι δέ ἐσμεν υἱοὶ, ἀπέστειλε τὸ πνεῦμα αὐτοῦ εἰς τὰς
-								καρδίας ἡμῶν,
-								κρᾶζον Ἀββᾶ ὁ πατήρ. </p>
+							<p>
+								ὅτι δέ ἐσμεν υἱοὶ,
+								ἀπέστειλε τὸ πνεῦμα αὐτοῦ εἰς τὰς καρδίας ἡμῶν,
+								κρᾶζον Ἀββᾶ ὁ πατήρ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="8">
-							<p> εἰ μὲν οὖν ἐδουλεύσατε τοῖς μὴ φύσει οὖσι θεοῖς· </p>
+							<p>
+								εἰ μὲν οὖν ἐδουλεύσατε τοῖς μὴ φύσει οὖσι θεοῖς·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9">
-							<p> νῦν δὲ γνόντες θεόν, μᾶλλον δὲ γνωσθέντες ὑπὸ θεοῦ, πῶς
-								ἐπιστρέφετε
-								πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα, οἷς πάλιν
-								ἄνωθεν δουλεῦσαι
-								θέλετε; </p>
+							<p>
+								νῦν δὲ γνόντες θεόν,
+								μᾶλλον δὲ γνωσθέντες ὑπὸ θεοῦ,
+								πῶς ἐπιστρέφετε πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα,
+								οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς
-								(καὶ
-								σάββατα, ὡς οἶμαι, καὶ δεῖπνα καθαρὰ καὶ νηστείας καὶ
-								ἡμέρας
-								μεγάλας). </p>
+							<p>
+								ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς
+								(καὶ σάββατα,
+								ὡς οἶμαι,
+								καὶ δεῖπνα καθαρὰ καὶ νηστείας καὶ ἡμέρας μεγάλας).
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11">
-							<p> φοβοῦμαι ὑμᾶς, μήπως εἰκῇ κεκοπίακα εἰς ὑμᾶς. </p>
+							<p>
+								φοβοῦμαι ὑμᾶς,
+								μήπως εἰκῇ κεκοπίακα εἰς ὑμᾶς.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
 							<milestone unit="para" />
-							<p> Γίνεσθε ὡς ἐγώ, ὅτι κἀγὼ ὡς ὑμεῖς, ἀδελφοί, δέομαι
-								ὑμῶν. οὐδέν με
-								ἠδικήσατε· </p>
+							<p>
+								Γίνεσθε ὡς ἐγώ,
+								ὅτι κἀγὼ ὡς ὑμεῖς,
+								ἀδελφοί,
+								δέομαι ὑμῶν.
+								οὐδέν με ἠδικήσατε·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> οἴδατε δὲ ὅτι δι᾽ ἀσθένειαν τῆς σαρκὸς εὐαγγελισάμην
-								ὑμῖν τὸ
-								πρότερον, </p>
+							<p>
+								οἴδατε δὲ ὅτι δι᾽ ἀσθένειαν τῆς σαρκὸς εὐαγγελισάμην ὑμῖν τὸ πρότερον,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
-							<p> καὶ τὸν πειρασμόν ὑμῶν ἐν τῇ σαρκί μου (). οὐκ
-								ἐξουθενήσατε οὐδὲ
-								ἐξεπτύσατε, ἀλλὰ ὡς ἄγγελον θεοῦ ἐδέξασθέ με, ὡς
-								Χριστὸν Ἰησοῦν. </p>
+							<p>
+								καὶ τὸν πειρασμόν ὑμῶν ἐν τῇ σαρκί μου
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								.
+								οὐκ ἐξουθενήσατε οὐδὲ ἐξεπτύσατε,
+								ἀλλὰ ὡς ἄγγελον θεοῦ ἐδέξασθέ με,
+								ὡς Χριστὸν Ἰησοῦν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="15">
-							<p> ποῦ οὖν ὁ μακαρισμὸς ὑμῶν; μαρτυρῶ γὰρ ὑμῖν ὅτι, εἰ
-								δυνατὸν, τοὺς
-								ὀφθαλμοὺς ὑμῶν ἐξορύξαντες ἐδώκατέ μοι. </p>
+							<p>
+								ποῦ οὖν ὁ μακαρισμὸς ὑμῶν;
+								μαρτυρῶ γὰρ ὑμῖν ὅτι,
+								εἰ δυνατὸν,
+								τοὺς ὀφθαλμοὺς ὑμῶν ἐξορύξαντες ἐδώκατέ μοι.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="16">
-							<p> ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν; </p>
+							<p>
+								ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="17">
-							<p> ζηλοῦσιν ὑμᾶς οὐ καλῶς, ἀλλὰ ἐκκλεῖσαι ὑμᾶς θέλουσιν
-								(οἱ) () (). </p>
+							<p>
+								ζηλοῦσιν ὑμᾶς οὐ καλῶς,
+								ἀλλὰ ἐκκλεῖσαι ὑμᾶς θέλουσιν
+								
+								οἱ
+								<app type="variants">
+									<lem resp="#Manen">
+										οἱ
+									</lem>
+									<rdg resp="#Manen" type="proposition" cert="low">
+										οἱ
+									</rdg>
+								</app>
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								<gap reason="missing" extent="unknown" source="#Manen" />
+								.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="18">
-							<p> ζηλοῦσθε πάντοτε καὶ μὴ μόνον ἐν τῷ παρεῖναί με πρὸς
-								ὑμᾶς, </p>
+							<p>
+								ζηλοῦσθε πάντοτε καὶ μὴ μόνον ἐν τῷ παρεῖναί με πρὸς ὑμᾶς,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="19">
-							<p> τέκνα μου, οὓς πάλιν ὠδίνω μέχρις οὗ μορφωθῇ Χριστὸς ἐν
-								ὑμῖν. </p>
+							<p>
+								τέκνα μου,
+								οὓς πάλιν ὠδίνω μέχρις οὗ μορφωθῇ Χριστὸς ἐν ὑμῖν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="20">
-							<p> ἤθελον δὲ παρεῖναι πρὸς ὑμᾶς ἄρτι καὶ ἀλλάξαι τὴν
-								φωνήν μου, ὅτι
-								ἀποροῦμαι ἐν ὑμῖν. </p>
+							<p>
+								ἤθελον δὲ παρεῖναι πρὸς ὑμᾶς ἄρτι καὶ ἀλλάξαι τὴν φωνήν μου,
+								ὅτι ἀποροῦμαι ἐν ὑμῖν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="21">
 							<milestone unit="para" />
-							<p> Λέγετέ μοι, οἱ ὑπὸ νόμον θέλοντες εἶναι, τὸν νόμον οὐκ
-								ἀκούετε; </p>
+							<p>
+								Λέγετέ μοι,
+								οἱ ὑπὸ νόμον θέλοντες εἶναι,
+								τὸν νόμον οὐκ ἀκούετε;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="22">
-							<p> γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν, ἕνα ἐκ τῆς
-								παιδίσκης καὶ
-								ἕνα ἐκ τῆς ἐλευθέρας. </p>
+							<p>
+								γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν,
+								ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="23">
-							<p> ἀλλὰ ὁ ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται, ὁ δὲ ἐκ
-								τῆς ἐλευθέρας <pb
-									n="532" /> διὰ τῆς ἐπαγγελίας. </p>
+							<p>
+								ἀλλὰ ὁ ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται,
+								ὁ δὲ ἐκ τῆς ἐλευθέρας
+								<pb n="532" />
+								διὰ τῆς ἐπαγγελίας.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="24">
-							<p> ἅτινά ἐστιν ἀλληγορούμενα. αὗται γάρ εἰσι δύο διαθῆκαι,
-								μία μὲν ἀπὸ
-								ὄρους Σινᾶ εἰς τὴν συναγωγὴν τῶν Ἰουδαίων, κατὰ νόμον,
-								εἰς δουλείαν
-								γεννῶσα, </p>
+							<p>
+								ἅτινά ἐστιν ἀλληγορούμενα.
+								αὗται γάρ εἰσι δύο διαθῆκαι,
+								μία μὲν ἀπὸ ὄρους Σινᾶ εἰς τὴν συναγωγὴν τῶν Ἰουδαίων,
+								κατὰ νόμον,
+								εἰς δουλείαν γεννῶσα,
+							</p>
 						</div>
 					</div>
 				</div>
 				<div type="textpart" subtype="book" n="Eph">
 					<div type="textpart" subtype="chapter" n="1">
 						<div type="textpart" subtype="verse" n="21">
-							<p> μία δὲ ὑπὲρ πᾶσαν δυναστείαν (δύναμιν, κυριότητα καὶ πᾶν
-								ὄνομα
-								ὀνομαζόμενον οὐ μόνον ἐν τῷ αἰῶνι τούτῳ, ἀλλὰ καὶ ἐν
-								τῷ μέλλοντι)
-								γεννῶσα </p>
+							<p>
+								μία δὲ ὑπὲρ πᾶσαν δυναστείαν (δύναμιν,
+								κυριότητα καὶ πᾶν ὄνομα ὀνομαζόμενον οὐ μόνον ἐν τῷ αἰῶνι τούτῳ,
+								ἀλλὰ καὶ ἐν τῷ μέλλοντι)
+								γεννῶσα
+							</p>
 						</div>
 					</div>
 				</div>
 				<div type="textpart" subtype="book" n="Gal">
 					<div type="textpart" subtype="chapter" n="4">
 						<div type="textpart" subtype="verse" n="26">
-							<p> ἥτις ἐστὶν μήτηρ ἡμῶν. </p>
+							<p>
+								ἥτις ἐστὶν μήτηρ ἡμῶν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="31">
-							<p> διό, ἀδελφοί, οὐκ ἐσμὲν παιδίσκης τέκνα, ἀλλὰ τῆς
-								ἐλευθέρας. </p>
+							<p>
+								διό,
+								ἀδελφοί,
+								οὐκ ἐσμὲν παιδίσκης τέκνα,
+								ἀλλὰ τῆς ἐλευθέρας.
+							</p>
 						</div>
 					</div>
 					<div type="textpart" subtype="chapter" n="5">
 						<div type="textpart" subtype="verse" n="1">
 							<milestone unit="para" />
-							<p> Ἧ ἐλευθερίᾳ ἡμᾶς Χριστὸς ἠλευθέρωσε στήκετε καὶ μὴ
-								πάλιν ζυγῷ
-								δουλίας ἀνέχεσθε. </p>
+							<p>
+								Ἧ ἐλευθερίᾳ ἡμᾶς Χριστὸς ἠλευθέρωσε στήκετε καὶ μὴ πάλιν ζυγῷ δουλίας ἀνέχεσθε.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="2">
-							<p> ἴδε ἐγὼ Παῦλος λέγω ὑμῖν, ὅτι, ἐὰν περιτέμνησθε,
-								Χριστὸς ὑμᾶς οὐδὲν
-								ὠφελήσει· </p>
+							<p>
+								ἴδε ἐγὼ Παῦλος λέγω ὑμῖν,
+								ὅτι,
+								ἐὰν περιτέμνησθε,
+								Χριστὸς ὑμᾶς οὐδὲν ὠφελήσει·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="3">
-							<p> μαρτύρομαι δὲ πάλιν ὅτι ἄνθρωπος περιτετμημένος ὀφειλέτης
-								ἐστὶν ὅλον
-								τὸν νόμον πληρῶσαι. </p>
+							<p>
+								μαρτύρομαι δὲ πάλιν ὅτι ἄνθρωπος περιτετμημένος ὀφειλέτης ἐστὶν ὅλον τὸν νόμον πληρῶσαι.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="4">
-							<p> κατηργεῖτε τὸ σημεῖον τῆς δουλείας. οἵτινες ἐν νόμῳ
-								δικαιοῦσθε τῆς
-								χάριτος ἐξεπέσατε. </p>
+							<p>
+								κατηργεῖτε τὸ σημεῖον τῆς δουλείας.
+								οἵτινες ἐν νόμῳ δικαιοῦσθε τῆς χάριτος ἐξεπέσατε.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="5">
-							<p> ἡμεῖς γὰρ πνεύματι ἐκ πίστεως ἐλπίδα δικαιοσύνης
-								ἀπεκδεχόμεθα. </p>
+							<p>
+								ἡμεῖς γὰρ πνεύματι ἐκ πίστεως ἐλπίδα δικαιοσύνης ἀπεκδεχόμεθα.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="7">
-							<p> ἐτρέχετε καλῶς· τίς ὑμᾶς ἐνέκοψεν ἀληθείᾳ μὴ πείθεσθαι; </p>
+							<p>
+								ἐτρέχετε καλῶς·
+								τίς ὑμᾶς ἐνέκοψεν ἀληθείᾳ μὴ πείθεσθαι;
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="8">
-							<p> ἡ πεισμονὴ ἐκ τοῦ καλοῦντος καὶ οὐκ ἐξ ἡμῶν. </p>
+							<p>
+								ἡ πεισμονὴ ἐκ τοῦ καλοῦντος καὶ οὐκ ἐξ ἡμῶν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9">
-							<p> μικρὰ ζύμη ὅλον τὸ φύραμα δολοῖ. </p>
+							<p>
+								μικρὰ ζύμη ὅλον τὸ φύραμα δολοῖ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> ἐγὼ πέποιθα εἰς ὑμᾶς, ὅτι οὐδὲν ἄλλο φρονήσετε, ὁ δὲ
-								ταράσσων ὑμᾶς
-								βαστάσει τὸ κρίμα, ὅστις ἐὰν ᾖ. </p>
+							<p>
+								ἐγὼ πέποιθα εἰς ὑμᾶς,
+								ὅτι οὐδὲν ἄλλο φρονήσετε,
+								ὁ δὲ ταράσσων ὑμᾶς βαστάσει τὸ κρίμα,
+								ὅστις ἐὰν ᾖ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11">
-							<p> ἐγὼ δέ, ἀδελφοί, εἰ περιτομὴν ἔτι κηρύσσω τί ἔτι
-								διώκομαι; ἄρα
-								κατήργηται τὸ σκάνδαλον τοῦ σταυροῦ. </p>
+							<p>
+								ἐγὼ δέ,
+								ἀδελφοί,
+								εἰ περιτομὴν ἔτι κηρύσσω τί ἔτι διώκομαι;
+								ἄρα κατήργηται τὸ σκάνδαλον τοῦ σταυροῦ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς. </p>
+							<p>
+								ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> ὑμεῖς γὰρ ἐπ᾽ ἐλευθερίᾳ ἐκλήθητε, ἀδελφοί· μόνον μὴ
-								τὴν ἐλευθερίαν
-								εἰς ἀφορμὴν τῇ σαρκί, ἀλλὰ διὰ τῆς ἀγάπης δουλεύετε
-								ἀλλήλοις. </p>
+							<p>
+								ὑμεῖς γὰρ ἐπ᾽ ἐλευθερίᾳ ἐκλήθητε,
+								ἀδελφοί·
+								μόνον μὴ τὴν ἐλευθερίαν εἰς ἀφορμὴν τῇ σαρκί,
+								ἀλλὰ διὰ τῆς ἀγάπης δουλεύετε ἀλλήλοις.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
-							<p> ὁ γὰρ πᾶς νόμος ὑμῖν πεπλήρωται· Ἀγαπήσεις τὸν πλησίον
-								σου ὡς
-								σεαυτόν. </p>
+							<p>
+								ὁ γὰρ πᾶς νόμος ὑμῖν πεπλήρωται·
+								Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="15">
-							<p> εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε, βλέπετε μὴ ὑπ᾽
-								ἀλλήλων
-								ἀναλωθῆτε. </p>
+							<p>
+								εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε,
+								βλέπετε μὴ ὑπ᾽ ἀλλήλων ἀναλωθῆτε.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="16">
 							<milestone unit="para" />
-							<p> Λέγω δέ, πνεύματι περιπατεῖτε, καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ
-								τελέσητε. </p>
+							<p>
+								Λέγω δέ,
+								πνεύματι περιπατεῖτε,
+								καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="17">
-							<p> ἡ γὰρ σὰρξ ἐπιθυμεῖ κατὰ τοῦ πνεύματος, τὸ δὲ πνεῦμα
-								κατὰ τῆς
-								σαρκός· ταῦτα γὰρ ἀλλήλοις ἀντίκειται, ἵνα μὴ, ἂν
-								θέλητε, ταῦτα
-								ποιῆτε. </p>
+							<p>
+								ἡ γὰρ σὰρξ ἐπιθυμεῖ κατὰ τοῦ πνεύματος,
+								τὸ δὲ πνεῦμα κατὰ τῆς σαρκός·
+								ταῦτα γὰρ ἀλλήλοις ἀντίκειται,
+								ἵνα μὴ,
+								ἂν θέλητε,
+								ταῦτα ποιῆτε.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="18">
-							<p> εἰ δὲ πνεύματι ἄγεσθε, οὐκ ἐστὲ ὑπὸ νόμον. </p>
+							<p>
+								εἰ δὲ πνεύματι ἄγεσθε,
+								οὐκ ἐστὲ ὑπὸ νόμον.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="19">
-							<p> φανερὰ δέ ἐστι τὰ ἔργα τῆς σαρκός, ἅτινά ἐστι πορνεία,
+							<p>
+								φανερὰ δέ ἐστι τὰ ἔργα τῆς σαρκός,
+								ἅτινά ἐστι πορνεία,
 								ἀκαθαρσία,
-								ἀσέλγεια, </p>
+								ἀσέλγεια,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="20">
-							<p> εἰδωλολατρία, φαρμακεία, ἔχθραι, ἔρεις, ζῆλοι, θυμοί,
+							<p>
+								εἰδωλολατρία,
+								φαρμακεία,
+								ἔχθραι,
+								ἔρεις,
+								ζῆλοι,
+								θυμοί,
 								ἐριθείαι,
-								διχοστασίαι, αἱρέσεις, </p>
+								διχοστασίαι,
+								αἱρέσεις,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="21">
-							<p> φθόνοι, μέθαι, κῶμοι· ἃ προλέγω ὑμῖν καθὼς καὶ προεῖπον,
-								ὅτι οἱ τὰ τοιαῦτα πράσσοντες <pb n="533" /> βασιλείαν θεοῦ
-								οὐ κληρονομέσουσιν. </p>
+							<p>
+								φθόνοι,
+								μέθαι,
+								κῶμοι·
+								ἃ προλέγω ὑμῖν καθὼς καὶ προεῖπον,
+								ὅτι οἱ τὰ τοιαῦτα πράσσοντες
+								<pb n="533" />
+								βασιλείαν θεοῦ οὐ κληρονομέσουσιν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="22">
-							<p> ὁ δὲ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη, χαρά, εἰρήνη,
+							<p>
+								ὁ δὲ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη,
+								χαρά,
+								εἰρήνη,
 								μακροθυμία,
-								χρηστότης, ἀγαθωσύνη, πίστις, </p>
+								χρηστότης,
+								ἀγαθωσύνη,
+								πίστις,
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="23">
-							<p> πραΰτης, ἐγκράτεια. κατὰ τῶν τοιούτων οὐκ ἔστι νόμος. </p>
+							<p>
+								πραΰτης,
+								ἐγκράτεια.
+								κατὰ τῶν τοιούτων οὐκ ἔστι νόμος.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="24">
-							<p> οἱ δὲ τοῦ Χριστοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασι
-								καὶ ταῖς
-								ἐπιθυμίαις. </p>
+							<p>
+								οἱ δὲ τοῦ Χριστοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασι καὶ ταῖς ἐπιθυμίαις.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="25">
-							<p> εἰ ζῶμεν πνεύματι, πνεύματι καὶ στοιχῶμεν. </p>
+							<p>
+								εἰ ζῶμεν πνεύματι,
+								πνεύματι καὶ στοιχῶμεν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="26">
-							<p> μὴ γινώμεθα κενόδοξοι, ἀλλήλους προκαλούμενοι, ἀλλήλους
-								φθονοῦντες. </p>
+							<p>
+								μὴ γινώμεθα κενόδοξοι,
+								ἀλλήλους προκαλούμενοι,
+								ἀλλήλους φθονοῦντες.
+							</p>
 						</div>
 					</div>
 					<div type="textpart" subtype="chapter" n="6">
 						<milestone unit="para" />
 						<div type="textpart" subtype="verse" n="1">
-							<p> Ἀδελφοί, ἐὰν καὶ προλημφθῇ ἄνθρωπος ἔν τινι παραπτώματι,
-								ὑμεῖς οἱ
-								πνευματικοὶ καταρτίζετε τὸν τοιοῦτον ἐν πνεύματι πραΰτητος,
-								σκοπῶν
-								σεαυτόν, μὴ καὶ σὺ πειρασθῇς. </p>
+							<p>
+								Ἀδελφοί,
+								ἐὰν καὶ προλημφθῇ ἄνθρωπος ἔν τινι παραπτώματι,
+								ὑμεῖς οἱ πνευματικοὶ καταρτίζετε τὸν τοιοῦτον ἐν πνεύματι πραΰτητος,
+								σκοπῶν σεαυτόν,
+								μὴ καὶ σὺ πειρασθῇς.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="2">
-							<p> ἀλλήλων τὰ βάρη βαστάζετε, καὶ οὕτως ἀναπληρώσετε, τὸν
-								νόμον τοῦ
-								Χριστοῦ. </p>
+							<p>
+								ἀλλήλων τὰ βάρη βαστάζετε,
+								καὶ οὕτως ἀναπληρώσετε,
+								τὸν νόμον τοῦ Χριστοῦ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="3">
-							<p> εἰ γὰρ δοκεῖ τις εἶναί τι μηδὲν ὤν, φρεναπατᾷ ἑαυτόν· </p>
+							<p>
+								εἰ γὰρ δοκεῖ τις εἶναί τι μηδὲν ὤν,
+								φρεναπατᾷ ἑαυτόν·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="4">
-							<p> τὸ δὲ ἔργον ἑαυτοῦ δοκιμαζέτω, καὶ τότε εἰς ἑαυτὸν
-								μόνον τὸ καύχημα
-								ἕξει, καὶ οὐκ εἰς τὸν ἕτερον· </p>
+							<p>
+								τὸ δὲ ἔργον ἑαυτοῦ δοκιμαζέτω,
+								καὶ τότε εἰς ἑαυτὸν μόνον τὸ καύχημα ἕξει,
+								καὶ οὐκ εἰς τὸν ἕτερον·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="5">
-							<p> ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει. </p>
+							<p>
+								ἕκαστος γὰρ τὸ ἴδιον φορτίον βαστάσει.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="6">
-							<p> κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι. </p>
+							<p>
+								κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="7">
-							<p> πλανᾶσθε, θεὸς οὐ μυκτηρίζεται· ὃ γὰρ ἂν σπείρῃ
-								ἄνθρωπος, τοῦτο καὶ
-								θερίσει· </p>
+							<p>
+								πλανᾶσθε,
+								θεὸς οὐ μυκτηρίζεται·
+								ὃ γὰρ ἂν σπείρῃ ἄνθρωπος,
+								τοῦτο καὶ θερίσει·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="8">
-							<p> ὅτι ὁ σπείρων εἰς τὴν σάρκα ἐκ τῆς σαρκὸς θερίσει
-								φθοράν, ὁ δὲ
-								σπείρων εἰς τὸ πνεῦμα ἐκ τοῦ πνεύματος θερίσει ζωὴν
-								αἰώνιον. </p>
+							<p>
+								ὅτι ὁ σπείρων εἰς τὴν σάρκα ἐκ τῆς σαρκὸς θερίσει φθοράν,
+								ὁ δὲ σπείρων εἰς τὸ πνεῦμα ἐκ τοῦ πνεύματος θερίσει ζωὴν αἰώνιον.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9a">
-							<p> τὸ δὲ καλὸν ποιοῦντες μὴ ἐγκακῶμεν </p>
+							<p>
+								τὸ δὲ καλὸν ποιοῦντες μὴ ἐγκακῶμεν
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="10">
-							<p> καὶ ὡς καιρὸν ἔχομεν, ἐργαζώμεθα τὸ ἀγαθὸν· </p>
+							<p>
+								καὶ ὡς καιρὸν ἔχομεν,
+								ἐργαζώμεθα τὸ ἀγαθὸν·
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="9b">
-							<p> καιρῷ δὲ ἰδίῳ θερίσομεν. </p>
+							<p>
+								καιρῷ δὲ ἰδίῳ θερίσομεν.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="11">
 							<milestone unit="para" />
-							<p> Ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί. </p>
+							<p>
+								Ἴδετε πηλίκοις ὑμῖν γράμμασιν ἔγραψα τῇ ἐμῇ χειρί.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="12">
-							<p> ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί, οὗτοι ἀναγκάζουσιν
-								ὑμᾶς
-								περιτέμνεσθαι. </p>
+							<p>
+								ὅσοι θέλουσιν εὐπροσωπῆσαι ἐν σαρκί,
+								οὗτοι ἀναγκάζουσιν ὑμᾶς περιτέμνεσθαι.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="13">
-							<p> οὐδὲ γὰρ οἱ περιτεμνημένοι αὐτοὶ νόμον φυλάσσουσιν, ἀλλὰ
-								θέλουσιν
-								ὑμᾶς περιτέμνεσθαι, ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ
-								καυχήσωνται. </p>
+							<p>
+								οὐδὲ γὰρ οἱ περιτεμνημένοι αὐτοὶ νόμον φυλάσσουσιν,
+								ἀλλὰ θέλουσιν ὑμᾶς περιτέμνεσθαι,
+								ἵνα ἐν τῇ ὑμετέρᾳ σαρκὶ καυχήσωνται.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="14">
-							<p> ἐμοὶ δὲ μὴ γένοιτο καυχᾶσθαι, εἰ μὴ ἐν τῷ σταυρῷ τοῦ
-								κυρίου ἡμῶν
-								Ἰησοῦ Χριστοῦ, δι᾽ οὗ ἐμοὶ κόσμος ἐσταύρωται κἀγὼ
-								κόσμῳ. </p>
+							<p>
+								ἐμοὶ δὲ μὴ γένοιτο καυχᾶσθαι,
+								εἰ μὴ ἐν τῷ σταυρῷ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+								δι᾽ οὗ ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="17">
-							<p> τοῦ λοιποῦ κόπους μοι μηδεὶς παρεχέτω· ἐγὼ γὰρ τὰ στίγματα
-								τοῦ
-								Χριστοῦ ἐν τῷ σώματί μου βαστάζω. </p>
+							<p>
+								τοῦ λοιποῦ κόπους μοι μηδεὶς παρεχέτω·
+								ἐγὼ γὰρ τὰ στίγματα τοῦ Χριστοῦ ἐν τῷ σώματί μου βαστάζω.
+							</p>
 						</div>
 						<div type="textpart" subtype="verse" n="18">
 							<milestone unit="para" />
-							<p> Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος
-								ὑμῶν,
-								ἀδελφοί. ἀμήν. </p>
+							<p>
+								Ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν,
+								ἀδελφοί.
+								ἀμήν.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</body>
 	</text>
-</TEI> 
+</TEI>
