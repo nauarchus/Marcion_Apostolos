@@ -1,0 +1,223 @@
+YYYY-mm-dd	resp	decision	rec	regex_string	orig_hits	cur_hits
+2023-04-21	MGB	encoding	all	\w+@\w+	8312	6237
+2023-05-23	MGB	accepted	del	καί@cc μή@x	7	4
+2023-05-23	MGB	accepted	del	μή@x μόνος@b	1	0
+2023-05-23	MGB	accepted	del	ἐν@pd ὁ@ddns \w+@vn	1	0
+2023-05-23	MGB	accepted	del	ὅς@rr[^ ]+ δέ@cc	3	2
+2023-05-23	MGB	accepted	del	δέ@cc γράφω@v	1	0
+2023-05-23	MGB	accepted	del	ἰδού@i ἐνώπιον@pg	1	0
+2023-05-23	MGB	accepted	del	ἐνώπιον@pg ὁ@dgms θεός@ngmsc	1	0
+2023-05-23	MGB	accepted	del	οὐ@b ψεύδομαι@v	1	0
+2023-05-23	MGB	pondered	cnf	οὐ@b μόνος@b	1	1
+2023-05-27	MGB	accepted	del	@namsp ὁ@dams	2	0
+2023-05-27	MGB	accepted	sub	Ἰησοῦς@namsp ὁ@dams κύριος@namsc : Ἰησοῦς@n[^ ]+ κύριος@n	1	0
+2023-05-27	MGB	accepted	sub	Ἰησοῦς@namsp ὁ@dams κύριος@namsc : κύριος@[^ ]+ Ἰησοῦς@n	1	0
+2023-05-27	MGB	accepted	del	ἐπιμένω@	1	0
+2023-05-27	MGB	accepted	del	πρός@pa αὐτός@	1	0
+2023-05-27	MGB	accepted	del	ἡμέρα@nafpc \w+@ac---n	1	0
+2023-05-27	MGB	accepted	del	δεκα	2	1
+2023-05-27	MGB	accepted	del	@ac---n	2	1
+2023-05-27	MGB	accepted	del	ἡμέρα@n\w{1}fpc	3	3
+2023-05-27	MGB	accepted	del	δέ@cc ὁ@dgmp	2	0
+2023-05-27	MGB	accepted	del	ὁ@dgmp ἀπόστολος@ngmpc	2	1
+2023-05-27	MGB	accepted	del	ὁ@d\w{1}mp ἀπόστολος@n\w{1}mpc	3	2
+2023-05-27	MGB	accepted	del	οὐ@b ὁράω@viaa1s	1	0
+2023-05-27	MGB	accepted	del	οὐ@b ὁράω@v	1	0
+2023-05-27	MGB	accepted	del	ὁράω@viaa1s οὐδείς@riams	1	0
+2023-05-27	MGB	accepted	del	ὁράω@v[^ ]+ οὐδείς@r[^ ]+	1	0
+2023-05-27	MGB	accepted	del	ὁ@dams ἀδελφός@namsc	5	4
+2023-05-27	MGB	accepted	del	εἰ@cs μή@x \w+@n\w{3}p	1	0
+2023-05-27	MGB	accepted	del	εἰ@cs μή@x \w+@n	1	0
+2023-05-27	MGB	rejected	del	ἕτερος@aiamsn δέ@cc	1	0
+2023-05-27	MGB	rejected	del	ἕτερος@ai[^ ]+ δέ@cc	2	2
+2023-05-27	MGB	rejected	del	@viaa1s δέ@cc	2	1
+2023-05-27	MGB	rejected	del	@via\w{1}1s δέ@cc	2	1
+2023-05-27	MGB	rejected	del	@vi\w{2}1s δέ@cc	12	4
+2023-05-27	MGB	rejected	del	κατά@pa ἀποκάλυψις@nafsc	1	1
+2023-05-28	MGB	accepted	del	@vnpm δεῖ@vi	1	0
+2023-05-28	MGB	accepted	del	@vnpm \w+@v	3	1
+2023-05-28	MGB	accepted	del	@vn\w{1}m \w+@vi	1	0
+2023-05-28	MGB	accepted	del	δεῖ@[^ ]+ ἔρχομαι@	1	0
+2023-05-28	MGB	accepted	del	ἔρχομαι@vifm1s	1	0
+2023-05-28	MGB	accepted	del	ἔρχομαι@v[^ ]+ γάρ@cc	1	0
+2023-05-28	MGB	accepted	del	ἔρχομαι@v[^ ]+ δέ@cc	0	0
+2023-05-28	MGB	accepted	del	εἰς@pa \w+@nafpc	2	1
+2023-05-28	MGB	accepted	del	ὀπτασία@	1	0
+2023-05-28	MGB	accepted	del	ἀποκάλυψις@n\w{1}fpc	2	1
+2023-05-28	MGB	accepted	del	\w+@n\w{1}fpc καί@cc \w+@n\w{1}fpc	1	0
+2023-05-28	MGB	accepted	del	ἀποκάλυψις@n\w{1}fpc κύριος@ngmsc	1	0
+2023-05-28	MGB	accepted	del	ἐάν@cs γάρ@cc	1	0
+2023-05-28	MGB	accepted	del	ἀνάγκη@	1	0
+2023-05-28	MGB	accepted	del	ἀνάγκη@n[^ ]+ γάρ@cc	1	0
+2023-05-28	MGB	accepted	del	ἐπίκειμαι@	1	0
+2023-05-28	MGB	accepted	del	γάρ@cc ἐγώ@rpd-s	3	1
+2023-05-28	MGB	accepted	del	ἐγώ@rpd-s εἰμί@vipa3s	1	0
+2023-05-28	MGB	accepted	del	εἰμί@vipa3s ἐάν@cs	1	0
+2023-05-28	MGB	accepted	del	ἐάν@cs μή@x	6	5
+2023-05-28	MGB	accepted	del	μή@x εὐαγγελίζω@	1	1
+2023-05-28	MGB	accepted	del	εὐαγγελίζω@vs	4	4
+2023-05-28	MGB	rejected	del	οὐαί@i	1	1
+2023-05-28	MGB	rejected	del	οὐαί@i γάρ@cc	1	1
+2023-05-29	MGB	accepted	del	ὁ@danp αὐτός@rpanp	1	1
+2023-05-29	MGB	accepted	sub	ὁ@danp αὐτός@rpanp \w+@v : \w+@v	1	1
+2023-05-29	MGB	accepted	del	ὁ@d\w{1}np αὐτός@rp\w{1}np	1	1
+2023-05-29	MGB	accepted	del	ὁ@dan\w{1} αὐτός@rpan\w{1}	1	1
+2023-05-29	MGB	accepted	del	ὁ@d\w{1}n\w{1} αὐτός@rp\w{1}n\w{1}	1	1
+2023-05-29	MGB	accepted	del	ὁ@d[^ ]+ αὐτός@rp[^ ]+	1	1
+2023-05-30	MGB	accepted	del	@vpppnmp \w+@vipa1p	1	0
+2023-05-30	MGB	accepted	del	παραγγέλλω@vipa1p	1	0
+2023-05-30	MGB	accepted	del	παραγγέλλω@viia1p	1	1
+2023-05-30	MGB	accepted	del	@vipa1p καί@cc \w+@vipa1p	1	0
+2023-05-30	MGB	accepted	del	@v\w{3}1p καί@cc \w+@v\w{3}1p	2	0
+2023-05-30	MGB	accepted	del	καί@cc παρακαλέω@	1	0
+2023-05-30	MGB	accepted	del	δέ@cc σύ@rpa-p	1	1
+2023-05-30	MGB	accepted	del	παρακαλέω@v[^ ]+ δέ@cc	1	0
+2023-05-30	MGB	accepted	del	παρακαλέω@vipa1p δέ@cc	1	0
+2023-05-30	MGB	accepted	del	παρακαλέω@vipa1p δέ@cc σύ@rpa-p	1	0
+2023-05-30	MGB	accepted	del	παρακαλέω@vipa1p	3	0
+2023-05-30	MGB	accepted	del	παρακαλέω@vi\w{2}1s	3	3
+2023-05-30	MGB	accepted	del	παρακαλέω@	10	5
+2023-05-31	MGB	accepted	del	λέγω@vdpa2p ἐγώ@rpd-s	1	1
+2023-05-31	MGB	accepted	del	λέγω@v[^ ]+ ἐγώ@rpd-s	1	1
+2023-05-31	MGB	accepted	del	λέγω@vdpa2p	1	1
+2023-05-31	MGB	accepted	del	λέγω@vd	1	1
+2023-05-31	MGB	accepted	del	λέγω@vd[^ ]+ ἐγώ@	1	1
+2023-05-31	MGB	accepted	sub	ὅτε@cs γάρ@cc : ὅτε@cs δέ@cc	1	0
+2023-05-31	MGB	accepted	del	οὐ@b χρεία@nafsc	1	0
+2023-05-31	MGB	accepted	del	οὐ@b χρεία@n	1	0
+2023-05-31	MGB	accepted	del	οὐ@b χρεία@n[^ ]+ ἔχω@	1	0
+2023-05-31	MGB	accepted	del	χρεία@nafsc ἔχω@vipa1p	1	0
+2023-05-31	MGB	accepted	del	αὐτός@rtnmp γάρ@cc σύ@rpn-p	1	0
+2023-05-31	MGB	accepted	del	γάρ@cc σύ@rpn-p	1	0
+2023-05-31	MGB	accepted	del	θεο\w+@a	2	1
+2023-05-31	MGB	accepted	sub	@vnpa ἐγώ@rpa-s : ἐγώ@rpn-s \w+@vp	1	0
+2023-05-31	MGB	accepted	sub	@vn[^ ]+ ἐγώ@rpa-s : ἐγώ@rpn-s \w+@vp	1	0
+2023-05-31	MGB	accepted	sub	ἐν@pd ὁ@ddns \w+@v : ἐγώ@rpn-s \w+@vp	1	0
+2023-05-31	MGB	accepted	sub	ἐν@pd ὁ@ddns \w+@v[^ ]+ \w+@rp : ἐγώ@rpn-s \w+@vp	1	0
+2023-05-31	MGB	accepted	sub	θέλω@vii : θέλω@vip	1	0
+2023-05-31	MGB	accepted	sub	θέλω@v[^ ]+ δέ@cc : θέλω@v[^ ]+	2	0
+2023-05-31	MGB	accepted	sub	θέλω@viia1s : θέλω@vipa1s	1	0
+2023-05-31	MGB	rejected	sub	πάρειμι@vnpa : πάρειμι@vp	2	0
+2023-06-08	MGB	accepted	del	ὅτι@cs \w+@vpxpnms	1	1
+2023-06-08	MGB	accepted	del	ὅτι@cs \w+@vpx	1	1
+2023-06-08	MGB	accepted	del	@vpx[^ ]+ εἰμί@vi [periphrastic participles]	0	0
+2023-06-08	MGB	accepted	del	@vp[^ ]+ εἰμί@vi [periphrastic participles]	0	0
+2023-06-08	MGB	accepted	del	εἰμί@vi[^ ]+ \w+@vpx [periphrastic participles]	0	0
+2023-06-08	MGB	accepted	del	εἰμί@vi[^ ]+ \w+@vp [periphrastic participles]	0	0
+2023-06-08	MGB	accepted	del	καί@cc οὐχί@b	1	0
+2023-06-08	MGB	accepted	del	οὐχί@b μᾶλλον@b	2	0
+2023-06-08	MGB	accepted	del	πενθέω@	1	0
+2023-06-08	MGB	accepted	del	πενθ	1	0
+2023-06-08	MGB	accepted	sub	ἐάν@cs δέ@cc καί@b : ἐάν@cs δέ@cc	1	0
+2023-06-08	MGB	accepted	del	δέ@cc καί@b	5	0
+2023-06-08	MGB	accepted	del	εἰ@cs δέ@cc καί@b	1	0
+2023-06-08	MGB	accepted	del	ὁ@ddmp ἀπόλλυμι@	2	2
+2023-06-08	MGB	accepted	del	ὁ@d[^ ]+ ἀπόλλυμι@	2	2
+2023-06-08	MGB	accepted	del	εἰμί@vipa3s καλύπτω@	2	0
+2023-06-08	MGB	accepted	del	εἰμί@v[^ ]+ καλύπτω@	2	0
+2023-06-08	MGB	accepted	del	ὁ@dnns εὐαγγέλιον@nnnsc ἐγώ@rpg-p	1	0
+2023-06-08	MGB	accepted	del	εὐαγγέλιον@nnnsc ἐγώ@rpg-p	1	0
+2023-06-08	MGB	accepted	del	εὐαγγέλιον@n[^ ]+ ἐγώ@rpg-p	1	0
+2023-06-08	MGB	accepted	del	ἐγώ@rpg-p ἐν@pd	1	0
+2023-06-08	MGB	accepted	del	@rpg-p ἐν@pd	3	1
+2023-06-08	MGB	accepted	del	καλύπτω@	14	9
+2023-07-11	MGB	accepted	del	κλίμα@	1	0
+2023-07-11	MGB	accepted	del	πορθέω@	2	0
+2023-07-11	MGB	accepted	del	εἰμί@viim1s	2	0
+2023-07-11	MGB	accepted	del	ἐκκλησία@n\w{2}pc	1	0
+2023-07-11	MGB	accepted	del	ποτέ@b νῦν@b	1	0
+2023-07-11	MGB	accepted	del	μόνος@b δέ@cc	1	0
+2023-07-11	MGB	accepted	del	ἐν@pd ἐγώ@rpd-s	4	2
+2023-07-11	MGB	accepted	del	ὁ@dgfs Ἰουδαία@ngfsp	1	0
+2023-07-11	MGB	accepted	del	@v[^ ]+ ἐν@pd ἐγώ@rpd-s	3	1
+2023-07-11	MGB	accepted	del	@v[^ ]+ ἐν@pd \w+@rpd-s	3	1
+2023-07-11	MGB	accepted	del	εἰμί@vi[^ ]+ δέ@cc \w+@vp	1	0
+2023-07-11	MGB	accepted	del	εἰμί@vi[^ ]+ \w+@cc \w+@vp	1	0
+2023-08-15	MGB	accepted	del	\w+θεο\w+@a	1	1
+2023-09-26	MGB	accepted	del	δεῖπνον@	1	0
+2023-09-26	MGB	accepted	del	θέλω@vipa2p	1	0
+2023-09-26	MGB	accepted	del	πορεύομαι@vnpm	1	0
+2023-09-26	MGB	accepted	del	παρατίθημι@vp	1	0
+2023-09-26	MGB	accepted	del	παρατίθημι@	1	0
+2023-09-26	MGB	accepted	del	φοβέω@vipm1s	1	0
+2023-09-26	MGB	accepted	del	εἰκῇ@b	3	0
+2023-09-26	MGB	accepted	del	κοπιάω@	1	0
+2023-09-26	MGB	accepted	del	εἰς@pa σύ@rpa-p	3	1
+2023-09-26	MGB	accepted	del	ἐχθρός@a\w+ σύ@rpg-p	1	0
+2023-09-26	MGB	accepted	del	ἀληθεύω@	1	0
+2023-09-26	MGB	accepted	del	τοιγαροῦν@x	1	0
+2023-09-26	MGB	accepted	del	τοιγ	1	0
+2023-09-26	MGB	accepted	del	οῦν@x	1	0
+2023-09-26	MGB	accepted	del	\w{9}@x	1	0
+2023-09-26	MGB	accepted	del	\w{8}@x	2	0
+2023-09-26	MGB	accepted	del	\w{7}@x	2	0
+2023-09-26	MGB	accepted	del	\w{6}@x	2	0
+2023-09-26	MGB	accepted	del	ἀθετέω	3	1
+2023-09-26	MGB	accepted	del	οὐ@b ἄνθρωπος@namsc	1	0
+2023-09-26	MGB	accepted	del	οὐ@b ἄνθρωπος@n	2	1
+2023-09-26	MGB	accepted	del	ἀλλά@cc ὁ@dams	1	0
+2023-09-26	MGB	accepted	del	ἀλλά@cc ὁ@d	19	17
+2023-09-26	MGB	accepted	del	ὁ@dams καί@b	1	0
+2023-09-26	MGB	accepted	del	δίδωμι@vppaams	1	0
+2023-09-26	MGB	accepted	del	δίδωμι@v[^ ]+ ὁ@d[^ ]+ πνεῦμα@n	1	0
+2023-09-26	MGB	accepted	del	δίδωμι@v[^ ]+ πνεῦμα@n	0	0
+2023-09-26	MGB	accepted	del	ὁ@dans πνεῦμα@nansc αὐτός@rpgms	2	1
+2023-09-26	MGB	accepted	del	αὐτός@rpgms ὁ@dans ἅγιος@anansn	1	0
+2023-09-26	MGB	ratified	del	ὁ@d\w+ \w+@p\w+ \w+@n\w+ \w+@vp	2	3
+2023-09-27	MGB	accepted	del	θέλω@v\w{3}1\w{1} δέ@cc	2	0
+2023-09-27	MGB	accepted	del	πᾶς@a\w+ ἄνθρωπος@	1	0
+2023-09-27	MGB	accepted	del	χήρα@	1	0
+2023-09-27	MGB	rejected	del	ὡς@cs καί@b	4	3
+2023-09-27	MGB	rejected	del	εἰμί@vn\w+ ὡς@cs	1	1
+2023-09-27	MGB	rejected	del	καί@b ἐμαυτοῦ@rxams	1	1
+2023-09-27	MGB	rejected	del	ἐμαυτοῦ@rx	3	2
+2023-11-09	MGB	accepted	del	εἰ@cs δέ@cc(?! μή@x γέ@x)	10	0
+2023-11-09	MV	accepted	del	εἰ@cs δέ@cc	10	0
+2023-11-10	MGB	accepted	del	ἐν@pd σύ@rpd-p	10	2
+2023-11-16	MGB	accepted	del	ἐν@pd πίστις@ndfsc	1	0
+2023-11-16	MGB	accepted	del	νῦν@b	9	2
+2023-11-16	MGB	accepted	del	οὐκέτι@b	1	0
+2023-11-16	MGB	accepted	del	ζάω@v\w{3}1	2	0
+2024-01-10	MV	accepted	del	περί@pg αὐτός@rpg\w{1}s	0	0
+2024-07-21	MV	accepted	sub	οὐδέν μοι διαφέρει : οὐδὲν προσανέθεντο	0	0
+2024-08-11	MV	accepted	del	δουλόω@	3	2
+2024-08-11	MV	accepted	del	ἐκ@pg πᾶς@aigmpn	1	0
+2024-08-11	MV	accepted	del	ἐμαυτοῦ@rx	3	2
+2024-08-11	MV	accepted	del	ὁ@d\w{2}p πολύς@an\w{2}pc	2	1
+2024-08-11	MGB	rejected	sub	ἐν@pd \w+@ndfsp : πρός@pa \w+@ndmpp	2	3
+2024-08-11	MGB	rejected	del	χάρις@nnfsc (?:\w+@\w+){0,1}?καί@cc	3	9
+2024-09-17	MV	accepted	del	δέ@cc ἀδελφός@nnmpc	0	0
+2024-11-01	MGB	accepted	del	@vs\w{2}1p	14	9
+2024-11-12	MV	accepted	del	διά@pg ἐγώ@rpg-p	2	1
+2024-11-12	MV	accepted	sub	λαλέω@vipa1p : λαλέω@vipa1s	3	1
+2025-01-24	MGB	accepted	del	ὁ@d\w+ κατά@pa	0	3
+2025-01-24	MGB	accepted	del	ὁ@\w+ κατά@pa \w+@na\w+ \w+@vp	0	2
+2025-01-24	MGB	accepted	del	ὁ@\w+ \w+@pa \w+@na\w+ \w+@vp	1	3
+2025-01-24	MGB	accepted	del	ὁ@\w+ \w+@p\w+ \w+@n\w+ \w+@vp	2	3
+2025-01-24	MGB	ratified	del	κατά@pa θεός@namsc	0	1
+2025-02-18	MGB	accepted	del	τίμιος@	1	1
+2025-02-18	MGB	accepted	trm	ἐν@pd \w+@nd\w+ ἤ@cc ἐν@pd \w+@nd\w+	2	0
+2025-02-18	MGB	accepted	trm	\w+@na\w+ ἐν@pd Χριστός@ndmsp	0	0
+2025-02-18	MGB	accepted	del	ἐν@pd ὅλος@andfsn	2	0
+2025-02-18	MGB	accepted	sub	ὁ@dnfs \w+@nnfsc δέ@cc : ὁ@dnfs δέ@cc \w+@nnfsc	0	0
+2025-02-18	MGB	accepted	sub	ὁ@dn\w{1}s \w+@nn\w{1}sc δέ@cc : ὁ@dn\w{1}s δέ@cc \w+@nn\w{1}sc	0	0
+2025-02-18	MGB	accepted	del	εἰμί@vipa2p	12	9
+2025-02-18	MGB	accepted	sub	δεῖ@v\w+ καί@cc : δεῖ@v\w+ γάρ@cc	0	0
+2025-02-18	MGB	accepted	sub	εἰς@pa τίς@rq : ἔτι@b	0	0
+2025-02-18	MGB	accepted	sub	καθάπερ@cs : καθώς@cs	1	1
+2025-02-18	MGB	checking	del	ὅτι@cs εἰμί@vipa2	1	1
+2025-02-18	MGB	rejected	del	σύ@rpn-p εἰμί@vipa2p	0	1
+2025-02-18	MGB	rejected	del	λίθος@	3	3
+2025-02-18	MGB	rejected	trm	ἐν@pd \w+@nd\w+ ἐν@pd \w+@nd\w+	1	1
+2025-02-18	MGB	rejected	trm	\w+@nd\w+ ἤ@cc \w+@nd\w+	1	2
+2025-02-18	MGB	rejected	del	@vpxpnfs	2	3
+2025-02-18	MGB	rejected	del	@vpppnns	7	4
+2025-02-18	MGB	rejected	del	ἀναγινώσκω@	1	3
+2025-02-18	MGB	rejected	chk	ἕως@pg	0	0
+2025-02-18	MGB	rejected	del	οἰκοδομή@	6	3
+2025-02-18	MGB	rejected	del	τελέω@	3	2
+2025-02-18	MGB	rejected	del	ἐντυπόω@	1	1
+2025-02-18	MGB	rejected	trm	ἤ@cc \w+@v\w+ ἤ@cc \w+@v	1	1
+2025-02-18	MGB	withdrew	del	γράμμα@	6	6
+2025-02-20	MV	accepted	del	ἐκ@pg μέρος@ngnsc	4	1
+2025-05-18	ALL	summation	cnt	?@?	434	205

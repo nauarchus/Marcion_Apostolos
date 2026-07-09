@@ -1,0 +1,6415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/refs/heads/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title type="work">
+					Apostolikon
+				</title>
+				<author ref="https://viaf.org/viaf/98032732">
+					Marcion of Sinope
+				</author>
+				<editor xml:id="Harnack" ref="https://viaf.org/viaf/9886393/">
+					Adolf von Harnack
+				</editor>
+				<editor ref="http://viaf.org/viaf/307315499">
+					Mark Glen Bilby
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-0797-2710">
+					K. Lance Lotharp
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-4606-239X">
+					Jack Bull
+				</editor>
+				<principal>
+					Mark G. Bilby
+				</principal>
+				<respStmt>
+					<resp>
+						Transcribed, normalized, and encoded by
+					</resp>
+					<persName xml:id="MGB">
+						Mark G. Bilby
+					</persName>
+					<persName>
+						Jack Bull
+					</persName>
+					<persName>
+						K. Lance Lotharp
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					Clavis Consulting, LLC, Kansas
+				</publisher>
+				<pubPlace>
+					Kansas City, KS, USA
+				</pubPlace>
+				<distributor>
+					@nauarchus account on GitHub
+				</distributor>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						Available under a
+						Creative Commons Attribution 4.0 International License.
+						© 2025 Clavis Consulting, LLC, Kansas, Jack Bull, and K. Lance Lotharp
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author ref="http://viaf.org/viaf/307315499">
+							Mark Glen Bilby
+						</author>
+						<author ref="https://orcid.org/0000-0003-0797-2710">
+							K. Lance Lotharp
+						</author>
+						<author ref="https://orcid.org/0000-0003-4606-239X">
+							Jack Bull
+						</author>
+						<title level="a">
+							Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
+							Greek Reconstructions of Marcion's Apostolos
+						</title>
+						<title level="j">
+							Journal of Open Humanities Data
+						</title>
+						<idno type="issn">
+							2059-481X
+						</idno>
+						<idno type="doi">
+							10.5334/johd.122
+						</idno>
+						<ref target="https://doi.org/10.5334/johd.122">
+							https://doi.org/10.5334/johd.122
+						</ref>
+						<idno type="doi">
+							10.7910/DVN/ZUVKQW
+						</idno>
+						<ref target="https://doi.org/10.7910/DVN/ZUVKQW">
+							https://doi.org/10.7910/DVN/ZUVKQW
+						</ref>
+					</analytic>
+					<monogr>
+						<author ref="http://viaf.org/viaf/307315499">
+							Mark Glen Bilby
+						</author>
+						<author ref="https://orcid.org/0000-0003-0797-2710">
+							K. Lance Lotharp
+						</author>
+						<author ref="https://orcid.org/0000-0003-4606-239X">
+							Jack Bull
+						</author>
+						<title level="a">
+							Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
+							Greek Reconstructions of Marcion's Apostolos
+						</title>
+						<title level="j">
+							Journal of Open Humanities Data
+						</title>
+						<idno type="issn">
+							2059-481X
+						</idno>
+						<idno type="doi">
+							10.5334/johd.122
+						</idno>
+						<ref target="https://doi.org/10.5334/johd.122">
+							https://doi.org/10.5334/johd.122
+						</ref>
+						<idno type="doi">
+							10.7910/DVN/ZUVKQW
+						</idno>
+						<ref target="https://doi.org/10.7910/DVN/ZUVKQW">
+							https://doi.org/10.7910/DVN/ZUVKQW
+						</ref>
+						<imprint>
+							<publisher>
+								Ubiquity Press
+							</publisher>
+							<date>
+								2023
+							</date>
+						</imprint>
+						<biblScope unit="page">
+							1-5
+						</biblScope>
+					</monogr>
+					<monogr>
+						<author ref="https://viaf.org/viaf/9886393/">
+							Adolf von Harnack
+						</author>
+						<title level="m">
+							Marcion: Das Evangelium vom Fremden Gott
+						</title>
+						<idno type="ARK">
+						</idno>
+						<ref target="https://n2t.net/ark:/13960/t3611sv4v">
+							https://n2t.net/ark:/13960/t3611sv4v
+						</ref>
+						<idno type="OCLC">
+							4964885
+						</idno>
+						<respStmt>
+							<resp>
+								von
+							</resp>
+							<name>
+								Adolf von Harnack
+							</name>
+						</respStmt>
+						<imprint>
+							<pubPlace>
+								Leipzig
+							</pubPlace>
+							<publisher>
+								J.C. Hinrichs'schen Buchhandlung
+							</publisher>
+							<date>
+								1924
+							</date>
+						</imprint>
+						<biblScope unit="edition">
+							2
+						</biblScope>
+						<biblScope unit="page">
+							67*-127*
+						</biblScope>
+					</monogr>
+				</biblStruct>
+				<listBibl>
+					<bibl xml:id="EOCM">
+						<abbr type="siglum">
+							EOCM
+						</abbr>
+						<author>
+							Constantin Tischendorf
+						</author>
+						<title level="m">
+							Novum Testamentum Graece
+						</title>
+						<biblScope unit="vol">
+							1
+						</biblScope>
+						<pubPlace>
+							Leipzig
+						</pubPlace>
+						<publisher>
+							Giesecke &amp; Devrient
+						</publisher>
+						<date when="1869">
+							1869
+						</date>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="verse" matchPattern="([A-Za-z]+[0-9]*).([0-9]+[a-z]?).([0-9]+[a-z]?)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1']/tei:div[@subtype='chapter'][@n='$2']/tei:div[@subtype='verse'][@n='$3'])" />
+				<cRefPattern n="chapter" matchPattern="([A-Za-z]+[0-9]*).([0-9]+[a-z]?)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1']/tei:div[@subtype='chapter'][@n='$2'])" />
+				<cRefPattern n="book" matchPattern="([A-Za-z]+[0-9]*)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1'])" />
+			</refsDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<change when="2025-03-08" who="#MGB">
+				Initial Perseus and Patristic Text Archive edition released
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg2958.tlg003.src-grc3">
+				<pb n="67*" />
+				<head>
+					ΑΠΟΣΤΟΛΙΚΟΝ.
+				</head>
+				<div type="textpart" subtype="book" n="GalA">
+					<head>
+						Προς Γαλατας.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s xml:id="Γαλ1.1">
+									Παῦλος ἀπόστολος,
+									οὐκ ἀπ᾽ ἀνθρώπων οὐδὲ δι᾽ ἀνθρώπου,
+									ἀλλὰ διὰ Ἰησοῦ Χριστοῦ τοῦ ἐγείραντος αὑτὸν ἐκ νεκρῶν.
+								</s>
+							</p>
+						</div>
+						<pb n="68*" />
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s xml:id="Γαλ1.2" corresp="#Γαλ1.1">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ οἱ σὺν ἐμοὶ πάντες ἀδελφοί,
+										ταῖς ἐκκλησίαις τῆς Γαλατίας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p xml:id="Γαλ1.3">
+								χάρις καὶ εἰρήνη
+								<supplied reason="omitted-in-original" source="#Harnack">
+									ἀπὸ θεοῦ πατρὸς καὶ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p xml:id="Γαλ1.4" corresp="#Γαλ1.3">
+								<supplied reason="omitted-in-original" source="#Harnack">
+									τοῦ δόντος ἑαυτὸν περὶ τῶν ἁμαρτιῶν ἡμῶν,
+									ὅπως ἐξέληται ἡμᾶς ἐκ τοῦ αἰῶνος τοῦ ἐνεστῶτος πονηροῦ,
+									κατὰ τὸ θέλημα τοῦ θεοῦ καὶ πατρὸς ἡμῶν,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p xml:id="Γαλ1.5" corresp="#Γαλ1.5">
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ᾧ ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων,
+									ἀμήν.
+								</supplied>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s xml:id="Γαλ1.6">
+									θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς ἐν χάριτι εἰς ἕτερον εὐαγγέλιον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s xml:id="Γαλ1.7" corresp="#Γαλ1.6">
+									ὃ
+									ἄλλο
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἄλλο
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἄλλο
+										</rdg>
+									</app>
+									πάντως οὐκ ἔστιν κατὰ
+									<pb n="69*" />
+									τὸ εὐαγγέλιόν μου
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									,
+									εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι εἰς ἕτερον εὐαγγέλιον τοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ἀλλὰ καὶ ἐὰν ἡμεῖς,
+									ἢ ἄγγελος ἐξ οὐρανοῦ,
+									ἄλλως εὐαγγελίσηται παρ᾽ ὃ εὐηγγελισάμεθα,
+									ἀνάθεμα ἔστω.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὡς προειρήκαμεν,
+										καὶ ἄρτι πάλιν λέγω,
+									</supplied>
+									εἴ τις ὑμᾶς εὐαγγελίζεται
+									<supplied reason="omitted-in-original" source="#Harnack">
+										παρ᾽ ὃ παρελάβετε,
+									</supplied>
+									ἀνάθεμα ἔστω.
+								</s>
+							</p>
+						</div>
+						<pb n="70*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										γνωρίζω δὲ ὑμῖν,
+										ἀδελφοί,
+										τὸ εὐαγγέλιον τὸ εὐαγγελισθὲν ὑπ᾽ ἐμοῦ,
+										ὅτι οὐκ ἔστιν κατὰ ἄνθρωπον·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό,
+										οὔτε ἐδιδάχθην,
+										ἀλλὰ δι᾽ ἀποκαλύψεως Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ,
+										ὅτι καθ᾽ ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ θεοῦ καὶ ἐπόρθουν αὐτήν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου,
+										περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s xml:id="Γαλ1.15">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ὅτε δὲ εὐδόκησεν ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s xml:id="Γαλ1.16" corresp="#Γαλ1.15">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοὶ,
+										ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν,
+										εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s xml:id="Γαλ1.17" corresp="#Γαλ1.15">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους,
+										ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν,
+										καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s xml:id="Γαλ2.1">
+									ἔπειτα διὰ ιδ᾽ ἐτῶν ἀνέβην εἰς Ἱεροσόλυμα,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s xml:id="Γαλ2.2" corresp="#Γαλ2.1">
+									μήπως εἰς κενὸν ἔδραμον ἢ τρέχω.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἀλλ᾽ οὐδὲ Τίτος ὁ σὺν ἐμοί,
+									Ἕλλην ὤν,
+									ἠναγκάσθη περιτμηθῆναι·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s xml:id="Γαλ2.4">
+									διὰ τοὺς παρεισάκτους ψευδαδέλφους,
+									οἵτινες παρεισῆλθον κατασκοπῆσαι
+									<pb n="71*" />
+									τὴν ἐλευθερίαν ἡμῶν ἣν ἔχομεν ἐν Χριστῷ,
+									ἵνα ἡμᾶς καταδουλώσουσιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s xml:id="Γαλ2.5" corresp="#Γαλ2.4">
+									οὐδὲ πρὸς ὥραν εἴξαμεν τῇ ὑποταγῇ,
+									ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="9b">
+							<p>
+								<s>
+									Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης,
+									<supplied reason="omitted-in-original" source="#Harnack">
+										οἱ δοκοῦντες στῦλοι εἶναι,
+									</supplied>
+									δεξιὰς ἔδωκαν ἐμοὶ,
+									ἵνα ἐγὼ εἰς τὰ ἔθνη,
+									αὐτοὶ δὲ εἰς τὴν περιτομήν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									μόνον τῶν πτωχῶν ἵνα μνημονεύωμεν.
+								</s>
+							</p>
+						</div>
+						<pb n="72*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ὅτε δὲ ἦλθεν
+									</supplied>
+									Πέτρος
+									<supplied reason="omitted-in-original" source="#Harnack">
+										εἰς Ἀντιόχειαν,
+									</supplied>
+									κατὰ πρόσωπον
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										αὐτῷ ἀντέστην,
+										ὅτι κατεγνωσμένος ἦν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πρὸ τοῦ γὰρ ἐλθεῖν τινας ἀπὸ Ἰακώβου μετὰ τῶν ἐθνῶν συνήσθιεν·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτε δὲ ἦλθον,
+										ὑπέστελλεν καὶ ἀφώριζεν ἑαυτόν,
+									</supplied>
+									φοβούμενος τοὺς ἐκ περιτομῆς·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ συνυπεκρίθησαν αὐτῷ καὶ οἱ λοιποὶ Ἰουδαῖοι,
+										ὥστε καὶ Βαρναβᾶς συναπήχθη αὐτῶν τῇ ὑποκρίσει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἀλλ᾽ ὅτε εἶδον ὅτι
+									</supplied>
+									οὐκ
+									ὀρθοποδοῦσιν
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὀρθοποδοῦσιν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὀρθοποδοῦσιν
+										</rdg>
+									</app>
+									πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς καὶ οὐχ Ἰουδαϊκῶς ζῇς,
+										πῶς τὰ ἔθνη ἀναγκάζεις ἰουδαΐζειν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s xml:id="Γαλ2.15">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἡμεῖς φύσει Ἰουδαῖοι καὶ οὐκ ἐξ ἐθνῶν ἁμαρτωλοί,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s xml:id="Γαλ2.16" corresp="#Γαλ2.15">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										εἰδότες δὲ ὅτι
+									</supplied>
+									οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου,
+									ἐὰν μὴ
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									διὰ πίστεως
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Χριστοῦ Ἰησοῦ,
+										καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν,
+										ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ καὶ οὐκ ἐξ ἔργων νόμου,
+										ὅτι ἐξ ἔργων νόμου οὐ δικαιωθήσεται πᾶσα σάρξ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ζητοῦντες δικαιωθῆναι ἐν Χριστῷ εὑρέθημεν καὶ αὐτοὶ ἁμαρτωλοί,
+										ἆρα Χριστὸς ἁμαρτίας διάκονος;
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ γένοιτο.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ,
+									<supplied reason="omitted-in-original" source="#Harnack">
+										παραβάτην ἐμαυτὸν συνιστάνω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ γὰρ διὰ νόμου νόμῳ ἀπέθανον ἵνα θεῷ ζήσω.
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Χριστῷ συνεσταύρωμαι·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ζῶ δὲ οὐκέτι ἐγώ,
+										ζῇ δὲ ἐν ἐμοὶ Χριστός·
+									</supplied>
+								</s>
+								<s>
+									ὃ δὲ νῦν ζῶ ἐν σαρκί,
+									ἐν πίστει ζῶ τῇ τοῦ υἱοῦ τοῦ θεοῦ τοῦ ἀγοράσαντός με.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ ἀθετῶ τὴν χάριν τοῦ θεοῦ·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ γὰρ διὰ νόμου δικαιοσύνη,
+										ἄρα Χριστὸς δωρεὰν ἀπέθανεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὦ ἀνόητοι Γαλάται,
+										τίς ὑμᾶς ἐβάσκανεν,
+										οἷς κατ᾽ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτο μόνον θέλω μαθεῖν ἀφ᾽ ὑμῶν,
+										ἐξ ἔργων νόμου τὸ πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὕτως ἀνόητοί ἐστε;
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐναρξάμενοι πνεύματι νῦν σαρκὶ ἐπιτελεῖσθε;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοσαῦτα ἐπάθετε εἰκῇ;
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴγε καὶ εἰκῇ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ οὖν ἐπιχορηγῶν ὑμῖν τὸ πνεῦμα καὶ ἐνεργῶν δυνάμεις ἐν ὑμῖν,
+										ἐξ ἔργων νόμου ἢ ἐξ ἀκοῆς πίστεως;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									μάθετε ὅτι ὁ δίκαιος ἐκ πίστεως ζήσεται·
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὅσοι γὰρ ὑπὸ νόμον,
+									ὑπὸ κατάραν εἰσίν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὁ δὲ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.
+								</s>
+							</p>
+						</div>
+						<pb n="73*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου,
+									γενόμενος ὑπὲρ ἡμῶν κατάρα,
+									ὅτι γέγραπται·
+									Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14b">
+							<p>
+								<s>
+									ἐλάβομεν οὖν τὴν εὐλογίαν τοῦ πνεύματος διὰ τῆς πίστεως.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									πάντες γὰρ υἱοὶ θεοῦ ἐστε διὰ τῆς πίστεως.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅσοι γὰρ εἰς Χριστὸν ἐβαπτίσθητε,
+										Χριστὸν ἐνεδύσασθε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ ἔνι Ἰουδαῖος οὐδὲ Ἕλλην,
+										οὐκ ἔνι δοῦλος οὐδὲ ἐλεύθερος,
+										οὐκ ἔνι ἄρσεν καὶ θῆλυ·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἅπάντες γὰρ ὑμεῖς εἷς ἐστε ἐν Χριστῷ Ἰησοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										εἰ δὲ ὑμεῖς Χριστοῦ,
+										κατὰ ἐπαγγελίαν κληρονόμοι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="74*" />
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s xml:id="Γαλ4.1">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										λέγω δέ,
+										ἐφ᾽ ὅσον χρόνον ὁ κληρονόμος νήπιός ἐστιν,
+										οὐδὲν διαφέρει δούλου κύριος πάντων ὤν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s xml:id="Γαλ4.2" corresp="#Γαλ4.1">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἀλλὰ ὑπὸ ἐπιτρόπους ἐστὶν καὶ οἰκονόμους ἄχρι τῆς προθεσμίας τοῦ πατρός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἔτι κατὰ ἄνθρωπον λέγω·
+									ὅτε ἦμεν νήπιοι,
+									ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἤμεθα δεδουλωμένοι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s xml:id="Γαλ4.4">
+									ὅτε δὲ ἦλθεν τὸ πλήρωμα τοῦ χρόνου.
+									ἐξαπέστειλεν ὁ θεὸς τὸν υἱὸν αὐτοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s xml:id="Γαλ4.5" corresp="#Γαλ4.4">
+									ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									ἵνα
+									τὴν υἱοθεσίαν ἀπολάβωμεν
+									<app type="variants">
+										<lem resp="#Harnack">
+											τὴν υἱοθεσίαν ἀπολάβωμεν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τὴν υἱοθεσίαν ἀπολάβωμεν
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ὅτε δέ ἐστε υἱοὶ,
+									ἐξαπέστειλεν ὁ θεὸς τὸ πνεῦμα τοῦ υἱοῦ αὐτοῦ εἰς τὰς καρδίας ἡμῶν,
+									κρᾶζον·
+									Ἀββᾶ ὁ πατήρ.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε οὐκέτι εἶ δοῦλος ἀλλὰ υἱός·
+										εἰ δὲ υἱός,
+										καὶ κληρονόμος διὰ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								Ἐἰ οὖν
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τοῖς ἐν τῇ φύσει οὖσι θεοῖς δουλεύετε,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									πῶς ἐπιστρέφετε πάλιν ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα,
+									οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε;
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς;
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM">
+										φοβοῦμαι ὑμᾶς μήπως εἰκῇ κεκοπίακα εἰς ὑμᾶς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										γίνεσθε ὡς ἐγώ,
+										ὅτι κἀγὼ ὡς ὑμεῖς,
+										ἀδελφοί,
+										δέομαι ὑμῶν.
+										οὐδέν με ἠδικήσατε·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										οἴδατε δὲ ὅτι δι᾽ ἀσθένειαν τῆς σαρκὸς εὐηγγελισάμην ὑμῖν τὸ πρότερον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τὸν πειρασμὸν ὑμῶν ἐν τῇ σαρκί μου οὐκ ἐξουθενήσατε οὐδὲ ἐξεπτύσατε,
+										ἀλλὰ ὡς ἄγγελον θεοῦ ἐδέξασθέ με,
+										ὡς Χριστὸν Ἰησοῦν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ποῦ οὖν ὁ μακαρισμὸς ὑμῶν;
+										μαρτυρῶ γὰρ ὑμῖν ὅτι εἰ δυνατὸν τοὺς ὀφθαλμοὺς ὑμῶν ἐξορύξαντες ἐδώκατέ μοι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ὥστε ἐχθρὸς ὑμῶν γέγονα ἀληθεύων ὑμῖν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ζηλοῦσιν ὑμᾶς οὐ καλῶς,
+										ἀλλὰ ἐκκλεῖσαι ὑμᾶς θέλουσιν,
+										ἵνα αὐτοὺς ζηλοῦτε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καλὸν δὲ ζηλοῦσθαι ἐν καλῷ πάντοτε,
+										καὶ μὴ μόνον ἐν τῷ παρεῖναί με πρὸς ὑμᾶς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								τέκνα μου, οὓς ὠδίνω πάλιν
+								<app type="variants">
+									<lem resp="#Harnack">
+										τέκνα μου, οὓς ὠδίνω πάλιν
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										τέκνα μου, οὓς ὠδίνω πάλιν
+									</rdg>
+								</app>
+								<supplied reason="omitted-in-original" source="#Harnack">
+									μέχρις οὗ μορφωθῇ Χριστὸς ἐν ὑμῖν,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἤθελον δὲ παρεῖναι πρὸς ὑμᾶς ἄρτι καὶ ἀλλάξαι τὴν φωνήν μου,
+										ὅτι ἀποροῦμαι ἐν ὑμῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									Λέγετέ μοι,
+									οἱ ὑπὸ νόμον θέλοντες εἶναι,
+									τὸν νόμον οὐκ ἀκούετε;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									γέγραπται γὰρ ὅτι
+									<app type="variants">
+										<lem resp="#Harnack">
+											γέγραπται γὰρ ὅτι
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											γέγραπται γὰρ ὅτι
+										</rdg>
+									</app>
+									<pb n="76*" />
+									Ἀβραὰμ δύο υἱοὺς ἔσχεν,
+									ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ἀλλ᾽ ὁ μὲν ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται,
+									ὁ δὲ ἐκ τῆς ἐλευθέρας διὰ τῆς ἐπαγγελίας.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									ἅτινά ἐστιν ἀλληγορούμενα·
+									αὗται γάρ εἰσιν αἱ δύο
+									
+									ἐπιδείξεις
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐπιδείξεις
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐπιδείξεις
+										</rdg>
+									</app>
+									.
+									μία μὲν ἀπὸ ὄρους Σινᾶ εἰς τὴν συναγωγὴν τῶν Ἰουδαίων κατὰ τὸν νόμον γεννῶσα εἰς δουλείαν.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Eph">
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἄλλη δὲ ὑπεράνω πάσης ἀρχῆς γεννῶσα καὶ δυνάμεως καὶ ἐξουσίας καὶ παντὸς ὀνόματος ὀνομαζομένου —
+									οὐ μόνον ἐν τῷ αἰῶνι τούτῳ,
+									ἀλλὰ καὶ ἐν τῷ μέλλοντι —
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="GalB">
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									εἰς
+									ἣν
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἣν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἣν
+										</rdg>
+									</app>
+									ἐπηγγειλάμεθα ἁγίαν ἐκκλησίαν,
+									ἥτις ἐστὶν μήτηρ ἡμῶν.
+								</s>
+							</p>
+						</div>
+						<pb n="77*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									διό
+									<app type="variants">
+										<lem resp="#Harnack">
+											διό
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											διό
+										</rdg>
+									</app>
+									,
+									ἀδελφοί,
+									οὐκ ἐσμὲν παιδίσκης τέκνα,
+									ἀλλὰ τῆς ἐλευθέρας·
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="1a">
+							<p>
+								<s>
+									ᾗ ἐλευθερίᾳ
+									οὖν
+									<app type="variants">
+										<lem resp="#Harnack">
+											οὖν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											οὖν
+										</rdg>
+									</app>
+									Χριστὸς ἡμᾶς ἠλευθέρωσεν.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="1b">
+							<p>
+								<s>
+									στήκετε καὶ μὴ πάλιν ζυγῷ δουλίας ἐνέχεσθε.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἴδε ἐγὼ Παῦλος λέγω ὑμῖν ὅτι ἐὰν περιτέμνησθε,
+										Χριστὸς ὑμᾶς οὐδὲν ὠφελήσει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									Μαρτύρομαι δὲ πάλιν ὅτι ἄνθρωπος περιτετμημένος ὀφειλέτης ἐστὶν ὅλον τὸν νόμον πληρῶσαι.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										κατηργήθητε ἀπὸ Χριστοῦ οἵτινες ἐν νόμῳ δικαιοῦσθε,
+										τῆς χάριτος ἐξεπέσατε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἡμεῖς γὰρ πνεύματι ἐκ πίστεως ἐλπίδα δικαιοσύνης ἀπεκδεχόμεθα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									Ἐν γὰρ Χριστῷ οὔτε περιτομή τι ἰσχύει οὔτε ἀκροβυστία,
+									ἀλλὰ πίστις δι᾽ ἀγάπης ἐνεργουμένη.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐτρέχετε καλῶς·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τίς ὑμᾶς ἐνέκοψεν ἀληθείᾳ μὴ πείθεσθαι;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἡ πεισμονὴ οὐκ ἐκ τοῦ καλοῦντος ὑμᾶς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									μικρὰ ζύμη ὅλον τὸ φύραμα δολοῖ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἐγὼ πέποιθα εἰς ὑμᾶς ἐν κυρίῳ ὅτι οὐδὲν ἄλλο φρονήσετε·
+									</supplied>
+								</s>
+								<s>
+									ὁ δὲ ταράσσων ὑμᾶς τὸ κρίμα βαστάσει,
+									ὅστις ἂν ᾖ.
+								</s>
+							</p>
+						</div>
+						<pb n="78*" />
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ δέ,
+										ἀδελφοί,
+										εἰ περιτομὴν ἔτι κηρύσσω,
+										τί ἔτι διώκομαι;
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄρα κατήργηται τὸ σκάνδαλον τοῦ σταυροῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὑμεῖς γὰρ ἐπ᾽ ἐλευθερίᾳ ἐκλήθητε,
+										ἀδελφοί·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μόνον μὴ τὴν ἐλευθερίαν εἰς ἀφορμὴν τῇ σαρκί,
+										ἀλλὰ διὰ τῆς ἀγάπης δουλεύετε ἀλλήλοις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ὁ γὰρ πᾶς νόμος ἐν ὑμῖν πεπλήρωται·
+								</s>
+								<s>
+									ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ἀλλήλους δάκνετε καὶ κατεσθίετε,
+										βλέπετε μὴ ὑπ᾽ ἀλλήλων ἀναλωθῆτε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										λέγω δέ,
+										πνεύματι περιπατεῖτε καὶ ἐπιθυμίαν σαρκὸς οὐ μὴ τελέσητε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ γὰρ σὰρξ ἐπιθυμεῖ κατὰ τοῦ πνεύματος,
+										τὸ δὲ πνεῦμα κατὰ τῆς σαρκός·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ταῦτα γὰρ ἀλλήλοις ἀντίκειται,
+										ἵνα μὴ ἃ ἐὰν θέλητε ταῦτα ποιῆτε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ πνεύματι ἄγεσθε,
+										οὐκ ἐστὲ ὑπὸ νόμον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									φανερὰ δέ ἐστι τὰ ἔργα τῆς σαρκός,
+									ἅτινά ἐστι πορνεία,
+									ἀκαθαρσία,
+									ἀσέλγεια,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									εἰδωλολατρεία,
+									φαρμακεία,
+									ἔχθραι,
+									ἔρεις,
+									ζῆλοι,
+									θυμοί,
+									ἐριθείαι,
+									διχοστασίαι,
+									αἱρέσεις,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									φθόνοι,
+									μέθαι,
+									κῶμοι,
+									ἃ προλέγω ὑμῖν,
+									καθὼς καὶ προεῖπον,
+									ὅτι οἱ τὰ τοιαῦτα πράσσοντες βασιλείαν θεοῦ οὐ κληρονομήσουσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ δὲ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη,
+										χαρά,
+										εἰρήνη,
+										μακροθυμία,
+										χρηστότης,
+										ἀγαθωσύνη,
+										πίστις,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πραῧτης,
+										ἐγκράτεια·
+										κατὰ τῶν τοιούτων οὐκ ἔστιν νόμος.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									οἱ δὲ τοῦ Χριστοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασι καὶ ταῖς ἐπιθυμίαις.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ ζῶμεν πνεύματι,
+										πνεύματι καὶ στοιχῶμεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ γινώμεθα κενόδοξοι,
+										ἀλλήλους προκαλούμενοι,
+										ἀλλήλοις φθονοῦντες.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									Ἀλλήλων τὰ βάρη βαστάζετε,
+									καὶ οὕτως ἀναπληρώσετε τὸν νόμον τοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									Κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									Πλανᾶσθε.
+									θεὸς οὐ μυκτηρίζεται·
+									ἃ γὰρ ἐὰν σπείρῃ ἄνθρωπος ταῦτα
+									<pb n="79*" />
+									καὶ θερίσει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									Τὸ δὲ καλὸν ποιοῦντες μὴ ἐνκακῶμεν,
+									καιρῷ δὲ ἰδίῳ θερίσομεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὡς ἔχομεν καιρόν,
+									ἐργαζώμεθα τὸ ἀγαθὸν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13a">
+							<p>
+								<s>
+									Οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14b">
+							<p>
+								<s>
+									Ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									Τῶν δ᾽ἄλλων εἰκῇ κόπους μοι μηδεὶς παρεχέσθω·
+									ἐγὼ γὰρ τὰ στίγματα τοῦ Χριστοῦ ἐν τῷ σώματί μου βαστάζω.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="1Cor">
+					<head>
+						Πρὸς Κορινθίους Α.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										Παῦλος κλητὸς ἀπόστολος Χριστοῦ Ἰησοῦ διὰ θελήματος θεοῦ καὶ Σωσθένης ὁ ἀδελφὸς
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ ἐκκλησίᾳ τοῦ θεοῦ τῇ οὔσῃ ἐν Κορίνθῳ,
+										ἡγιασμένοις ἐν Χριστῷ Ἰησοῦ,
+										κλητοῖς ἁγίοις,
+										σὺν πᾶσιν τοῖς ἐπικαλουμένοις τὸ ὄνομα τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐν παντὶ τόπῳ,
+										αὐτῶν καὶ ἡμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									χάρις καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἤκουσταί
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἤκουσταί
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἤκουσταί
+										</rdg>
+									</app>
+									<pb n="80*" />
+									μοι
+									<app type="variants">
+										<lem resp="#Harnack">
+											μοι
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											μοι
+										</rdg>
+									</app>
+									ὑπὸ τῶν Χλόης ὅτι ἔριδες εἰσιν ἐν ὑμῖν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὃς μέν γὰρ λέγει·
+									ἐγὼ μέν εἰμι Παύλου,
+									ἐγὼ δὲ Ἀπολλῶ,
+									ἐγὼ δὲ Κηφᾶ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									μεμέρισται ὁ Χριστός;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ὁ λόγος γὰρ ὁ τοῦ σταυροῦ
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὁ λόγος γὰρ ὁ τοῦ σταυροῦ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὁ λόγος γὰρ ὁ τοῦ σταυροῦ
+										</rdg>
+									</app>
+									τοῖς μὲν ἀπολλυμένοις μωρία ἐστίν,
+									τοῖς δὲ σῳζομένοις δύναμις καὶ σοφία θεοῦ ἐστιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									γέγραπται γάρ·
+									ἀπολῶ τὴν σοφίαν τῶν σοφῶν,
+									καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20b">
+							<p>
+								<s>
+									οὐχὶ ἐμώρανεν ὁ θεὸς τὴν σοφίαν τοῦ κόσμου;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἐπειδὴ ἐν τῇ σοφίᾳ τοῦ θεοῦ οὐκ ἔγνω ὁ κόσμος διὰ τῆς σοφίας τὸν κύριον,
+									εὐδόκησεν ὁ θεὸς διὰ τῆς μωρίας τοῦ κηρύγματος σῶσαι τοὺς πιστεύοντας·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									ἐπειδὴ Ἰουδαῖοι σημεῖα αἰτοῦσιν καὶ Ἕλληνες σοφίαν ζητοῦσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									κηρύσσομεν
+									<pb n="81*" />
+									Χριστὸν,
+									σταυρός,
+									μωρία,
+									σκάνδαλον Ἰουδαίοις
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										αὐτοῖς δὲ τοῖς κλητοῖς,
+										Ἰουδαίοις τε καὶ Ἕλλησιν,
+										Χριστὸν θεοῦ δύναμιν καὶ θεοῦ σοφίαν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									ὅτι
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὅτι
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὅτι
+										</rdg>
+									</app>
+									τὸ μωρὸν τοῦ θεοῦ σοφώτερον τῶν ἀνθρώπων
+									ἐστίν
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐστίν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐστίν
+										</rdg>
+									</app>
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									τὸ ἀσθενὲς τοῦ θεοῦ ἰσχυρότερον τῶν ἀνθρώπων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									ἀλλὰ
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἀλλὰ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἀλλὰ
+										</rdg>
+									</app>
+									τὰ μωρὰ τοῦ κόσμου ἐξελέξατο ὁ θεὸς.
+									ἵνα καταισχύνῃ τὰ σοφά,
+									καὶ τὰ ἀσθενῆ τοῦ κόσμου ἐξελέξατο ὁ θεὸς,
+									ἵνα καταισχύνῃ τὰ ἰσχυρά,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									καὶ τὰ ἀγενῆ καὶ τὰ ἐλάχιστα καὶ τὰ ἐξουθενημένα
+									
+									ἐξελέξατο ὁ θεός
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐξελέξατο ὁ θεός
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐξελέξατο ὁ θεός
+										</rdg>
+									</app>
+									,
+									τὰ μὴ ὄντα,
+									ἵνα τὰ ὄντα καταργήσῃ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									ὅπως μὴ καυχήσηται πᾶσα σὰρξ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									ἵνα καθὼς γέγραπται·
+									Ὁ καυχώμενος ἐν
+									κυρίῳ
+									<app type="variants">
+										<lem resp="#Harnack">
+											κυρίῳ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											κυρίῳ
+										</rdg>
+									</app>
+									καυχάσθω.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="6a">
+							<p>
+								<s>
+									σοφίαν λαλοῦμεν ἐν τοῖς τελείοις
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6b">
+							<p>
+								<s>
+									τῶν ἀρχόντων τοῦ αἰῶνος τούτου τῶν καταργουμένων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									λαλοῦμεν
+									<app type="variants">
+										<lem resp="#Harnack">
+											λαλοῦμεν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											λαλοῦμεν
+										</rdg>
+									</app>
+									θεοῦ σοφίαν ἐν μυστηρίῳ τὴν ἀποκεκρυμμένην,
+									ἣν προώρισεν ὁ θεὸς πρὸ τῶν
+									<pb n="82*" />
+									αἰώνων εἰς δόξαν ἡμῶν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ἣν οὐδεὶς τῶν ἀρχόντων τοῦ αἰῶνος τούτου ἔγνωκεν·
+									εἰ γὰρ ἔγνωσαν,
+									οὐκ ἂν τὸν κύριον τῆς δόξης ἐσταύρωσαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									τίς γὰρ ἔγνω νοῦν κυρίου
+									καὶ τίς αὐτοῦ σύμβουλος ἐγένετο
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ τίς αὐτοῦ σύμβουλος ἐγένετο
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ τίς αὐτοῦ σύμβουλος ἐγένετο
+										</rdg>
+									</app>
+									;
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ ἐφύτευσα,
+										Ἀπολλὼς ἐπότισεν,
+										ἀλλὰ ὁ θεὸς ηὔξανεν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὡς σοφὸς ἀρχιτέκτων θεμέλιον ἔθηκα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									θεμέλιον ἄλλον οὐδεὶς
+									<supplied reason="omitted-in-original" source="#Harnack">
+										δύναται θεῖναι παρὰ τὸν κείμενον,
+									</supplied>
+									ὅς ἐστιν Χριστός.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<pb n="83*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									Οὐκ οἴδατε,
+									ὅτι ναὸς θεοῦ ἐστε καὶ ἐν ὑμῖν οἰκεῖ τὸ πνεῦμα τοῦ θεοῦ;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									ὅτι εἰ τὸν ναὸν τοῦ θεοῦ τις φθερεῖ,
+									φθαρήσεται·
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία ἐστιν παρὰ τῷ θεῷ.
+								</s>
+								<s>
+									γέγραπται γάρ·
+									Ὁ δρασσόμενος τοὺς σοφοὺς ἐν τῇ πανουργίᾳ αὐτῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									καὶ πάλιν·
+								</s>
+								<s>
+									Κύριος γινώσκει τοὺς διαλογισμοὺς τῶν
+									ἀνθρώπων
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἀνθρώπων
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἀνθρώπων
+										</rdg>
+									</app>
+									,
+									ὅτι εἰσὶν μάταιοι.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ὥστε μηδεὶς καυχάσθω ἐν ἀνθρώπῳ·
+									πάντα γὰρ ὑμῶν ἐστιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									εἴτε Παῦλος,
+									εἴτε Ἀπολλῶς,
+									εἴτε Κηφᾶς,
+									εἴτε κόσμος,
+									εἴτε ζωὴ εἴτε θάνατος,
+									εἴτε ἐνεστῶτα εἴτε μέλλοντα,
+									πάντα ὑμῶν·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ὑμεῖς δὲ Χριστοῦ,
+									Χριστὸς δὲ θεοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									καὶ τὰ κρυπτὰ τοῦ σκότους φωτίσει
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ φανερώσει τὰς βουλὰς τῶν καρδιῶν·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τότε
+									</supplied>
+									<pb n="84*" />
+									ὁ ἔπαινος γενήσεται ἑκάστῳ ἀπὸ τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9b">
+							<p>
+								<s>
+									θέατρον ἐγενήθημεν τῷ κόσμῳ καὶ ἀγγέλοις καὶ ἀνθρώποις.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									ἐν εὐαγγελίῳ ἐγὼ ὑμᾶς ἐγέννησα.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἐγὼ μὲν γάρ ὡς ἀπὼν τῷ σώματι,
+									παρὼν δὲ τῷ πνεύματι,
+									ἤδη κέκρικα ὡς παρὼν τὸν οὕτω τοῦτο κατεργασάμενον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἐν τῷ ὀνόματι τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+									συναχθέντων ὑμῶν καὶ τοῦ ἐμοῦ πνεύματος σὺν τῇ δυνάμει τοῦ κυρίου ἡμῶν Ἰησοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									παραδοῦναι τὸν τοιοῦτον τῷ Σατανᾷ εἰς ὄλεθρον τῆς σαρκός,
+									ἵνα τὸ πνεῦμα σωθῇ ἐν τῇ ἡμέρᾳ τοῦ κυρίου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									Ἐκκαθάρατε τὴν παλαιὰν ζύμην,
+									ἵνα ἦτε νέον φύραμα,
+									καθώς ἐστε ἄζυμοι·
+									καὶ γὰρ τὸ πάσχα ἡμῶν ἐτύθη Χριστός.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								μηδὲ συνεσθίειν.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἐξάρατε τὸν πονηρὸν ἐξ ὑμῶν.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἀγγέλους κρινοῦμεν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἀλλὰ ταῦτα τινὲς ἦτε,
+									ἀλλ᾽ ἀπελούσασθε,
+									ἀλλ᾽ ἡγιάσθητε.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									σῶμα οὐ τῇ πορνείᾳ,
+									ἀλλὰ τῷ
+									<pb n="85*" />
+									κυρίῳ,
+									καὶ ὁ κύριος τῷ σώματι,
+									ὡς ὁ ναὸς τῷ θεῷ καὶ ὁ θεὸς τῷ ναῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὃς τὸν κύριον ἤγειρε,
+								καὶ ὑμᾶς ἐξεγερεῖ.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									οὐκ οἴδατε ὅτι τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν;
+									ἄρας οὖν τὰ μέλη τοῦ Χριστοῦ ποιήσω πόρνης μέλη;
+									μὴ γένοιτο.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									οὐκ οἴδατε γὰρ ὅτι κολλώμενος τῇ πόρνῃ ἓν σῶμά ἐστιν;
+									ἔσονται γάρ,
+									φησίν,
+									οἱ δύο εἰς σάρκα μίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								ἠγοράσθητε γὰρ τιμῆς·
+								δοξάσατε
+								ἄραγε
+								<app type="variants">
+									<lem resp="#Harnack">
+										ἄραγε
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										ἄραγε
+									</rdg>
+								</app>
+								τὸν θεὸν ἐν τῷ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								σώματι ὑμῶν.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									ὅτι ὁ καιρὸς συνεσταλμένος ἐστίν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="39">
+							<p>
+								<s>
+									μόνον ἐν κυρίῳ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="86*" />
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="8">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									περὶ δὲ τῶν εἰδωλοθύτων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									οἴδαμεν ὅτι εἴδωλον οὐδέν ἐστιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								καὶ γὰρ εἴπερ εἰσὶν
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								λεγόμενοι θεοὶ εἴτε ἐν οὐρανοῖς,
+								εἴτε ἐπὶ γῆς,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ἀλλ᾽ ἡμῖν εἷς θεὸς ὁ πατήρ,
+									ἐξ οὗ τὰ πάντα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									οὐ μὴ φάγω κρέα εἰς τὸν αἰῶνα,
+									ἵνα μὴ τὸν ἀδελφόν μου σκανδαλίσω
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἵνα μὴ τὸν ἀδελφόν μου σκανδαλίσω
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἵνα μὴ τὸν ἀδελφόν μου σκανδαλίσω
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="9">
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								τίς στρατεύεται
+								<supplied reason="omitted-in-original" source="#Harnack">
+									ἰδίοις ὀψωνίοις ποτέ;
+								</supplied>
+								τίς φυτεύει ἄμπελον;
+								τίς ποιμαίνει ποίμνην καὶ ἐκ τοῦ γάλακτος αὐτῆς οὐκ ἐσθίει;
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									μὴ κατ᾽ ἄνθρωπον ταῦτα λαλῶ,
+									ἢ οὐχὶ καὶ ὁ νόμος Μωσέως ταῦτα λέγει;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								ἐν γὰρ τῷ νόμῳ γέγραπται·
+								Οὐ φιμώσεις βοῦν ἀλοῶντα.
+								μὴ τῶν βοῶν μέλει τῷ θεῷ;
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἢ δι᾽ ἡμᾶς πάντως
+									<pb n="87*" />
+									λέγει;
+									δι᾽ ἡμᾶς γὰρ ἐγράφη ὅτι ὀφείλει ἐπ᾽ ἐλπίδι ὁ ἀροτριῶν ἀροτριᾶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ἐκ τοῦ εὐαγγελίου ζῆν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15a">
+							<p>
+								ἐγὼ
+								<supplied reason="omitted-in-original" source="#Harnack">
+									δὲ οὐ
+								</supplied>
+								ἐχρησάμην.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15b">
+							<p>
+								<s>
+									τὸ καύχημά μου οὐδεὶς κενώσει
+									<app type="variants">
+										<lem resp="#Harnack">
+											τὸ καύχημά μου οὐδεὶς κενώσει
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τὸ καύχημά μου οὐδεὶς κενώσει
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="10">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									Οὐ θέλω γὰρ ὑμᾶς ἀγνοεῖν,
+									ἀδελφοί,
+									ὅτι οἱ πατέρες ἡμῶν πάντες ὑπὸ τὴν νεφέλην ἦσαν,
+									καὶ πάντες διὰ τῆς θαλάσσης διῆλθον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									καὶ πάντες εἰς τὸν Μωσῆν ἐβαπτίσθησαν ἐν τῇ νεφέλῃ καὶ ἐν τῇ θαλάσσῃ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									καὶ πάντες τὸ αὐτὸ βρῶμα πνευματικὸν ἔφαγον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									καὶ πάντες τὸ αὐτὸ πόμα πνευματικὸν ἔπιον·
+									ἔπινον γὰρ ἐκ πνευματικῆς ἀκολουθούσης πέτρας·
+									ἡ δὲ πέτρα ἦν ὁ Χριστός.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								ἀλλ᾽ οὐκ ἐν τοῖς πλείοσιν αὐτῶν εὐδόκησεν
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ὁ θεός·
+									κατεστρώθησαν γὰρ ἐν τῇ ἐρήμῳ.
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ταῦτα δὲ τύποι ἡμῖν ἐγενήθησαν,
+									πρὸς τὸ μὴ εἶναι ἡμᾶς ἐπιθυμητὰς κακῶν,
+									καθὼς ἐκεῖνοι ἐπεθύμησαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									μηδὲ εἰδωλολάτραι γίνεσθε,
+									καθώς τινες αὐτῶν,
+									ὥς γέγραπται·
+									ἐκάθισεν ὁ λαὸς φαγεῖν καὶ πιεῖν καὶ ἀνέστησαν παίζειν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								μηδὲ ἐκπειράζωμεν τὸν Χριστόν
+								<supplied reason="omitted-in-original" source="#Harnack">
+									καθώς τινες αὐτῶν ἐξεπείρασαν καὶ ὑπὸ τῶν ὄφεων ἀπώλλυντο
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ταῦτ᾽
+									ἀτύπως
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἀτύπως
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἀτύπως
+										</rdg>
+									</app>
+									<pb n="88*" />
+									συνέβαινεν ἐκείνοις,
+									ἐγράφη δὲ πρὸς νουθεσίαν ἡμῶν,
+									εἰς οὓς τὰ τέλη τῶν αἰώνων κατήντησεν.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								τὸ ποτήριον τῆς εὐλογίας
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τὸν ἄρτον ὃν κλῶμεν
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τοῦ αἵματος καὶ τοῦ σώματος τοῦ κυρίου εἶναι κοινωνίαν.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									τί οὖν φημί;
+									ὅτι ἱερόθυτόν τί ἐστιν ἢ εἰδωλόθυτον τί ἐστιν;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ἀλλ᾽ ὅτι ἃ θύουσιν,
+									δαιμονίοις καὶ οὐ θεῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἀνδρὸς ἡ κεφαλὴ ὁ Χριστός ἐστιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								γυνὴ προφητεύουσα
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οὐκ ἀκατακαλύπτῳ κεφαλῇ.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									ἀνὴρ μὲν γὰρ οὐκ ὀφείλει κατακαλύπτεσθαι τὴν κεφαλήν εἰκὼν καὶ δόξα θεοῦ ὑπάρχων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									γυνὴ ἐξ ἀνδρός,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									γυνὴ διὰ
+									<pb n="89*" />
+									τὸν ἄνδρα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὀφείλει ἡ γυνὴ ἐξουσίαν ἔχειν ἐπὶ τῆς κεφαλῆς διὰ τοὺς ἀγγέλους.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								αἱρέσεις
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								δόκιμοι.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									κρίμα
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="30">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									περὶ τῶν πνευματικῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								ᾧ
+								<supplied reason="omitted-in-original" source="#Harnack">
+									μὲν γὰρ
+								</supplied>
+								δίδοται διὰ τοῦ πνεύματος λόγος σοφίας,
+								ἄλλῳ λόγος γνώσεως
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									ἑτέρῳ πίστις ἐν τῷ αὐτῷ πνεύματι,
+									ἄλλῳ χαρίσμα ἰαμάτων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἄλλῳ δυνάμεων,
+									ἄλλῳ προφητεία,
+									ἄλλῳ διάκρισις πνευμάτων,
+									ἑτέρῳ γένη γλωσσῶν,
+									ἄλλῳ ἑρμηνεία γλωσσῶν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								τὸ σῶμα
+								<app type="variants">
+									<lem resp="#Harnack">
+										τὸ σῶμα
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										τὸ σῶμα
+									</rdg>
+								</app>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τὰ μέλη
+								<app type="variants">
+									<lem resp="#Harnack">
+										τὰ μέλη
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										τὰ μέλη
+									</rdg>
+								</app>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									ἀλλὰ ὁ θεὸς συνεκέρασεν τὸ σῶμα,
+									τῷ ὑστερουμένῳ περισσοτέραν δοὺς τιμήν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									ἔθετο ὁ κύριος ἐν ἐκκλησίᾳ
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									ἀποστόλους
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									προφήτας.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									χαρίσματα
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									καθ᾽ ὑπερβολὴν
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="13">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ἀγάπη.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="14">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								πνεύματι
+								<pb n="90*" />
+								λαλεῖ μυστήρια.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									ἀλλὰ ἐν ἐκκλησίᾳ θέλω πέντε λόγους τῷ νοΐ μου λαλῆσαι διὰ τὸν νόμον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἐν τῷ νόμῳ γέγραπται ὅτι ἐν ἑτερογλώσσοις καὶ ἐν χείλεσιν ἑτέροις λαλήσω πρὸς τὸν λαὸν τούτον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									τὰ κρυπτὰ τῆς καρδίας αὐτοῦ φανερὰ γίνεται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									ψαλμός,
+									ἀποκάλυψις,
+									γλῶσσα,
+									ἑρμηνεία.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									καὶ πνεύματα προφητῶν προφήταις ὑποτάσσεται·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									οὐ γάρ ἀκαταστασίας ἐστιν ἀλλὰ εἰρήνης.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									αἱ γυναῖκες
+									<pb n="91*" />
+									ἐν ἐκκλησίᾳ σιγάτωσαν·
+									οὐ γὰρ ἐπιτέτραπται αὐταῖς λαλεῖν·
+									ἀλλὰ ὑποτάσσεσθαι,
+									καθὼς καὶ ὁ νόμος λέγει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									μαθεῖν θέλουσιν
+									<app type="variants">
+										<lem resp="#Harnack">
+											μαθεῖν θέλουσιν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											μαθεῖν θέλουσιν
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="15">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									Γνωρίζω δὲ ὑμῖν,
+									ἀδελφοί,
+									τὸ εὐαγγέλιον,
+									ὃ εὐηγγελισάμην ὑμῖν,
+									ὃ καὶ παρελάβετε,
+									ἐν ᾧ καὶ ἑστήκατε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									δι᾽ οὗ καὶ σῴζεσθε,
+									τίνι λόγῳ εὐηγγελισάμην ὑμῖν,
+									εἰ κατέχετε,
+									ἐκτὸς εἰ μὴ εἰκῇ ἐπιστεύσατε·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									παρέδωκα γὰρ ὑμῖν ἐν πρώτοις,
+									ὅτι Χριστὸς ἀπέθανεν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									καὶ ὅτι ἐτάφη καὶ ὅτι ἐγήγερται τῇ τρίτῃ ἡμέρᾳ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὅτι ὤφθη Κηφᾷ,
+										ἔπειτα τοῖς δώδεκα·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔπειτα ὤφθη ἐπάνω πεντακοσίοις ἀδελφοῖς ἐφάπαξ,
+										ἐξ ὧν οἱ πλείονες μένουσιν ἕως ἄρτι,
+										τινὲς δὲ ἐκοιμήθησαν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔπειτα ὤφθη Ἰακώβῳ,
+										ἔπειτα τοῖς ἀποστόλοις πᾶσιν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἔσχατον δὲ πάντων ὡσπερεὶ τῷ ἐκτρώματι ὤφθη κἀμοί.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οὕτως κηρύσσομεν καὶ οὕτως ἐπιστεύσατε
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									πῶς λέγουσίν τινες ὅτι ἀνάστασις νεκρῶν οὐκ ἔστιν;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									εἰ δὲ Χριστὸς οὐκ ἐγήγερται ἐκ νεκρῶν,
+									κενὸν καὶ τὸ κήρυγμα ἡμῶν,
+									κενὴ καὶ ἡ πίστις ὑμῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s xml:id="ΚορΑ15.17">
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									εἰ Χριστὸς οὐκ ἐγήγερται,
+									μάταιον
+									<pb n="92*" />
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ πίστις ὑμῶν,
+										ἔτι ἐστὲ ἐν ταῖς ἁμαρτίαις ὑμῶν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s xml:id="ΚορΑ15.18" corresp="#ΚορΑ15.17">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄρα καὶ οἱ κοιμηθέντες ἐν Χριστῷ ἀπώλοντο.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ ἐν τῇ ζωῇ ταύτῃ ἐν Χριστῷ ἠλπικότες ἐσμὲν μόνον,
+										ἐλεεινότεροι πάντων ἀνθρώπων ἐσμέν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									Ἐἰ δὲ Χριστὸς κηρύσσεται ἐκ νεκρῶν ἀναστάναι,
+									ἀπαρχὴ τῶν κεκοιμημένων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἐπειδὴ γὰρ δι᾽ ἀνθρώπου θάνατος,
+									καὶ δι᾽ ἀνθρώπου ἀνάστασις νεκρῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									ὥσπερ γὰρ διὰ τοῦ Ἀδὰμ πάντες ἀποθνῄσκουσιν,
+									οὕτω καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ἀπαρχὴ Χριστός,
+									ἔπειτα οἱ τοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὅταν καταργήσῃ πᾶσαν ἀρχὴν καὶ ἐξουσίαν·
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									δεῖ γὰρ αὐτὸν βασιλεύειν
+									ἄχρι οὗ θῇ τοὺς ἐχθροὺς αὐτοῦ ὑπὸ τοὺς πόδας αὐτοῦ
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἄχρι οὗ θῇ τοὺς ἐχθροὺς αὐτοῦ ὑπὸ τοὺς πόδας αὐτοῦ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἄχρι οὗ θῇ τοὺς ἐχθροὺς αὐτοῦ ὑπὸ τοὺς πόδας αὐτοῦ
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								Τί ποιήσουσιν οἱ βαπτιζόμενοι ὑπὲρ τῶν νεκρῶν;
+								εἰ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								νεκροὶ οὐκ ἐγείρονται;
+								τί καὶ βαπτίζονται ὑπὲρ αὐτῶν,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="30">
+							<p>
+								<s>
+									τί καὶ ἡμεῖς
+									<pb n="92*" />
+									κινδυνεύομεν πᾶσαν ὥραν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									καθ᾽ ἡμέραν ἀποθνῄσκοντες;
+									νὴ τὴν ὑμετέραν καύχησιν,
+									ἀδελφοί,
+									ἣν ἔχω ἐν Χριστῷ Ἰησοῦ,
+									τῷ κυρίῳ ἡμῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									εἰ κατ᾽ ἄνθρωπον ἐθηριομάχησα ἐν Ἐφέσῳ,
+									τί μοι τὸ ὄφελος;
+									εἰ νεκροὶ οὐκ ἐγείρονται,
+									φάγωμεν καὶ πίωμεν,
+									αὔριον γὰρ ἀποθνῄσκομεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									μὴ πλανᾶσθε·
+									φθείρουσιν ἤθη χρηστὰ ὁμιλίαι κακαί.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									ἐκνήψατε δικαίως,
+									καὶ μὴ ἁμαρτάνετε.
+									ἀγνωσίαν γὰρ θεοῦ τινες ἔχουσι·
+									πρὸς ἐντροπὴν ὑμῖν λαλῶ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									ἀλλ᾽ ἐρεῖ τις·
+									πῶς ἐγείρονται οἱ νεκροί;
+									ποίῳ δὲ σώματι ἔρχονται;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="36">
+							<p>
+								<s>
+									ἄφρον,
+									σὺ ὃ σπείρεις οὐ ζῳοποιεῖται,
+									ἐὰν μὴ πρῶτον ἀποθάνῃ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="37">
+							<p>
+								<s>
+									καὶ ὃ σπείρεις οὐ τὸ σῶμα τὸ γενησόμενον σπείρεις,
+									ἀλλὰ γυμνὸν κόκκον,
+									εἰ τύχοι,
+									σίτου ἤ τινος τῶν λοιπῶν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="38">
+							<p>
+								<s>
+									ὁ δὲ θεὸς δίδωσιν αὐτῷ σῶμα καθὼς ἠθέλησεν·
+									ἑκάστον δὲ τῶν σπερμάτων τὸ ἴδιον σῶμα ἀπολαμβάνει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="39">
+							<p>
+								<s>
+									οὐ πᾶσα σὰρξ ἡ αὐτὴ σάρξ·
+									ἄλλη μὲν σάρξ ἀνθρώπου,
+									ἄλλη δὲ σὰρξ κτηνῶν,
+									ἑτέρα δὲ ἰχθύων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="40">
+							<p>
+								<s>
+									καὶ σώματα ἐπουράνια καὶ σώματα ἐπίγεια·
+									ἀλλ᾽ ἑτέρα μὲν ἡ τῶν ἐπουρανίων δόξα,
+									ἑτέρα δὲ ἡ τῶν ἐπιγείων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="41">
+							<p>
+								<s>
+									ἄλλη δόξα ἡλίου,
+									καὶ ἄλλη δόξα σελήνης,
+									ἄλλη δόξα ἀστέρων·
+									ἀστὴρ γὰρ ἀστέρος διαφέρει ἐν δόξῃ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="42">
+							<p>
+								<s>
+									οὕτω καὶ ἡ ἀνάστασις
+									τῶν νεκρῶν
+									<app type="variants">
+										<lem resp="#Harnack">
+											τῶν νεκρῶν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τῶν νεκρῶν
+										</rdg>
+									</app>
+									.
+									σπείρεται
+									<pb n="94*" />
+									ἐν φθορᾷ,
+									ἐγείρεται ἐν ἀφθαρσίᾳ·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="43">
+							<p>
+								<s>
+									σπείρεται ἐν ἀτιμίᾳ,
+									ἐγείρεται ἐν δόξῃ·
+									σπείρεται ἐν ἀσθενείᾳ,
+									ἐγείρεται ἐν δυνάμει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="44">
+							<p>
+								σπείρεται
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ψυχικόν,
+								ἐγείρεται
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								πνευματικόν.
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="45">
+							<p>
+								<s>
+									Ἐγένετο ὁ πρῶτος ἄνθρωπος,
+									Ἀδὰμ,
+									εἰς ψυχὴν ζῶσαν,
+									ὁ ἔσχατος,
+									κύριος,
+									εἰς πνεῦμα ζῳοποιοῦν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="46">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οὐ πρῶτον τὸ πνευματικόν.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="47">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ πρῶτος ἄνθρωπος ἐκ γῆς χοϊκός,
+								ὁ δεύτερος,
+								κύριος,
+								ἐξ οὐρανοῦ.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="48">
+							<p>
+								<s>
+									οἷος ὁ χοϊκός,
+									τοιοῦτοι καὶ οἱ χοϊκοί,
+									καὶ οἷος ὁ ἐπουράνιος,
+									τοιοῦτοι καὶ οἱ ἐπουράνιοι·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="49">
+							<p>
+								<s>
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									καθὼς ἐφορέσαμεν τὴν εἰκόνα τοῦ χοϊκοῦ,
+									φορέσωμεν καὶ τὴν εἰκόνα τοῦ ἐπουρανίου.
+								</s>
+							</p>
+						</div>
+						<pb n="95*" />
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="50">
+							<p>
+								<s>
+									τοῦτο γὰρ φημι,
+									ἀδελφοί,
+									ὅτι σὰρξ καὶ αἷμα βασιλείαν θεοῦ οὐ κληρονομήσουσι,
+									οὔτε ἡ φθορὰ τὴν ἀφθαρσίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="51">
+							<p>
+								<s>
+									ἰδοὺ μυστήριον ὑμῖν λέγω·
+									πάντες μὲν ἀναστησόμεθα,
+									οὐ πάντες δὲ ἀλλαγησόμεθα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="52">
+							<p>
+								<s>
+									ἐν ἀτόμῳ,
+									ἐν ῥιπῇ ὀφθαλμοῦ,
+									ἐν τῇ ἐσχάτῃ σάλπιγγι·
+									σαλπίσει γάρ,
+									καὶ οἱ νεκροὶ ἐγερθήσονται ἄφθαρτοι,
+									καὶ ἡμεῖς ἀλλαγησόμεθα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="53">
+							<p>
+								<s>
+									δεῖ γὰρ τὸ φθαρτὸν τοῦτο ἐνδύσασθαι ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσασθαι
+									<pb n="96*" />
+									ἀθανασίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="54">
+							<p>
+								<s>
+									ὅταν δὲ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν,
+									τότε γενήσεται ὁ λόγος ὁ γεγραμμένος·
+									κατεπόθη ὁ θάνατος εἰς νῖκος.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="55">
+							<p>
+								<s>
+									ποῦ σου,
+									θάνατε,
+									τὸ νῖκος;
+									ποῦ σου,
+									θάνατε,
+									τὸ κέντρον;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="57">
+							<p>
+								<s>
+									τῷ θεῷ χάρις τῷ διδόντι ἡμῖν τὸ νῖκος.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="58">
+							<p>
+								<s>
+									ἑδραῖοι γίνεσθε.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="2Cor">
+					<head>
+						Πρὸς Κορινθίους B.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								Εὐλογητὸς ὁ θεὸς τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								πατὴρ τῶν οἰκτιρμῶν,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ὅσαι γὰρ ἐπαγγελίαι θεοῦ,
+									ἐν αὐτῷ τὸ ναί·
+									διὸ καὶ δι᾽ αὐτοῦ τὸ ἀμὴν τῷ θεῷ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									τῷ δὲ θεῷ χάρις,
+									τῷ πάντοτε θριαμβεύοντι ἡμᾶς ἐν τῷ Χριστῷ καὶ τὴν ὀσμὴν τῆς γνώσεως αὐτοῦ φανεροῦντι δι᾽ ἡμῶν ἐν παντὶ τόπῳ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									ὅτι Χριστοῦ εὐωδία ἐσμὲν ἐν τοῖς σῳζομένοις καὶ ἐν τοῖς ἀπολλυμένοις,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									τοῖς μὲν ὀσμὴ ἐκ θανάτου εἰς θάνατον,
+									τοῖς δὲ ὀσμὴ ζωῆς εἰς ζωήν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								οὐ γάρ ἐσμεν
+								<app type="variants">
+									<lem resp="#Harnack">
+										οὐ γάρ ἐσμεν
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										οὐ γάρ ἐσμεν
+									</rdg>
+								</app>
+								ὡς οἱ λοιποὶ
+								καπηλεύοντες τὸν λόγον τοῦ θεοῦ
+								<app type="variants">
+									<lem resp="#Harnack">
+										καπηλεύοντες τὸν λόγον τοῦ θεοῦ
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										καπηλεύοντες τὸν λόγον τοῦ θεοῦ
+									</rdg>
+								</app>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὡς ἐκ θεοῦ κατέναντι θεοῦ ἐν Χριστῷ λαλοῦμεν.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									φανερούμενοι ὅτι ἐστὶ ἐπιστολὴ Χριστοῦ διακονηθεῖσα ὑφ᾽ ἡμῶν,
+									ἐνγεγραμμένη οὐ μέλανι,
+									ἀλλὰ πνεύματι θεοῦ ζῶντος,
+									<pb n="97*" />
+									οὐκ ἐν πλαξὶ λιθίναις,
+									ἀλλ᾽ ἐν πλαξὶ καρδίαις σαρκίναις.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									καινῆς διαθήκης οὐ γράμματος ἀλλὰ πνεύματος·
+									τὸ γὰρ γράμμα ἀποκτέννει,
+									τὸ δὲ πνεῦμα ζῳοποιεῖ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ἡ διακονία τοῦ θανάτου ἐν γράμμασιν ἐντετυπωμένη λίθοις ἐγενήθη ἐν δόξῃ,
+										ὥστε μὴ δύνασθαι ἀτενίσαι τοὺς υἱοὺς Ἰσραὴλ εἰς τὸ πρόσωπον Μωϋσέως διὰ τὴν δόξαν τοῦ προσώπου αὐτοῦ τὴν καταργουμένην,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										πῶς οὐχὶ μᾶλλον ἡ διακονία τοῦ πνεύματος ἔσται ἐν δόξῃ;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ γὰρ τῇ διακονίᾳ τῆς κατακρίσεως δόξα,
+										πολλῷ μᾶλλον περισσεύει ἡ διακονία τῆς δικαιοσύνης δόξῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ γὰρ οὐ δεδόξασται τὸ δεδοξασμένον ἐν τούτῳ τῷ μέρει εἵνεκεν τῆς ὑπερβαλλούσης δόξης.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									εἰ γὰρ τὸ καταργούμενον διὰ δόξης,
+									πολὺ μᾶλλον τὸ μένον ἐν δόξῃ καὶ μὴ καταργουμένον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s xml:id="ΚορB3.12">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἔχοντες οὖν τοιαύτην ἐλπίδα πολλῇ παρρησίᾳ χρώμεθα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s xml:id="ΚορB3.13" corresp="#ΚορB3.12">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ οὐ καθάπερ
+									</supplied>
+									Μωσῆς ἐτίθει κάλυμμα ἐπὶ τὸ πρόσωπον ἑαυτοῦ πρὸς τὸ μὴ ἀτενίσαι τοὺς υἱοὺς Ἰσραὴλ
+									<supplied reason="omitted-in-original" source="#Harnack">
+										εἰς τὸ τέλος
+									</supplied>
+									τοῦ καταργουμένου.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									Ἀλλ᾽ ἐπωρώθη τὰ νοήματα τοῦ κόσμου·
+								</s>
+								<s xml:id="ΚορB3.14">
+									ἄχρι γὰρ τῆς σήμερον ἡμέρας τὸ αὐτὸ κάλυμμα ἐπὶ
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s xml:id="ΚορB3.15" corresp="#ΚορB3.14">
+									κάλυμμα ἐπὶ τὴν καρδίαν αὐτῶν κεῖται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									ἡνίκα δ᾽ ἂν ἐπιστρέψῃ πρὸς τὸν θεόν,
+									περιαιρεῖται τὸ κάλυμμα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ἡμεῖς ἤδη ἀνακεκαλυμμένῳ προσώπῳ τὸν Χριστὸν
+									<pb n="98*" />
+									κατοπτριζόμενοι τὴν αὐτὴν εἰκόνα μεταμορφούμεθα ἀπὸ δόξης τοῦ κυρίου εἰς δόξαν,
+									καθάπερ ἀπὸ κυρίου πνευμάτων.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἐν οἷς ὁ θεὸς τοῦ αἰῶνος τούτου ἐτύφλωσεν τὰ νοήματα τῶν ἀπίστων πρὸς τὸ μὴ διαυγάσαι αὐτοῖς τὸν φωτισμὸν
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									ὅς ἐστιν εἰκὼν τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									οὐ γὰρ ἑαυτοὺς κηρύσσομεν,
+									ἀλλὰ Χριστὸν Ἰησοῦν κύριον,
+									ἑαυτοὺς δὲ δούλους ὑμῶν διὰ Ἰησοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ὅτι ὁ θεὸς ὁ εἰπών ἐκ σκότους φῶς λάμψαι κατέλαμψεν ἐν ταῖς καρδίαις ἡμῶν πρὸς φωτισμὸν τῆς γνώσεως τῆς δόξης αὐτοῦ ἐν προσώπῳ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									ἔχομεν οὖν τὸν θησαυρὸν τοῦτον ἐν ὀστρακίνοις σκεύεσιν,
+									ἵνα ἡ ὑπερβολὴ ᾖ τῆς δυνάμεως τοῦ θεοῦ καὶ οὐκ ἡμῶν.
+								</s>
+							</p>
+						</div>
+						<pb n="99*" />
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s xml:id="ΚορB4.8">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν παντὶ θλιβόμενοι ἀλλ᾽ οὐ στενοχωρούμενοι,
+										ἀπορούμενοι ἀλλ᾽ οὐκ ἐξαπορούμενοι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s xml:id="ΚορB4.9" corresp="#ΚορB4.8">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διωκόμενοι ἀλλ᾽ οὐκ ἐγκαταλειπόμενοι,
+										καταβαλλόμενοι ἀλλ᾽ οὐκ ἀπολλύμενοι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s xml:id="ΚορB4.10" corresp="#ΚορB4.8">
+									τὴν νέκρωσιν τοῦ θεοῦ περιφέροντες
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									,
+									ἵνα καὶ ἡ ζωὴ τοῦ Χριστοῦ φανερωθῇ ἐν τῷ σώματι ἡμῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἡμεῖς γὰρ οἱ ζῶντες εἰς θάνατον παραδιδόμεθα,
+									ἵνα καὶ ἡ ζωὴ τοῦ Χριστοῦ φανερωθῇ ἐν τῇ θνητῇ ἡμῶν σαρκί.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ἔχοντες δὲ τὸ αὐτὸ πνεῦμα τῆς πίστεως καὶ ἡμεῖς πιστεύομεν,
+									διὸ καὶ λαλοῦμεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								καὶ οὐκ ἐγκακώσομεν,
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ ἔξω ἡμῶν ἄνθρωπος διαφθείρεται,
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ ἔσω ἡμῶν ἀνακαινοῦται ἡμέρᾳ καὶ ἡμέρᾳ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									τὰ βλεπόμενα
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									τὰ μὴ βλεπόμενα·
+								</s>
+								<s>
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									πρόσκαιρα,
+									<gap reason="missing" extent="unknown" source="#Harnack" />
+									αἰώνια.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									ἐὰν ἡ ἐπίγειος ἡμῶν οἰκία καταλυθῇ,
+									<supplied reason="omitted-in-original" source="#Harnack">
+										οἰκοδομὴν ἐκ θεοῦ ἔχομεν
+									</supplied>
+									,
+									οἰκίαν αἰώνιον ἀχειροποίητον ἐν τῷ οὐρανῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ γὰρ ἐν τούτῳ
+									</supplied>
+									στενάζομεν,
+									τὸ οἰκητήριον τὸ ἐξ οὐρανοῦ ἐπενδύσασθαι ἐπιποθοῦντες,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									εἴπερ καὶ ἐκδυσάμενοι οὐχ εὑρεθησόμεθα γυμνοί,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									καὶ γὰρ οἱ ὄντες ἐν τοῦτῳ τῷ σκήνει τοῦ
+									<pb n="100*" />
+									σώματος στενάζομεν βαρούμενοι,
+									οὐ θέλοντες ἐκδύσασθαι ἀλλ᾽ ἐπενδύσασθαι,
+									ἵνα καταποθῇ τὸ θνητὸν τοῦτο ὑπὸ τῆς ζωῆς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									θεός,
+									ὁ δοὺς
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὁ δοὺς
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὁ δοὺς
+										</rdg>
+									</app>
+									ἡμῖν τὸν ἀραβῶνα τοῦ πνεύματος
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										θαρροῦντες οὖν πάντοτε καὶ εἰδότες ὅτι
+									</supplied>
+									ἐνδημοῦντες ἐν τῷ σώματι ἐκδημοῦμεν ἀπὸ τοῦ κυρίου·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										θαρροῦμεν δὲ καὶ
+									</supplied>
+									εὐδοκοῦμεν ἐκδημῆσαι ἐκ τοῦ σώματος καὶ ἐνδημῆσαι πρὸς τὸν κύριον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									τοὺς γὰρ πάντας ἡμᾶς φανερωθῆναι δεῖ ἔμπροσθεν τοῦ βήματος τοῦ Χριστοῦ,
+									ἵνα κομίσηται ἕκαστος ἃ διὰ τοῦ σώματος ἔπραξεν,
+									εἴτε ἀγαθὸν εἴτε φαῦλον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									ὥστε εἴ τις κτίσις καινὴ ἐν Χριστῷ,
+									τὰ ἀρχαῖα παρῆλθεν·
+									ἰδοὺ καινά γέγονε τὰ πάντα.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									καθαρίσωμεν ἑαυτοὺς ἀπὸ μολυσμοῦ σαρκὸς καὶ ἅιματος.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="10">
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									οὐχ ὁ ἑαυτὸν συνιστῶν δόκιμος ἐστιν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									παρθένον ἁγνὴν
+									<pb n="101*" />
+									παραστῆσαι τῷ Χριστῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ψευδαπόστολοι,
+									ἐργάται δόλιοι,
+									μετασχηματιζόμενοι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ὁ Σατανᾶς μετασχηματίζεται εἰς ἄγγελον φωτός.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								παράδεισον
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἄνθρωπον ἁρπαγέντα ἕως τρίτου οὐρανοῦ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								καὶ ἤκουσεν ἄρρητα
+								<pb n="102*" />
+								ῥήματα,
+								ἃ οὐκ ἐξὸν ἀνθρώπῳ λαλῆσαι
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἄγγελος Σατανᾶ,
+								ἵνα με κολαφίζῃ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τρὶς τὸν κύριον παρεκάλεσα
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								·
+								δύναμις ἐν ἀσθενείᾳ τελεῖται.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="13">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς.
+									ἐπὶ στόματος δύο ἢ τριῶν μαρτύρων σταθήσεται πᾶν ῥῆμα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									οὐ φείσομαι τοῖς ἡμαρτηκόσιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἢ δοκιμὴν ζητεῖτε τοῦ ἐν ἐμοὶ λαλοῦντος Χριστοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									καὶ γὰρ εἰ καὶ ἐσταυρώθη ἐξ ἀσθενείας,
+									ἀλλὰ ζῇ ἐκ δυνάμεως θεου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									παρὼν μὴ ἀποτόμως χρήσωμαι κατὰ τὴν ἐξουσίαν ἣν ὁ κύριος ἔδωκεν.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Rom">
+					<head>
+						Πρὸς Ῥωμαίους.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									οὐ γὰρ ἐπαισχύνομαι τὸ εὐαγγέλιον·
+									δύναμις γὰρ θεοῦ ἐστιν εἰς σωτηρίαν παντὶ τῷ πιστεύοντι,
+									Ἰουδαίῳ καὶ Ἕλληνι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17a">
+							<p>
+								<s>
+									δικαιοσύνη
+									<pb n="103*" />
+									γὰρ θεοῦ ἐν αὐτῷ ἀποκαλύπτεται ἐκ πίστεως εἰς πίστιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ἀποκαλύπτεται γὰρ ὀργὴ ἀπ᾽ οὐρανοῦ ἐπὶ τὴν ἀσέβειαν καὶ ἀδικίαν ἀνθρώπων τῶν τὴν ἀλήθειαν ἐν ἀδικίᾳ κατεχόντων.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									οἴδαμεν δὲ ὅτι τὸ κρίμα τοῦ θεοῦ κατὰ ἀλήθειαν ἐστιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὅσοι γὰρ ἀνόμως ἥμαρτον,
+									ἀνόμως καὶ ἀπολοῦνται,
+									καὶ ὅσοι ἐν νόμῳ ἥμαρτον,
+									διὰ νόμου κριθήσονται,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									οὐ γὰρ οἱ ἀκροαταὶ τοῦ νόμου δίκαιοι παρὰ τῷ θεῷ,
+									ἀλλ᾽ οἱ ποιηταὶ τοῦ νόμου δικαιωθήσονται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									τὰ μὴ νόμον ἔχοντα φύσει τὰ τοῦ νόμου ποιοῦσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									κρινεῖ ὁ θεὸς τὰ κρυπτὰ τῶν ἀνθρώπων κατὰ τὸ εὐαγγέλιόν μου Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20b">
+							<p>
+								<s>
+									ἔχοντα τὴν μόρφωσιν τῆς γνώσεως καὶ τῆς
+									<pb n="104*" />
+									ἀληθείας ἐν τῷ νόμῳ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ὁ κηρύσσων μὴ κλέπτειν κλέπτεις.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									δι᾽ ὑμᾶς τὸ ὄνομα τοῦ θεοῦ βλασφημεῖται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									περιτομὴ μὲν γὰρ ὠφελεῖ,
+									ἐὰν νόμον πράσσῃς·
+									ἐὰν δὲ παραβάτης νόμου ᾖς,
+									ἡ περιτομή σου ἀκροβυστία γέγονεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								ἡ ἀκροβυστία
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ ἐν τῷ φανερῷ Ἰουδαῖός
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ ἐν τῷ κρυπτῷ Ἰουδαῖος,
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								περιτομὴ καρδίας ἐν πνεύματι,
+								οὐ γράμματι.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ποιῶν χρηστότητα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									πᾶν στόμα φραγῇ καὶ ὑπόδικος γένηται πᾶς ὁ κόσμος.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									διὰ νόμου ἐπίγνωσις ἁμαρτίας.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									τότε νόμος,
+									νυνὶ δικαιοσύνη θεοῦ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									διὰ πίστεως τοῦ Χριστοῦ·
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									δικαιωθέντες οὖν ἐκ πίστεως Χριστοῦ,
+									οὐκ ἐκ νόμου,
+									εἰρήνην ἔχωμεν πρὸς τὸν θεὸν.
+								</s>
+							</p>
+						</div>
+						<pb n="105*" />
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ἔτι γὰρ Χριστὸς ὄντων ἡμῶν ἀσθενῶν ἔτι κατὰ καιρὸν ὑπὲρ ἀσεβῶν ἀπέθανεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									συνίστησιν δὲ τὴν ἑαυτοῦ ἀγάπην ὁ θεὸς εἰς ἡμᾶς ὅτι
+									
+									ἔτι
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἔτι
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἔτι
+										</rdg>
+									</app>
+									ἁμαρτωλῶν ὄντων ἡμῶν Χριστὸς ὑπὲρ ἡμῶν ἀπέθανε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									πολλῷ μᾶλλον,
+									δικαιωθέντες ἐν τῷ αἵματι αὐτοῦ,
+									σωθησόμεθα ἀπὸ τῆς ὀργῆς δι᾽ αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								νόμος δὲ παρεισῆλθεν,
+								ἵνα πλεονάσῃ τὸ παράπτωμα·
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὑπερεπερίσσευσεν ἡ χάρις,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἵνα ὥσπερ ἐβασίλευσεν ἡ ἁμαρτία εἰς τὸν θάνατον,
+									οὕτως καὶ ἡ χάρις βασιλεύσῃ ἐν δικαιοσύνῃ εἰς ζωὴν διὰ Ἰησοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									μὴ γένοιτο.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἢ ἀγνοεῖτε ὅτι ὅσοι ἐβαπτίσθητε εἰς Χριστὸν,
+									εἰς τὸν θάνατον αὐτοῦ ἐβαπτίσθητε.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									ὁ δὲ Χριστὸς ἀναστὰς οὐκέτι ἀποθνῄσκει·
+									θάνατος αὐτοῦ οὐκέτι κυριεύει·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὁ γὰρ ἀπέθανε,
+									τῇ ἁμαρτίᾳ ἀπέθανεν ἐφάπαξ,
+									ὃ δὲ ζῇ,
+									ζῇ τῷ θεῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14a">
+							<p>
+								<s>
+									ἁμαρτία ἐν ἡμῖν οὐκέτι κυριεύσει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									ὥσπερ γὰρ παρεστήσατε
+									<pb n="106*" />
+									τὰ μέλη ὑμῶν δουλεύειν τῇ ἀδικίᾳ καὶ τῇ ἀκαθαρσίᾳ εἰς ἀνομίαν,
+									οὕτω νῦν παραστήσατε τὰ μέλη τῷ θεῷ δουλεύειν ἐν τῇ δικαιοσύνῃ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ὅτε δὲ ἦτε δοῦλοι τῆς ἁμαρτίας,
+									ἐλεύθεροι ἦτε τῇ δικαιοσύνῃ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								ἐθανατώθητε τῷ νόμῳ διὰ τοῦ σώματος τοῦ Χριστοῦ
+								<supplied reason="omitted-in-original" source="#Harnack">
+									εἰς τὸ γενέσθαι ὑμᾶς ἑτέρῳ
+								</supplied>
+								τῷ ἐκ νεκρῶν ἐγερθέντι.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									ὅτε γὰρ ἦμεν ἐν τῇ σαρκί,
+									τὰ παθήματα τῶν ἁμαρτιῶν τὰ διὰ τοῦ νόμου ἐνηργεῖτο ἐν ἡμῖν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									τί οὖν ἐροῦμεν;
+									ὅτι νόμος ἁμαρτία;
+									μὴ γένοιτο·
+									ἀλλ᾽ ἐγὼ τὴν ἁμαρτίαν οὐ γιγνώσκω εἰ μὴ διὰ νόμου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ἁμαρτία ἀφορμὴν λαβοῦσα διὰ τῆς ἐντολῆς
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἐξηπάτησεν.
+								</s>
+							</p>
+						</div>
+						<pb n="107*" />
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὥστε ὁ μὲν νόμος ἅγιος καὶ ἡ ἐντολὴ ἁγία καὶ δικαία καὶ ἀγαθή.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ἡ ἁμαρτία,
+									ἵνα φανῇ ἁμαρτία,
+									διὰ τοῦ ἀγαθοῦ μοι κατεργαζομένη θάνατον.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14a">
+							<p>
+								<s>
+									ὁ νόμος πνευματικός.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ἕτερον
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἕτερον
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἕτερον
+										</rdg>
+									</app>
+									νόμον ἐν τοῖς μέλεσίν μου ἀντιστρατευόμενον τῷ νόμῳ τοῦ νοός μου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									ταλαίπωρος ἐγὼ ἄνθρωπος·
+									τίς με ῥύσεται ἐκ τοῦ σώματος τοῦ θανάτου τούτου;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25b">
+							<p>
+								<s>
+									ἄρα γὰρ αὐτὸς ἐγὼ τῷ μὲν νοῒ δουλεύω τῷ νόμῳ τοῦ θεοῦ,
+									τῇ δὲ σαρκὶ νόμῳ ἁμαρτίας.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="8">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									ὁ γὰρ νόμος τοῦ πνεύματος τῆς ζωῆς ἐν Χριστῷ Ἰησοῦ ἠλευθέρωσέν ἡμᾶς ἀπὸ τοῦ νόμου τῆς ἁμαρτίας καὶ τοῦ θανάτου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									τὸν ἑαυτοῦ υἱὸν
+									<app type="variants">
+										<lem resp="#Harnack">
+											τὸν ἑαυτοῦ υἱὸν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τὸν ἑαυτοῦ υἱὸν
+										</rdg>
+									</app>
+									πέμψας ἐν ὁμοιώματι σαρκὸς ἁμαρτίας.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἵνα τὸ δικαίωμα τοῦ νόμου πληρωθῇ ἐν ἡμῖν
+									τοῖς
+									<app type="variants">
+										<lem resp="#Harnack">
+											τοῖς
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τοῖς
+										</rdg>
+									</app>
+									μὴ κατὰ σάρκα περιπατοῦσιν,
+									ἀλλὰ κατὰ πνεῦμα·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									οἱ γὰρ κατὰ σάρκα περιπατοῦντες τὰ τῆς σαρκὸς φρονοῦσιν,
+									οἱ δὲ κατὰ πνεῦμα τὰ τοῦ πνεύματος·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									τὸ γὰρ φρόνημα τῆς σαρκὸς
+									θάνατος
+									<app type="variants">
+										<lem resp="#Harnack">
+											θάνατος
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											θάνατος
+										</rdg>
+									</app>
+									,
+									τὸ δὲ φρόνημα τοῦ πνεύματος ζωὴ καὶ
+									<pb n="108*" />
+									εἰρήνη.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									νῦν δὲ οὐκ ἐστὲ ἐν σαρκὶ,
+									ἀλλ᾽ ἐν πνεύματι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									τὸ μὲν σῶμα νεκρὸν διὰ ἁμαρτίαν,
+									τὸ δὲ πνεῦμα ζωὴ διὰ δικαιοσύνην.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ὁ ἐγείρας Χριστὸν ἐκ νεκρῶν,
+									ζῳοποιήσει καὶ τὰ θνητὰ σώματα ὑμῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="36">
+							<p>
+								<s>
+									ἕνεκα σοῦ θανατούμεθα ὅλην τὴν ἡμέραν.
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἕνεκα σοῦ θανατούμεθα ὅλην τὴν ἡμέραν.
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἕνεκα σοῦ θανατούμεθα ὅλην τὴν ἡμέραν.
+										</rdg>
+									</app>
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="10">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									Ἰσραήλ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									μαρτυρῶ αὐτοῖς ὅτι ζῆλον θεοῦ ἔχουσιν,
+									ἀλλ᾽ οὐ κατ᾽ ἐπίγνωσιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									θεὸν γὰρ ἀγνοοῦντες καὶ τὴν ἰδίαν δικαιοσύνην στῆσαι ζητοῦντες,
+									οὐχ ὑπετάγησαν τῇ δικαιοσύνῃ τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									τέλος γὰρ νόμου Χριστὸς εἰς δικαιοσύνην παντὶ τῷ πιστεύοντι.
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="109*" />
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									ὦ βάθος πλούτου καὶ σοφίας θεοῦ,
+									καὶ ἀνεξιχνίαστοι αἱ ὁδοὶ αὐτοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									τίς γὰρ ἔγνω νοῦν κυρίου;
+									ἢ τίς σύμβουλος αὐτοῦ ἐγένετο;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									τίς προέδωκεν αὐτῷ,
+									καὶ ἀνταποδοθήσεται αὐτῷ;
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									ἀποστυγοῦντες τὸ πονηρόν καὶ κολλώμενοι τῷ ἀγαθῷ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10a">
+							<p>
+								<s>
+									τῇ φιλαδελφίᾳ εἰς ἀλλήλους φιλόστοργοι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									τῇ ἐλπίδι χαίροντες,
+									τῇ θλίψει ὑπομένοντες,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									εὐλογεῖτε καὶ μὴ καταρᾶσθε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									μὴ τὰ ὑψηλὰ φρονοῦντες,
+									ἀλλὰ τοῖς ταπεινοῖς συναπαγόμενοι,
+									μὴ γίνεσθε παρ᾽ ἑαυτοῖς φρόνιμοι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									κακὸν ἀντὶ κακοῦ μηδενὶ ἀποδιδόντες,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									μὴ ἑαυτοὺς ἐκδικοῦντες·
+									ἐμοὶ γάρ ἐκδίκησις κἀγὼ ἀνταποδώσω,
+									λέγει κύριος,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									εἰρηνεύοντες μετὰ πάντων
+									ἀνθρώπων
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἀνθρώπων
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἀνθρώπων
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="13">
+						<div type="textpart" subtype="verse" n="8b">
+							<p>
+								<s>
+									ὁ γὰρ ἀγαπῶν τὸν πλησίον νόμον πεπλήρωκε.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									τὸ γὰρ οὐ φονεύσεις,
+									οὐ μοιχεύσεις,
+									οὐ κλέψεις καὶ εἴ τις
+									<pb n="110*" />
+									ἑτέρα ἐντολή,
+									ἐν τούτῳ τῷ λόγῳ ἀνακεφαλαιοῦται,
+									ἐν τῷ Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἡ ἀγάπη τῷ πλησίον κακὸν οὐκ ἐργάζεται.
+									πλήρωμα οὖν νόμου ἡ ἀγάπη.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="14">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									τῷ βήματι τοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									καλὸν τὸ μὴ φαγεῖν κρέα,
+									μηδὲ πιεῖν οἶνον,
+									μηδὲ ἐν ᾧ ὁ ἀδελφός σου προσκόπτει.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									πᾶν δὲ ὃ οὐκ ἐκ πίστεως ἁμαρτία ἐστίν.
+									Ἡ χάρις μετὰ πάντων ἁγίων.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<pb n="111*" />
+				<div type="textpart" subtype="book" n="1Thes">
+					<head>
+						Πρὸς Θεσσαλονικεῖς A.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ὅτι καὶ ὑμεῖς ἐπάθετε ὑπὸ τῶν ἰδίων συμφυλετῶν,
+									καθὰ καὶ αὐτοὶ ὑπὸ τῶν Ἰουδαίων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15a">
+							<p>
+								<s>
+									τῶν καὶ τὸν κύριον ἀποκτεινάντων
+									Ἰησοῦν
+									<app type="variants">
+										<lem resp="#Harnack">
+											Ἰησοῦν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											Ἰησοῦν
+										</rdg>
+									</app>
+									καὶ τοὺς ἰδίους προφήτας.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								τοῦτο
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								θέλημα τοῦ θεοῦ,
+								ὁ ἁγιασμὸς ὑμῶν,
+								ἀπέχεσθαι ὑμᾶς ἀπὸ τῆς πορνείας,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									εἰδέναι ἕνα ἕκαστον τὸ ἑαυτοῦ σκεῦος κτᾶσθαι ἐν τιμῇ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									μὴ ἐν ἐπιθυμίᾳ καθάπερ
+									<pb n="112*" />
+									καὶ τὰ ἔθνη.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									οἱ περιλειπόμενοι εἰς τὴν παρουσίαν
+									τοῦ κυρίου
+									<app type="variants">
+										<lem resp="#Harnack">
+											τοῦ κυρίου
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τοῦ κυρίου
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16b">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οἱ νεκροὶ ἐν Χριστῷ ἀναστήσονται πρῶτοι,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οἱ περιλειπόμενοι εἰς τὴν παρουσίαν αὐτοῦ ἅμα σὺν αὐτοῖς ἁρπαγησόμεθα ἐν νεφέλαις εἰς ἀπάντησιν τοῦ κυρίου εἰς ἀέρα
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									τὸ πνεῦμα μὴ σβέννυτε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									προφητείας
+									<pb n="113*" />
+									μὴ ἐξουθενεῖτε·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									τὸ πνεῦμα ὑμῶν καὶ ἡ ψυχὴ καὶ τὸ σῶμα ἀμέμπτως ἐν τῇ παρουσίᾳ τοῦ κυρίου καὶ σωτῆρος ἡμῶν Χριστοῦ τηρηθείη.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									ἀσπάσασθε πάντας τοὺς ἀδελφοὺς ἐν φιλήματι ἁγίῳ.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="2Thes">
+					<head>
+						Πρὸς Θεσσαλονικεῖς Β.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									εἴπερ δίκαιον παρὰ κυρίῷ ἀποδοῦναι τοῖς θλίβουσιν ὑμᾶς θλῖψιν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									καὶ ὑμῖν τοῖς θλιβομένοις ἄνεσιν
+									μεθ᾽ ἡμῶν
+									<app type="variants">
+										<lem resp="#Harnack">
+											μεθ᾽ ἡμῶν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											μεθ᾽ ἡμῶν
+										</rdg>
+									</app>
+									ἐν τῇ ἀποκαλύψει τοῦ κυρίου Ἰησοῦ ἀπ᾽ οὐρανοῦ μετ᾽ ἀγγέλων δυνάμεως αὐτοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ἐρχομένου εἰς ἐκδίκησιν τοῖς μὴ εἰδόσιν θεὸν,
+									καὶ τοῖς μὴ ὑπακούουσιν τῷ εὐαγγελίῳ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									οἵτινες δίκην τίσουσιν ὄλεθρον αἰώνιον ἀπὸ προσώπου τοῦ κυρίου καὶ ἀπὸ τῆς δόξης τῆς ἰσχύος αὐτοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="114*" />
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								ἐὰν μὴ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἀποκαλυφθῇ ὁ ἄνθρωπος τῆς ἀνομίας,
+								ὁ υἱὸς τῆς ἀπωλείας,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								ὁ ὑπεραιρόμενος ἐπὶ πάντα λεγόμενον θεὸν καὶ πᾶν σέβασμα,
+								ὥστε αὐτὸν εἰς τὸν ναὸν τοῦ θεοῦ καθίσαι
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								οὗ ἐστιν ἡ παρουσία κατ᾽ ἐνέργειαν
+								<app type="variants">
+									<lem resp="#Harnack">
+										οὗ ἐστιν ἡ παρουσία κατ᾽ ἐνέργειαν
+									</lem>
+									<rdg resp="#Harnack" type="proposition" cert="low">
+										οὗ ἐστιν ἡ παρουσία κατ᾽ ἐνέργειαν
+									</rdg>
+								</app>
+								τοῦ Σατανᾶ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἐν πάσῃ δυνάμει καὶ σημείοις καὶ τέρασιν ψεύδους.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἀνθ᾽ ὧν τὴν ἀγάπην τῆς ἀληθείας οὐκ ἐδέξαντο εἰς τὸ σῴζεσθαι αὐτούς,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									καὶ διὰ τοῦτο ἔσται αὐτοῖς εἰς ἐνέργειαν πλάνης,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ἵνα κριθῶσιν ἅπαντες οἱ μὴ πιστεύσαντες τῇ ἀληθείᾳ,
+									ἀλλὰ εὐδοκήσαντες τῇ ἀδικίᾳ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									τοῦτο
+									<app type="variants">
+										<lem resp="#Harnack">
+											τοῦτο
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τοῦτο
+										</rdg>
+									</app>
+									παρηγγέλλομεν
+									ὑμῖν ὅτι εἴ τις οὐ θέλει
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὑμῖν ὅτι εἴ τις οὐ θέλει
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὑμῖν ὅτι εἴ τις οὐ θέλει
+										</rdg>
+									</app>
+									,
+									ἐργάζεσθαι·
+									μηδὲ
+									<app type="variants">
+										<lem resp="#Harnack">
+											μηδὲ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											μηδὲ
+										</rdg>
+									</app>
+									ἐσθιέτω.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Lao">
+					<head>
+						Πρὸς Λαοδικέας.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ἐχαρίτωσεν ἡμᾶς ἐν τῷ ἠγαπημένῳ υἱῷ αὐτοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									ἐν ᾧ ἔχομεν τὴν ἀπολύτρωσιν διὰ τοῦ αἵματος αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<pb n="115*" />
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									κατὰ τὴν εὐδοκίαν,
+									ἣν προέθετο ἐν τῷ μυστηρίῳ τοῦ θελήματος αὐτοῦ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									εἰς οἰκονομίαν τοῦ πληρώματος τῶν καιρῶν,
+									ἀνακεφαλαιώσασθαι τὰ πάντα εἰς τὸν Χριστόν,
+									τὰ ἐπὶ τοῖς οὐρανοῖς καὶ τὰ ἐπὶ τῆς γῆς,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									εἰς τὸ εἶναι ἡμᾶς εἰς ἔπαινον δόξης,
+									τοὺς προηλπικότας εἰς τὸν Χριστόν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ἐν ᾧ καὶ ὑμεῖς,
+									ἀκούσαντες τὸν λόγον τῆς ἀληθείας,
+									τὸ εὐαγγέλιον,
+									ἐν ᾧ πιστεύσαντες ἐσφραγίσθητε τῷ πνεύματι τῆς ἐπαγγελίας τῷ ἁγίῳ.
+								</s>
+							</p>
+						</div>
+						<pb n="116*" />
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								ὁ πατὴρ τῆς δόξης
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								πνεῦμα σοφίας,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς καρδίας.
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ὁ πλοῦτος τῆς κληρονομίας ἐν τοῖς ἁγίοις,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19a">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20a">
+							<p>
+								<s>
+									ἐνήργηκεν ἐν Χριστῷ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19b">
+							<p>
+								<s>
+									ἰσχὺν αὐτοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20b">
+							<p>
+								ἐγείρας αὐτὸν ἐκ νεκρῶν καὶ καθίσας αὐτὸν ἐν δεξιᾷ αὐτοῦ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22a">
+							<p>
+								<s>
+									καὶ πάντα ὑπέταξεν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									ὑμᾶς ὄντας τοῖς παραπτώμασι νεκροὺς,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									ἐν οἷς περιεπατήσατε κατὰ τὸν αἰῶνα τοῦ κόσμου τούτου,
+									κατὰ τὸν ἄρχοντα τῆς ἐξουσίας τοῦ ἀέρος,
+									τοῦ ἐνεργοῦντος ἐν τοῖς υἱοῖς τῆς ἀπιστίας,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἐν οἷς καὶ ἡμεῖς πάντες ἀνεστράφημεν,
+									καὶ ἤμεθα φύσει τέκνα ὀργῆς ὡς καὶ οἱ λοιποί.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									αὐτοῦ γάρ ἐσμεν ποίημα,
+									κτισθέντες ἐν Χριστῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									μνημονεύοντες ὑμεῖς ποτε τὰ ἔθνη,
+									οἱ λεγόμενοι ἀκροβυστία ὑπὸ τῆς λεγομένης περιτομῆς ἐν σαρκὶ χειροποιήτου,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὅτι ἦτε τῷ καιρῷ ἐκείνῳ χωρὶς Χριστοῦ,
+									<pb n="117*" />
+									ἀπηλλοτριωμένοι τῆς πολιτείας τοῦ Ἰσραὴλ καὶ ξένοι τῶν διαθηκῶν,
+									τῆς ἐπαγγελίας ἐλπίδα μὴ ἔχοντες καὶ ἄθεοι ἐν τῷ κόσμῳ·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									νυνὶ δὲ ἐν Χριστῷ Ἰησοῦ ὑμεῖς οἵ ποτε ὄντες μακρὰν ἐγενήθητε ἐγγὺς ἐν τῷ αἵματι αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									αὐτὸς γάρ ἐστιν ἡ εἰρήνη,
+									ἡμῶν,
+									ὁ ποιήσας τὰ ἀμφότερα ἓν καὶ τὸ μεσότοιχον τὴς ἔχθρας ἐν σαρκὶ λύσας,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									τὸν νόμον τῶν ἐντολῶν δόγμασιν καταργήσας,
+									ἵνα τοὺς δύο κτίσῃ ἐν ἑαυτῷ εἰς ἕνα καινὸν ἄνθρωπον,
+									ποιῶν εἰρήνην,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									καὶ ἀποκαταλλάξῃ τοὺς ἀμφοτέρους τῷ θεῷ ἐν ἑνὶ σώματι,
+									ἀποκτείνας τὴν ἔχθραν ἐν αὐτῷ διὰ τοῦ σταυροῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								καὶ ἐλθὼν εὐηγγελίσατο εἰρήνην
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								<pb n="118*" />
+								τοῖς μακρὰν καὶ τοῖς ἐγγύς,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ὅτι δι᾽ αὐτοῦ ἔχομεν τὴν προσαγωγὴν οἱ ἀμφότεροι ἐν ἑνὶ πνεύματι πρὸς τὸν πατέρα,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								οὐκέτι ἐστὲ ξένοι καὶ πάροικοι,
+								ἀλλὰ συμπολῖται τῶν ἁγίων,
+								ἀλλ᾽ οἰκεῖοι τοῦ θεοῦ,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ἐποικοδομηθέντες ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων,
+									ὄντος ἀκρογωνιαίου Χριστοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ἐμοὶ τῷ
+									ἐλαχιστοτέρῳ
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐλαχιστοτέρῳ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐλαχιστοτέρῳ
+										</rdg>
+									</app>
+									πάντων
+									ἁγίων
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἁγίων
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἁγίων
+										</rdg>
+									</app>
+									ἐδόθη ἡ χάρις αὕτη ἐν τοῖς ἔθνεσιν εὐαγγελίσασθαι τὸν ἀνεξιχνίαστον πλοῦτον τοῦ Χριστοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									καὶ φωτίσαι πάντας τίς ἡ οἰκονομία τοῦ μυστηρίου τοῦ ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων τῷ θεῷ τῷ τὰ πάντα κτίσαντι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἵνα γνωρισθῇ ταῖς ἀρχαῖς καὶ ταῖς ἐξουσίαις ἐν ἐπουρανίοις διὰ τῆς ἐκκλησίας ἡ πολυποίκιλος σοφία τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									εἷς κύριος,
+									μία πίστις,
+									ἓν βάπτισμα,
+									εἷς Χριστός,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									εἷς θεὸς
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									πατὴρ πάντων,
+									ὁ ἐπὶ πάντων καὶ διὰ πάντων
+									<pb n="119*" />
+									καὶ ἐν πᾶσιν ἡμῖν·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ᾐχμαλώτευσεν αἰχμαλωσίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὁ καταβὰς αὐτός ἐστι καὶ ὁ ἀναβάς.
+									<app type="variants">
+										<lem resp="#Harnack">
+											ὁ καταβὰς αὐτός ἐστι καὶ ὁ ἀναβάς.
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ὁ καταβὰς αὐτός ἐστι καὶ ὁ ἀναβάς.
+										</rdg>
+									</app>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									ἀποθέμενοι τὸ ψεῦδος λαλεῖτε ἀλήθειαν πρὸς τὸν πλησίον ἕκαστος,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									ὀργίζεσθε καὶ μὴ ἁμαρτάνετε·
+									ὁ ἥλιος μὴ ἐπιδυέτω ἐπὶ τῷ παροργισμῷ ὑμῶν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11a">
+							<p>
+								<s>
+									μὴ συνκοινωνεῖτε τοῖς ἔργοις τοῦ σκότους,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									διὸ λέγει·
+									ἔγειρε ὁ καθεύδων καὶ ἀνάστα ἐκ νεκρῶν
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									ἐπιφαύσει σοι ὁ Χριστός.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									μεθύσκεσθαι οἴνῳ αἰσχρόν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								ψαλμοῖς καὶ ὕμνοις
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τῷ θεῷ.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									αἱ γυναῖκες τοῖς ἀνδράσιν ὑποτάσσεσθε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ὅτι ἀνήρ κεφαλὴ ἐστιν τῆς γυναικὸς,
+									ὡς καὶ Χριστὸς κεφαλὴ ἐστιν τῆς ἐκκλησίας.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28b">
+							<p>
+								<s>
+									τὴν ἑαυτοῦ σάρκα ἀγαπᾷ ὁ τὴν ἑαυτοῦ γυναῖκα ἀγαπῶν,
+									<pb n="120*" />
+									καθὼς καὶ ὁ Χριστὸς τὴν ἐκκλησίαν·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									οὐδεὶς τὴν ἑαυτοῦ σάρκα μισεῖ,
+									ἀλλὰ ἐκτρέφει καὶ θάλπει αὐτήν,
+									καθὼς
+									
+									καὶ
+									<app type="variants">
+										<lem resp="#Harnack">
+											καὶ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											καὶ
+										</rdg>
+									</app>
+									ὁ Χριστὸς τὴν ἐκκλησίαν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									ἀντὶ ταύτης καταλείψει ἄνθρωπος τὸν πατέρα καὶ τὴν μητέρα,
+									καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									τὸ μυστήριον τοῦτο μέγα ἐστίν,
+									ἐγὼ δὲ λέγω εἰς Χριστὸν καὶ τὴν ἐκκλησίαν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									τὰ τέκνα,
+									ὑπακούετε τοῖς γονεῦσιν ὑμῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									τίμα τὸν πατέρα καὶ μητέρα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἐκτρέφετε τὰ τέκνα ἐν παιδείᾳ καὶ νουθεσίᾳ κυρίου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἐνδύσασθε τὴν πανοπλίαν
+									<pb n="121*" />
+									τοῦ θεοῦ,
+									ἐν ᾗ στῶμεν πρὸς τὴν μεθοδίαν τοῦ διαβόλου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								πρὸς τὰς ἐξουσίας
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τοὺς κοσμοκράτορας τοῦ σκότου τούτου
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								τὰ πνευματικὰ τῆς πονηρίας ἐν τοῖς ἐπουρανίοις.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									περιζωσάμενοι τὴν ὀσφὺν ὑμῶν ἐν ἀληθείᾳ καὶ τὸν θώρακα τῆς δικαιοσύνης,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									καὶ ὑποδησάμενοι ἐν ἑτοιμασίᾳ τοῦ εὐαγγελίου τῆς εἰρήνης,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									ἀναλαβόντες τὸν θυρεὸν τῆς πίστεως,
+									ἐν ᾧ δυνήσεσθε πάντα τὰ βέλη τοῦ πονηροῦ τὰ πεπυρωμένα σβέσαι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									καὶ τὴν περικεφαλαίαν τοῦ σωτηρίου καὶ τὴν μάχαιραν τοῦ πνεύματος,
+									ὅ ἐστιν ῥῆμα θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									ἵνα μοι δοθῇ,
+									ἐν ἀνοίξει τοῦ στόματος,
+									ἐν παρρησίᾳ γνωρίσαι τὸ μυστήριον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ἐν ἁλύσει,
+									ἵνα ἐν αὐτῷ παρρησιάσωμαι.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Col">
+					<head>
+						Πρὸς Κολασσαεῖς.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								τὴν ἐλπίδα τὴν ἀποκειμένην
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἐν τοῖς οὐρανοῖς,
+								ἣν ἠκούσατε ἐν τῷ λόγῳ τῆς ἀληθείας τοῦ εὐαγγελίου,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6a">
+							<p>
+								<s>
+									τοῦ
+									<pb n="122*" />
+									παρόντος εἰς ὑμᾶς καθὼς καὶ ἐν παντὶ τῷ κόσμῳ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									ὅς ἐστιν εἰκὼν τοῦ θεοῦ τοῦ ἀοράτου,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17a">
+							<p>
+								<s>
+									καὶ αὐτός ἐστιν πρὸ πάντων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									ἐν ἑαυτῷ εὐδόκησεν πᾶν τὸ πλήρωμα κατοικῆσαι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								καὶ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἀποκαταλλάξαι τὰ πάντα εἰς ἑαυτὸν,
+								εἰρηνοποιήσας διὰ τοῦ αἵματος τοῦ σταυροῦ αὐτοῦ
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									καὶ ὑμᾶς ποτε ὄντας ἀπηλλοτριωμένους καὶ ἐχθροὺς τῇ διανοίᾳ ἐν τοῖς ἔργοις τοῖς πονηροῖς
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἀποκατήλλαξεν
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἐν τῷ σώματι αὐτοῦ.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἀνταναπληρῶ τὰ ὑστερήματα τῶν θλίψεων τοῦ Χριστοῦ ἐν τῇ σαρκί ὑπὲρ τοῦ σώματος αὐτοῦ,
+								ὅ ἐστιν ἡ ἐκκλησία.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									παραλογίζηται ἐν πιθανολογίᾳ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								διὰ τῆς φιλοσοφίας ὡς κενῆς ἀπάτης κατὰ τὴν παράδοσιν
+								<pb n="123*" />
+								τῶν ἀνθρώπων,
+								κατὰ τὰ στοιχεῖα τοῦ κόσμου.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									συνεζωοποίησεν ὑμᾶς σὺν αὐτῷ χαρισάμενος τὰ παραπτώματα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									μὴ οὖν τις ὑμᾶς κρινέτω ἐν βρώσει,
+									ἢ ἐν πόσει,
+									ἢ ἐν μέρει ἑορτῆς,
+									ἢ νουμηνίας καὶ σαββάτων
+									<app type="variants">
+										<lem resp="#Harnack">
+											σαββάτων
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											σαββάτων
+										</rdg>
+									</app>
+									,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									ὅ ἐστι σκιὰ τῶν μελλόντων.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									θέλων ἐν ταπεινοφροσύνῃ,
+									θρησκείᾳ τῶν ἀγγέλων ἃ ἑώρακεν ἐμβατεύων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									οὐ κρατῶν τὴν κεφαλήν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									μὴ ἅψῃ μηδὲ γεύσῃ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									κατὰ τὰ ἐντάλματα καὶ διδασκαλίας τῶν ἀνθρώπων.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ οὖν συνηγέρθητε τῷ Χριστῷ,
+										τὰ ἄνω ζητεῖτε,
+										οὗ ὁ Χριστός ἐστιν ἐν δεξιᾷ τοῦ θεοῦ καθήμενος·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὰ ἄνω φρονεῖτε,
+										τὰ μὴ ἐπὶ τῆς γῆς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἀπεθάνετε γάρ καὶ ἡ ζωὴ ὑμῶν κέκρυπται σὺν τῷ Χριστῷ ἐν τῷ θεῷ
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅταν ὁ Χριστὸς φανερωθῇ,
+										ἡ ζωὴ ὑμῶν,
+										τότε καὶ ὑμεῖς σὺν αὐτῷ φανερωθήσεσθε ἐν δόξῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νεκρώσατε οὖν τὰ μέλη τὰ ἐπὶ τῆς γῆς,
+										πορνείαν,
+										ἀκαθαρσίαν,
+										πάθος,
+										ἐπιθυμίαν κακήν,
+										καὶ τὴν πλεονεξίαν ἥτις ἐστὶν εἰδωλολατρεία,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										δι᾽ ἃ ἔρχεται ἡ ὀργὴ τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν οἷς καὶ ὑμεῖς περιεπατήσατέ ποτε,
+										ὅτε ἐζῆτε ἐν τούτοις·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νυνὶ δὲ ἀπόθεσθε καὶ ὑμεῖς τὰ πάντα,
+										ὀργήν,
+										θυμόν,
+										κακίαν,
+										βλασφημίαν,
+										αἰσχρολογίαν ἐκ τοῦ στόματος ὑμῶν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								τὸν παλαιὸν ἄνθρωπον
+								<supplied reason="omitted-in-original" source="#Harnack">
+									σὺν ταῖς πράξεσιν αὐτοῦ
+								</supplied>
+							</p>
+						</div>
+						<pb n="124*" />
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ ἐνδυσάμενοι τὸν νέον τὸν ἀνακαινούμενον εἰς ἐπίγνωσιν κατ᾽ εἰκόνα τοῦ κτίσαντος αὐτόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<milestone unit="para" />
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									Ἀσπάζεται ὑμᾶς Ἀρίσταρχος,
+									ὁ συναιχμάλωτός μου,
+									καὶ Μᾶρκος,
+									ὁ ἀνεψιὸς Βαρναβᾶ —
+									περὶ οὗ ἐλάβετε ἐντολάς,
+									ἵνα
+									ἐὰν
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐὰν
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐὰν
+										</rdg>
+									</app>
+									ἔλθῃ πρὸς ὑμᾶς,
+									
+									δέξησθε
+									<app type="variants">
+										<lem resp="#Harnack">
+											δέξησθε
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											δέξησθε
+										</rdg>
+									</app>
+									αὐτόν —
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									καὶ Ἰησοῦς ὁ λεγόμενος Ἰοῦστος,
+									οἱ ὄντες ἐκ περιτομῆς.
+									οὗτοι μόνοι μου εἰσὶ συνεργοί εἰς τὴν βασιλείαν τοῦ θεοῦ,
+									οἵτινες ἐγενήθησάν μοι παρηγορία.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀσπάζεται ὑμᾶς Ἐπαφρᾶς ὁ ἐξ ὑμῶν,
+										δοῦλος Χριστοῦ Ἰησοῦ,
+										πάντοτε ἀγωνιζόμενος ὑπὲρ ὑμῶν ἐν ταῖς προσευχαῖς,
+										ἵνα σταθῆτε τέλειοι καὶ πεπληροφορημένοι ἐν παντὶ θελήματι τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										μαρτυρῶ γὰρ αὐτῷ,
+										ὅτι ἔχει πολὺν πόνον ὑπὲρ ὑμῶν καὶ τῶν ἐν Λαοδικίᾳ καὶ τῶν ἐν Ἱεραπόλει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									Ἀσπάζεται ὑμᾶς Λουκᾶς καὶ Δημᾶς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Phlp">
+					<head>
+						Πρὸς Φιλιππησίους.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς καὶ κυρίου Ἰησοῦ Χριστοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									εὐχαριστῶ Χριστῷ
+									τῷ θεῷ μου
+									<app type="variants">
+										<lem resp="#Harnack">
+											τῷ θεῷ μου
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											τῷ θεῷ μου
+										</rdg>
+									</app>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἐν πάσῃ δεήσει μου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									οἱ ἐξ ἐμοῦ εἰς προκοπὴν τῆς ἀληθείας τοῦ εὐαγγελίου
+									
+									ἐληλύθασιν πρὸς ὑμᾶς
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐληλύθασιν πρὸς ὑμᾶς
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐληλύθασιν πρὸς ὑμᾶς
+										</rdg>
+									</app>
+									,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									τοὺς δεσμούς μου φανεροὺς ἐν Χριστῷ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ἐν τούτῳ
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἐν τούτῳ
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἐν τούτῳ
+										</rdg>
+									</app>
+									χαίρω,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									τοῦτό μοι
+									ἀποβήσεται
+									<app type="variants">
+										<lem resp="#Harnack">
+											ἀποβήσεται
+										</lem>
+										<rdg resp="#Harnack" type="proposition" cert="low">
+											ἀποβήσεται
+										</rdg>
+									</app>
+									εἰς σωτηρίαν
+									<pb n="125*" />
+									διὰ τῶν ὑμῶν δεήσεων καὶ ἐπιχορηγίας πνεύματος,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									εἴτε διὰ ζωῆς εἴτε διὰ θανάτου,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἔστιν γὰρ μοι τὸ ζῆν ἐν Χριστῷ καὶ τὸ ἀποθανεῖν χαρά.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2a">
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									πεποιθότας τοῖς δεσμοῖς μου περισσοτέρως τολμᾶν τὸν λόγον λαλεῖν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									τινὲς διὰ φθόνον καὶ ἔριν,
+									τινὲς δὲ διὰ λόγου δόξαν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									οἱ μὲν ἐξ ἀγάπης,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									οἱ δὲ ἐξ ἐριθείας,
+									ἤδη καὶ τινες ἐξ ἀγῶνος τὸν Χριστὸν καταγγέλλουσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									οὐδέν μοι διαφέρει·
+									εἴτε προφάσει εἴτε ἀληθείᾳ Χριστὸς καταγγέλλεται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									τὴν ἐπιθυμίαν ἔχων εἰς τὸ ἐξιέναι ἐκ τοῦ σώματος καὶ σὺν τῷ κύριῳ εἶναι.
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="2b">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								τὴν αὐτὴν ἀγάπην ἔχοντες
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								ἵνα τὸ αὐτὸ φρονῆτε,
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὥστε,
+									ἀγαπητοί μου,
+									καθὼς ἠκούσατε τὴν παρουσίαν μου,
+									οὕτω κρατεῖτε καὶ πράσσετε ἐν φόβῳ θεοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									ἐστιν γάρ ὁ θεὸς ὁ ἐνεργῶν ἐν ὑμῖν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ποιεῖτε χωρὶς διαλογισμοῦ ὅ τι ἂν ποιῆτε.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ἐν μορφῇ θεοῦ ὑπάρχων οὐχ ἁρπαγμὸν ἡγήσατο τὸ εἶναι ἴσα θεῷ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									ἀλλ᾽
+									<pb n="126*" />
+									ἐκένωσεν ἑαυτὸν μορφὴν δούλου λαβών,
+									ἐν ὁμοιώματι ἀνθρώπου καὶ σχήματι εὑρεθεὶς ἄνθρωπος.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ὑπήκοος μέχρι θανάτου θανάτου σταυροῦ
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									τὸ λοιπόν,
+									ἀγαπητοί,
+									χαίρετε ἐν Χριστῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									πεποίθησιν ἐν σαρκί,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									Ἑβραῖος ἐξ Ἑβραίων,
+									φυλῆς Βενιαμείν,
+									Φαρισαῖος,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									ἅτινα ἦν μοι κέρδη,
+									ταῦτα νῦν ἥγημαι ζημίαν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									διὰ τὸ ὑπερέχον τῆς γνώσεως Χριστοῦ ἡγοῦμαι σκύβαλα,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									ἔχων δικαιοσύνην μὴ ἐμὴν ἤδη τὴν ἐκ νόμου,
+									ἀλλὰ τὴν δι᾽ αὐτοῦ ἐκ θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ἡμῶν γὰρ τὸ πολίτευμα ἐν οὐρανοῖς,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<gap reason="missing" extent="unknown" source="#Harnack" />
+								μετασχηματίσει τὸ σῶμα τῆς ταπεινώσεως ἡμῶν σύνμορφον τῷ σώματι τῆς δόξης αὐτοῦ.
+							</p>
+						</div>
+					</div>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									πάντα τὰ
+									<pb n="127*" />
+									αἰτήματα ὑμῶν γνωριζέσθω πρὸς τὸν θεόν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									ὅσα ὁλόκληρα καὶ ἀληθῆ καὶ σεμνά καὶ δίκαια καὶ προσφιλῆ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									πράσσετε,
+									καὶ ἃ ἠκούσατε καὶ παρελάβετε,
+									ἐν τῇ καρδίᾳ κρατεῖτε,
+									καὶ ἔσται ὑμῖν ἡ εἰρήνη,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									ἀσπάζονται ὑμᾶς οἱ ἅγιοι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ἡ χάρις.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Phlm">
+					<head>
+						Πρὸς Φιλήμονα.
+					</head>
+					<milestone unit="para" />
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s xml:id="Φλμ1.1">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										Παῦλος δέσμιος Χριστοῦ Ἰησοῦ καὶ Τιμόθεος ὁ ἀδελφὸς Φιλήμονι τῷ ἀγαπητῷ καὶ συνεργῷ ἡμῶν
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s xml:id="Φλμ1.2" corresp="#Φλμ1.1">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										καὶ Ἀπφίᾳ τῇ ἀδελφῇ καὶ Ἀρχίππῳ τῷ συστρατιώτῃ ἡμῶν καὶ τῇ κατ᾽ οἶκόν σου ἐκκλησίᾳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#Harnack">
+										χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s xml:id="Φλμ1.4">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										εὐχαριστῶ τῷ θεῷ μου πάντοτε μνείαν σου ποιούμενος ἐπὶ τῶν προσευχῶν μου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s xml:id="Φλμ1.5" corresp="#Φλμ1.4">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν ἣν ἔχεις πρὸς τὸν κύριον Ἰησοῦν καὶ εἰς πάντας τοὺς ἁγίους,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s xml:id="Φλμ1.6" corresp="#Φλμ1.4">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										ὅπως ἡ κοινωνία τῆς πίστεώς σου ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ἡμῖν εἰς Χριστόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χαρὰν γὰρ πολλὴν ἔσχον καὶ παράκλησιν ἐπὶ τῇ ἀγάπῃ σου,
+										ὅτι τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ,
+										ἀδελφέ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s xml:id="Φλμ1.8">
+									<supplied reason="omitted-in-original" source="#Harnack">
+										διό πολλὴν ἐν Χριστῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s xml:id="Φλμ1.9a" corresp="#Φλμ1.8">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τὴν ἀγάπην μᾶλλον παρακαλῶ·
+									</supplied>
+								</s>
+								<s xml:id="Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοιοῦτος ὢν ὡς Παῦλος πρεσβύτης,
+										νυνὶ δὲ καὶ δέσμιος Χριστοῦ Ἰησοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s xml:id="Φλμ1.10" corresp="#Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παρακαλῶ σε περὶ τοῦ ἐμοῦ τέκνου,
+										ὃν ἐγέννησα ἐν τοῖς δεσμοῖς,
+										Ὀνήσιμον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s xml:id="Φλμ1.11" corresp="#Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τόν ποτέ σοι ἄχρηστον,
+										νυνὶ δὲ καὶ σοὶ καὶ ἐμοὶ εὔχρηστον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s xml:id="Φλμ1.12" corresp="#Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃν ἀνέπεμψά σοι αὐτόν,
+										τοῦτ᾽ ἔστιν τὰ ἐμὰ σπλάγχνα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s xml:id="Φλμ1.13" corresp="#Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃν ἐγὼ ἐβουλόμην πρὸς ἐμαυτὸν κατέχειν,
+										ἵνα ὑπὲρ σοῦ μοι διακονῇ ἐν τοῖς δεσμοῖς τοῦ εὐαγγελίου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s xml:id="Φλμ1.14" corresp="#Φλμ1.9b">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χωρὶς δὲ τῆς σῆς γνώμης οὐδὲν ἠθέλησα ποιῆσαι,
+										ἵνα μὴ ὡς κατὰ ἀνάγκην τὸ ἀγαθόν σου ᾖ ἀλλὰ κατὰ ἑκούσιον·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τάχα γὰρ διὰ τοῦτο ἐχωρίσθη πρὸς ὥραν,
+										ἵνα αἰώνιον αὐτὸν ἀπέχῃς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ ἔτι ὡς δοῦλον ἀλλὰ ὑπὲρ δοῦλον,
+										ἀδελφὸν ἀγαπητόν,
+										μάλιστα ἐμοί,
+										πόσῳ δὲ μᾶλλον σοὶ καὶ ἐν σαρκὶ καὶ ἐν κυρίῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ οὖν με ἔχεις κοινωνόν,
+										προσλαβοῦ αὐτὸν ὡς ἐμέ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει,
+										τοῦτο ἐμοὶ ἐλλόγα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ Παῦλος ἔγραψα τῇ ἐμῇ χειρί.
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ ἀποτίσω ἵνα μὴ λέγω σοι ὅτι καὶ σεαυτόν μοι προσοφείλεις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ναί,
+										ἀδελφέ,
+										ἐγώ σου ὀναίμην ἐν κυρίῳ·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνάπαυσόν μου τὰ σπλάγχνα ἐν Χριστῷ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πεποιθὼς τῇ ὑπακοῇ σου ἔγραψά σοι,
+										εἰδὼς ὅτι καὶ ὑπὲρ ἃ λέγω ποιήσεις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἅμα δὲ καὶ ἑτοίμαζέ μοι ξενίαν·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐλπίζω γὰρ ὅτι διὰ τῶν προσευχῶν ὑμῶν χαρισθήσομαι ὑμῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s xml:id="Φλμ1.23">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀσπάζεταί σε Ἐπαφρᾶς ὁ συναιχμάλωτός μου ἐν Χριστῷ Ἰησοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s xml:id="Φλμ1.24" corresp="#Φλμ1.23">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Μάρκος,
+										Ἀρίσταρχος,
+										Δημᾶς,
+										Λουκᾶς,
+										οἱ συνεργοί μου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ χάρις τοῦ κυρίου Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

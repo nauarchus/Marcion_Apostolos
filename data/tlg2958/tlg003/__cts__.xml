@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg2958"
+   projid="greekLit:tlg2958" urn="urn:cts:greekLit:tlg2958.tlg003" xml:lang="grc">
+
+   <ti:title xml:lang="eng">Apostolos of Marcion</ti:title>
+   <ti:title xml:lang="lat">Apostolos Marcionis</ti:title>
+   <ti:title xml:lang="deu">Apostolos Marcions</ti:title>   
+   <ti:title xml:lang="fra">Apôtre de Marcion</ti:title>  
+
+   <ti:author xml:lang="eng">Marcion of Sinope</ti:author>
+   <ti:author xml:lang="lat">Marcion Sinopensis</ti:author>
+   <ti:author xml:lang="deu">Marcion von Sinope</ti:author>
+   <ti:author xml:lang="fra">Marcion de Sinope</ti:author>
+
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg003.src-grc1"
+      workUrn="urn:cts:greekLit:tlg2958.tlg003" xml:lang="grc">
+      <ti:editor xml:lang="eng">Willem Christiaan van Manen</ti:editor>
+      <ti:editor xml:lang="eng">Mark G. Bilby</ti:editor>
+      <ti:editor xml:lang="eng">Jack Bull</ti:editor>
+      <ti:editor xml:lang="eng">K. Lance Lotharp</ti:editor>
+      <ti:label xml:lang="eng">Apostolos of Marcion [van Manen]</ti:label>
+      <ti:description xml:lang="eng">Bilby, Mark G., Jack Bull, and K. Lance Lotharp.
+         "Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s Greek Reconstructions of Marcion's Apostolos."
+         Journal of Open Humanities Data 9.27 (2023) 1–5. doi: 10.5334/johd.122 </ti:description>
+   </ti:edition>
+
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg003.src-grc2"
+      workUrn="urn:cts:greekLit:tlg2958.tlg003" xml:lang="grc">
+      <ti:editor xml:lang="eng">Theodor Zahn</ti:editor>
+      <ti:editor xml:lang="eng">Mark G. Bilby</ti:editor>
+      <ti:editor xml:lang="eng">Jack Bull</ti:editor>
+      <ti:editor xml:lang="eng">K. Lance Lotharp</ti:editor>
+      <ti:label xml:lang="eng">Apostolos of Marcion [Zahn]</ti:label>
+      <ti:description xml:lang="eng">Bilby, Mark G., Jack Bull, and K. Lance Lotharp.
+         "Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s Greek Reconstructions of Marcion's Apostolos."
+         Journal of Open Humanities Data 9.27 (2023) 1–5. doi: 10.5334/johd.122 </ti:description>
+   </ti:edition>
+
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg003.src-grc3"
+      workUrn="urn:cts:greekLit:tlg2958.tlg003" xml:lang="grc">
+      <ti:editor xml:lang="eng">Adolf von Harnack</ti:editor>
+      <ti:editor xml:lang="eng">Mark G. Bilby</ti:editor>
+      <ti:editor xml:lang="eng">Jack Bull</ti:editor>
+      <ti:editor xml:lang="eng">K. Lance Lotharp</ti:editor>
+      <ti:label xml:lang="eng">Apostolos of Marcion [Harnack]</ti:label>
+      <ti:description xml:lang="eng">Bilby, Mark G., Jack Bull, and K. Lance Lotharp.
+         "Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s Greek Reconstructions of Marcion's Apostolos."
+         Journal of Open Humanities Data 9.27 (2023) 1–5. doi: 10.5334/johd.122 </ti:description>
+   </ti:edition>
+
+   <ti:edition urn="urn:cts:greekLit:tlg2958.tlg003.src-grc6"
+      workUrn="urn:cts:greekLit:tlg2958.tlg003" xml:lang="grc">
+      <ti:editor xml:lang="eng">Markus Vinzent</ti:editor>
+      <ti:editor xml:lang="eng">Mark G. Bilby</ti:editor>
+      <ti:editor xml:lang="eng">Jack Bull</ti:editor>
+      <ti:editor xml:lang="eng">K. Lance Lotharp</ti:editor>
+      <ti:label xml:lang="eng">Apostolos of Marcion [Roth]</ti:label>
+      <ti:description xml:lang="eng">Vinzent, Markus, Mark G. Bilby, Jack Bull, and K. Lance Lotharp. 
+         Die älteste Sammlung der paulinischen Briefe und die Entstehung der kanonischen Paulusbriefsammlung. 
+         4 vol. Tübingen: Narr Francke, 2025 </ti:description>
+   </ti:edition>
+
+</ti:work>

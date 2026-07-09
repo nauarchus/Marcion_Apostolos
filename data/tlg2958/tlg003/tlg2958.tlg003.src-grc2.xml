@@ -1,0 +1,6063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/PatristicTextArchive/Schema/refs/heads/master/tei-pta.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title type="work">
+					Evangelion
+				</title>
+				<author ref="https://viaf.org/viaf/98032732">
+					Marcion of Sinope
+				</author>
+				<editor xml:id="Zahn" ref="https://viaf.org/viaf/22941633">
+					Theodor Zahn
+				</editor>
+				<editor ref="http://viaf.org/viaf/307315499">
+					Mark G. Bilby
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-0797-2710">
+					K. Lance Lotharp
+				</editor>
+				<editor ref="https://orcid.org/0000-0003-4606-239X">
+					Jack Bull
+				</editor>
+				<principal>
+					Mark G. Bilby
+				</principal>
+				<respStmt>
+					<resp>
+						Transcribed, normalized, and encoded by
+					</resp>
+					<persName xml:id="MGB">
+						Mark G. Bilby
+					</persName>
+					<persName>
+						Jack Bull
+					</persName>
+					<persName>
+						K. Lance Lotharp
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					Clavis Consulting, LLC, Kansas
+				</publisher>
+				<pubPlace>
+					Kansas City, KS, USA
+				</pubPlace>
+				<distributor>
+					@nauarchus account on GitHub
+				</distributor>
+				<availability>
+					<p>
+						© 2025 Clavis Consulting, LLC, Kansas, Jack Bull, and K. Lance Lotharp. Available under a
+					</p>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">
+						Creative Commons Attribution 4.0 International License
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author ref="http://viaf.org/viaf/307315499">
+							Mark Glen Bilby
+						</author>
+						<author ref="https://orcid.org/0000-0003-0797-2710">
+							K. Lance Lotharp
+						</author>
+						<author ref="https://orcid.org/0000-0003-4606-239X">
+							Jack Bull
+						</author>
+						<title level="a">
+							Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
+							Greek Reconstructions of Marcion's Apostolos
+						</title>
+						<title level="j">
+							Journal of Open Humanities Data
+						</title>
+						<idno type="issn">
+							2059-481X
+						</idno>
+						<idno type="doi">
+							10.5334/johd.122
+						</idno>
+						<ref target="https://doi.org/10.5334/johd.122">
+							https://doi.org/10.5334/johd.122
+						</ref>
+						<idno type="doi">
+							10.7910/DVN/ZUVKQW
+						</idno>
+						<ref target="https://doi.org/10.7910/DVN/ZUVKQW">
+							https://doi.org/10.7910/DVN/ZUVKQW
+						</ref>
+					</analytic>
+					<monogr>
+						<author ref="http://viaf.org/viaf/307315499">
+							Mark Glen Bilby
+						</author>
+						<author ref="https://orcid.org/0000-0003-0797-2710">
+							K. Lance Lotharp
+						</author>
+						<author ref="https://orcid.org/0000-0003-4606-239X">
+							Jack Bull
+						</author>
+						<title level="a">
+							Normalized Datasets of Zahn’s, van Manen’s, and Harnack’s
+							Greek Reconstructions of Marcion's Apostolos
+						</title>
+						<title level="j">
+							Journal of Open Humanities Data
+						</title>
+						<idno type="issn">
+							2059-481X
+						</idno>
+						<idno type="doi">
+							10.5334/johd.122
+						</idno>
+						<ref target="https://doi.org/10.5334/johd.122">
+							https://doi.org/10.5334/johd.122
+						</ref>
+						<idno type="doi">
+							10.7910/DVN/ZUVKQW
+						</idno>
+						<ref target="https://doi.org/10.7910/DVN/ZUVKQW">
+							https://doi.org/10.7910/DVN/ZUVKQW
+						</ref>
+						<imprint>
+							<publisher>
+								Ubiquity Press
+							</publisher>
+							<date>
+								2023
+							</date>
+						</imprint>
+						<biblScope unit="page">
+							1-5
+						</biblScope>
+					</monogr>
+					<monogr>
+						<author ref="https://viaf.org/viaf/22941633">
+							Theodor Zahn
+						</author>
+						<title level="m">
+							Geschichte des neutestamentlichen Kanons
+						</title>
+						<idno type="ARK">
+							13960/t8cf9s958
+						</idno>
+						<ref target="https://n2t.net/ark:/13960/t8cf9s958">
+							https://n2t.net/ark:/13960/t8cf9s958
+						</ref>
+						<idno type="LC">
+							37029996
+						</idno>
+						<respStmt>
+							<resp>
+								von
+							</resp>
+							<name>
+								Theodor Zahn
+							</name>
+						</respStmt>
+						<imprint>
+							<pubPlace>
+								Erlangen
+							</pubPlace>
+							<publisher>
+								A. Deichert
+							</publisher>
+							<date>
+								1892
+							</date>
+						</imprint>
+						<biblScope unit="volume">
+							2
+						</biblScope>
+						<biblScope unit="part">
+							2
+						</biblScope>
+						<biblScope unit="page">
+							495-529
+						</biblScope>
+					</monogr>
+				</biblStruct>
+				<listBibl>
+					<bibl xml:id="EOCM">
+						<abbr type="siglum">
+							EOCM
+						</abbr>
+						<author>
+							Constantin Tischendorf
+						</author>
+						<title level="m">
+							Novum Testamentum Graece
+						</title>
+						<biblScope unit="vol">
+							1
+						</biblScope>
+						<pubPlace>
+							Leipzig
+						</pubPlace>
+						<publisher>
+							Giesecke &amp; Devrient
+						</publisher>
+						<date when="1869">
+							1869
+						</date>
+					</bibl>
+				</listBibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="verse" matchPattern="([A-Za-z]+[0-9]*).([0-9]+[a-z]?).([0-9]+[a-z]?)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1']/tei:div[@subtype='chapter'][@n='$2']/tei:div[@subtype='verse'][@n='$3'])" />
+				<cRefPattern n="chapter" matchPattern="([A-Za-z]+[0-9]*).([0-9]+[a-z]?)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1']/tei:div[@subtype='chapter'][@n='$2'])" />
+				<cRefPattern n="book" matchPattern="([A-Za-z]+[0-9]*)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='edition']/tei:div[@subtype='book'][@n='$1'])" />
+			</refsDecl>
+		</encodingDesc>
+		<revisionDesc status="draft">
+			<change when="2025-03-08" who="#MGB">
+				Initial Perseus and Patristic Text Archive edition released
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="grc">
+		<body>
+			<div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg2958.tlg003.src-grc2">
+				<pb n="495" />
+				<head>
+					Ἀποστολικόν.
+				</head>
+				<head>
+					Πρὸς Γαλάτας.
+				</head>
+				<div type="textpart" subtype="book" n="GalA">
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									Παῦλος
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀπόστολος,
+										οὐκ ἀπ᾽ ἀνθρώπων οὐδὲ δι᾽ ἀνθρώπου,
+										ἀλλὰ
+									</supplied>
+									διὰ Ἰησοῦ Χριστοῦ τοῦ ἐγείραντος αὑτὸν ἐκ νεκρῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s xml:id="Γαλ1.6">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θαυμάζω ὅτι οὕτως ταχέως μετατίθεσθε ἀπὸ τοῦ καλέσαντος ὑμᾶς
+									</supplied>
+									ἐν
+									<pb n="496" />
+									χάριτι εἰς ἕτερον εὐαγγέλιον,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s xml:id="Γαλ1.7" corresp="#Γαλ1.6">
+									ὃ πάντως
+									<app type="variants">
+										<lem resp="#Zahn">
+											πάντως
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											πάντως
+										</rdg>
+									</app>
+									οὐκ ἔστιν
+									<pb n="497" />
+									ἄλλο,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ μή τινές εἰσιν οἱ ταράσσοντες ὑμᾶς καὶ θέλοντες μεταστρέψαι τὸ εὐαγγέλιον τοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ καὶ ἐὰν ἡμεῖς ἢ ἄγγελος
+									</supplied>
+									ἐξ οὐρανοῦ ἄλλως εὐαγγελίσηται,
+									ἀνάθεμα ἔστω.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ γὰρ ἐγὼ παρὰ ἀνθρώπου παρέλαβον αὐτό,
+										οὔτε ἐδιδάχθην,
+										ἀλλὰ δι᾽ ἀποκαλύψεως Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἠκούσατε γὰρ τὴν ἐμὴν ἀναστροφήν ποτε ἐν τῷ Ἰουδαϊσμῷ,
+										ὅτι καθ᾽ ὑπερβολὴν ἐδίωκον τὴν ἐκκλησίαν τοῦ θεοῦ καὶ ἐπόρθουν αὐτήν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ προέκοπτον ἐν τῷ Ἰουδαϊσμῷ ὑπὲρ πολλοὺς συνηλικιώτας ἐν τῷ γένει μου,
+										περισσοτέρως ζηλωτὴς ὑπάρχων τῶν πατρικῶν μου παραδόσεων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p xml:id="Γαλ1.15">
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ὅτε δὲ εὐδόκησεν,
+									ὁ ἀφορίσας με ἐκ κοιλίας μητρός μου,
+									καὶ καλέσας διὰ τῆς χάριτος αὐτοῦ,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p xml:id="Γαλ1.16" corresp="#Γαλ1.15">
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ἀποκαλύψαι τὸν υἱὸν αὐτοῦ ἐν ἐμοὶ,
+									ἵνα εὐαγγελίζωμαι αὐτὸν ἐν τοῖς ἔθνεσιν,
+									εὐθέως οὐ προσανεθέμην σαρκὶ καὶ αἵματι,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s xml:id="Γαλ1.17a" corresp="#Γαλ1.15">
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ ἀνῆλθον εἰς Ἱεροσόλυμα πρὸς τοὺς πρὸ ἐμοῦ ἀποστόλους.
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ἀπῆλθον εἰς Ἀραβίαν,
+										καὶ πάλιν ὑπέστρεψα εἰς Δαμασκόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="498" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔπειτα διὰ δεκατεσσάρων ἐτῶν
+									</supplied>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνέβην εἰς Ἱεροσόλυμα μετὰ Βαρναβᾶ,
+										συνπαραλαβὼν καὶ Τίτον·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνέβην δὲ κατὰ ἀποκάλυψιν,
+										καὶ ἀνεθέμην αὐτοῖς τὸ εὐαγγέλιον ὃ κηρύσσω ἐν τοῖς ἔθνεσιν,
+										κατ᾽ ἰδίαν δὲ τοῖς δοκοῦσιν,
+										μήπως
+									</supplied>
+									εἰς κενὸν ἔδραμον ἢ τρέχω.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p xml:id="Γαλ2.3">
+								ἀλλ᾽ οὐδὲ Τίτος
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ὁ σὺν ἐμοί,
+									Ἕλλην ὤν,
+								</supplied>
+								ἠναγκάσθη περιτμηθῆναι
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p xml:id="Γαλ2.4" corresp="#Γαλ2.3">
+								διὰ τοὺς παρεισάκτους
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									ψευδαδέλφους,
+									οἵτινες παρεισῆλθον κατασκοπῆσαι τὴν ἐλευθερίαν ἡμῶν ἣν ἔχομεν
+								</supplied>
+								ἐν Χριστῷ,
+								ἵνα ἡμᾶς καταδουλώσουσιν.
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									οὐδὲ πρὸς
+									<pb n="499" />
+									ὥραν εἴξαμεν τῇ ὑποταγῇ,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα ἡ ἀλήθεια τοῦ εὐαγγελίου διαμείνῃ πρὸς ὑμᾶς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p xml:id="Γαλ2.9">
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									καὶ γνόντες τὴν χάριν τὴν δοθεῖσάν μοι,
+								</supplied>
+								Πέτρος καὶ Ἰάκωβος καὶ Ἰωάννης,
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									οἱ δοκοῦντες στῦλοι εἶναι,
+									δεξιὰς ἔδωκαν ἐμοὶ καὶ Βαρναβᾷ κοινωνίας,
+									ἵνα ἡμεῖς εἰς τὰ ἔθνη,
+									αὐτοὶ δὲ εἰς τὴν περιτομήν,
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p xml:id="Γαλ2.10" corresp="#Γαλ2.9">
+								<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+									μόνον τῶν πτωχῶν ἵνα μνημονεύωμεν,
+									ὃ καὶ ἐσπούδασα αὐτὸ τοῦτο ποιῆσαι.
+								</supplied>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτε δὲ ἦλθεν Κηφᾶς εἰς Ἀντιόχειαν,
+										κατὰ πρόσωπον αὐτῷ ἀντέστην,
+										ὅτι κατεγνωσμένος ἦν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πρὸ τοῦ γὰρ ἐλθεῖν τινας ἀπὸ Ἰακώβου μετὰ τῶν ἐθνῶν συνήσθιεν·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτε δὲ ἦλθον,
+										ὑπέστελλεν καὶ ἀφώριζεν ἑαυτόν,
+										φοβούμενος τοὺς ἐκ περιτομῆς·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ συνυπεκρίθησαν αὐτῷ καὶ οἱ λοιποὶ Ἰουδαῖοι,
+										ὥστε καὶ Βαρναβᾶς συναπήχθη αὐτῶν τῇ ὑποκρίσει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ὅτε εἶδον ὅτι οὐκ ὀρθοποδοῦσιν πρὸς τὴν ἀλήθειαν τοῦ εὐαγγελίου,
+										εἶπον τῷ Κηφᾷ ἔμπροσθεν πάντων·
+									</supplied>
+								</s>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ σὺ Ἰουδαῖος ὑπάρχων ἐθνικῶς καὶ οὐχ Ἰουδαϊκῶς ζῇς,
+										πῶς τὰ ἔθνη ἀναγκάζεις ἰουδαΐζειν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰδότες δὲ ὅτι οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως Χριστοῦ Ἰησοῦ,
+										καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσαμεν,
+										ἵνα δικαιωθῶμεν ἐκ πίστεως Χριστοῦ καὶ οὐκ ἐξ ἔργων νόμου,
+										ὅτι ἐξ ἔργων νόμου οὐ δικαιωθήσεται πᾶσα σάρξ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ γὰρ ἃ κατέλυσα ταῦτα πάλιν οἰκοδομῶ,
+										παραβάτην ἐμαυτὸν συνιστάνω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Χριστῷ συνεσταύρωμαι·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ζῶ δὲ οὐκέτι ἐγώ,
+										ζῇ δὲ ἐν ἐμοὶ Χριστός·
+										ὃ δὲ νῦν ζῶ ἐν σαρκί,
+										ἐν πίστει ζῶ τῇ
+									</supplied>
+									τοῦ υἱοῦ τοῦ θεοῦ τοῦ ἀγοράσαντός με.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὦ ἀνόητοι Γαλάται,
+										τίς ὑμᾶς ἐβάσκανεν,
+										οἷς κατ᾽ ὀφθαλμοὺς Ἰησοῦς Χριστὸς προεγράφη ἐσταυρωμένος;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									μάθετε ὅτι ὁ δίκαιος ἐκ πίστεως ζήσεται·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ὅσοι γὰρ ὑπὸ νόμον,
+									ὑπὸ κατάραν εἰσίν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὁ δὲ ποιήσας αὐτὰ ζήσεται ἐν αὐτοῖς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου γενόμενος ὑπὲρ ἡμῶν κατάρα,
+										ὅτι γέγραπται·
+										ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="500" />
+						<div type="textpart" subtype="verse" n="14b">
+							<p>
+								<s>
+									ἐλάβομεν
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἐλάβομεν
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἐλάβομεν
+										</rdg>
+									</app>
+									οὖν τὴν πνευματικὴν εὐλογίαν διὰ τῆς πίστεως.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									πάντες γὰρ υἱοὶ ἐστε τῆς πίστεως.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										λέγω δέ,
+										ἐφ᾽ ὅσον χρόνον ὁ κληρονόμος νήπιός ἐστιν,
+										οὐδὲν διαφέρει δούλου κύριος πάντων ὤν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ὑπὸ ἐπιτρόπους ἐστὶν καὶ οἰκονόμους ἄχρι τῆς προθεσμίας τοῦ πατρός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									Ἔτι κατὰ ἄνθρωπον λέγω·
+									ὅτε ἦμεν νήπιοι,
+									ὑπὸ τὰ στοιχεῖα τοῦ κόσμου ἦμεν τεθειμένοι εἰς τὸ δουλεῦσαι αὐτοῖς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ὅτε δὲ ἐγένετο πληροῦσθαι τὸν χρόνον,
+									ἀπέστειλεν ὁ θεὸς τὸν υἱὸν αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα τοὺς ὑπὸ νόμον ἐξαγοράσῃ,
+										ἵνα τὴν υἱοθεσίαν ἀπολάβωμεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ὅτι οὖν
+									<gap reason="missing" extent="unknown" source="#Zahn" />
+									ἐσμεν
+									<pb n="501" />
+									υἱοὶ θεοῦ,
+									ἀπέστειλεν τὸ πνεῦμα αὐτοῦ
+									<gap reason="missing" extent="unknown" source="#Zahn" />
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς τὰς καρδίας ἡμῶν,
+										κρᾶζον·
+										Ἀββᾶ ὁ πατήρ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									εἰ οὖν τοῖς ἐν τῇ φύσει οὖσι θεοῖς δουλεύετε,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9b">
+							<p>
+								<s>
+									πῶς ἐπιστρέφετε πάλιν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐπὶ τὰ ἀσθενῆ καὶ πτωχὰ στοιχεῖα,
+										οἷς πάλιν ἄνωθεν δουλεῦσαι θέλετε;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡμέρας παρατηρεῖσθε καὶ μῆνας καὶ καιροὺς καὶ ἐνιαυτούς;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										γέγραπται γὰρ ὅτι Ἀβραὰμ δύο υἱοὺς ἔσχεν,
+										ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ὁ μὲν ἐκ τῆς παιδίσκης κατὰ σάρκα γεγέννηται,
+										ὁ δὲ ἐκ τῆς ἐλευθέρας διὰ τῆς ἐπαγγελίας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἅτινά ἐστιν ἀλληγορούμενα·
+										αὗται γάρ εἰσιν
+									</supplied>
+									δύο διαθῆκαι,
+									μία μὲν
+									<pb n="502" />
+									ἀπὸ ὄρους Σινᾶ εἰς τὴν συναγωγὴν τῶν Ἰουδαίων κατὰ τὸν νόμον γεννῶσα εἰς δουλείαν,
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Eph">
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									μία ἄλλη, ἑτέρα
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἄλλη, ἑτέρα
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἄλλη, ἑτέρα
+										</rdg>
+									</app>
+									δὲ ὑπεράνω πάσης ἀρχῆς καὶ δυνάμεως καὶ ἐξουσίας καὶ παντὸς ὀνόματος ὀνομαζομένου οὐ μόνον ἐν τῷ αἰῶνι τούτῳ,
+									ἀλλὰ καὶ ἐν τῷ μέλλοντι,
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="GalB">
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									ἥτις ἐστὶν μήτηρ ἡμῶν,
+									γεννῶσα εἰς ἣν ἐπηγγειλάμεθα ἁγίαν ἐκκλησίαν.
+								</s>
+							</p>
+						</div>
+						<pb n="503" />
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διό,
+										ἀδελφοί,
+										οὐκ ἐσμὲν παιδίσκης τέκνα ἀλλὰ τῆς ἐλευθέρας,
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									ᾗ ἐλευθερίᾳ Χριστὸς ἡμᾶς ἠλευθέρωσεν.
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										στήκετε οὖν καὶ μὴ πάλιν ζυγῷ δουλίας ἐνέχεσθε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									μαρτύρομαι δὲ πάλιν,
+									ὅτι ἄνθρωπος περιτετμημένος ὀφειλέτης ἐστὶν ὅλον τὸν νόμον πληρῶσαι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν γὰρ Χριστῷ Ἰησοῦ οὔτε περιτομή τι ἰσχύει οὔτε ἀκροβυστία,
+										ἀλλὰ πίστις
+									</supplied>
+									δι᾽ ἀγάπης πληρουμένη
+									<app type="variants">
+										<lem resp="#Zahn">
+											πληρουμένη
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											πληρουμένη
+										</rdg>
+									</app>
+									.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μικρὰ ζύμη ὅλον
+									</supplied>
+									τὸ φύραμα δολοῖ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ πέποιθα εἰς ὑμᾶς ἐν κυρίῳ ὅτι οὐδὲν ἄλλο φρονήσετε·
+										ὁ δὲ ταράσσων ὑμᾶς βαστάσει τὸ κρίμα,
+										ὅστις ἐὰν ᾖ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὄφελον καὶ ἀποκόψονται οἱ ἀναστατοῦντες ὑμᾶς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ὁ γὰρ πᾶς νόμος ἐν ὑμῖν πεπλήρωται·
+									ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										φανερὰ δέ ἐστιν τὰ ἔργα τῆς σαρκός,
+										ἅτινά ἐστιν πορνεία,
+										ἀκαθαρσία,
+										ἀσέλγεια,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰδωλολατρία,
+										φαρμακεία,
+										ἔχθραι,
+										ἔρις,
+										ζῆλος,
+										θυμοί,
+										ἐριθείαι,
+										διχοστασίαι,
+										αἱρέσεις,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μέθαι,
+										κῶμοι,
+										ἃ προλέγω ὑμῖν
+									</supplied>
+									καθὼς καὶ προεῖπον,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι οἱ τὰ τοιαῦτα πράσσοντες βασιλείαν θεοῦ οὐ κληρονομήσουσιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ δὲ τοῦ Χριστοῦ τὴν σάρκα ἐσταύρωσαν σὺν τοῖς παθήμασιν καὶ ταῖς ἐπιθυμίαις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλήλων τὰ βάρη βαστάζετε,
+										καὶ οὕτως
+									</supplied>
+									ἀναπληρώσετε
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸν νόμον τοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										κοινωνείτω δὲ ὁ κατηχούμενος τὸν λόγον τῷ κατηχοῦντι ἐν πᾶσιν ἀγαθοῖς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="504" />
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									πλανᾶσθε,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θεὸς οὐ μυκτηρίζεται.
+										ὃ γὰρ ἐὰν σπείρῃ ἄνθρωπος,
+										τοῦτο καὶ θερίσει·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι ὁ σπείρων εἰς τὴν σάρκα ἑαυτοῦ ἐκ τῆς σαρκὸς θερίσει φθοράν,
+										ὁ δὲ σπείρων εἰς τὸ πνεῦμα ἐκ τοῦ πνεύματος θερίσει ζωὴν αἰώνιον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ δὲ καλὸν ποιοῦντες μὴ ἐνκακῶμεν·
+										καιρῷ γὰρ ἰδίῳ θερίσομεν μὴ ἐκλυόμενοι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄρα οὖν ὡς καιρὸν ἔχωμεν,
+										ἐργαζώμεθα τὸ ἀγαθὸν πρὸς πάντας,
+										μάλιστα δὲ πρὸς τοὺς οἰκείους τῆς πίστεως.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ γὰρ οἱ περιτεμνόμενοι αὐτοὶ νόμον φυλάσσουσιν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δι᾽ οὗ ἐμοὶ κόσμος ἐσταύρωται κἀγὼ κόσμῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὅσοι τῷ κανόνι τούτῳ στοιχήσουσιν,
+										εἰρήνη ἐπ᾽ αὐτοὺς καὶ ἔλεος,
+										καὶ ἐπὶ τὸν Ἰσραὴλ τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									τῶν δ᾽ἄλλων εἰκῇ κόπους μοι μηδεὶς παρέχεσθω·
+									ἐγὼ γὰρ τὰ στίγματα τοῦ Ἰησοῦ ἐν τῷ σώματί μου βαστάζω.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="1Cor">
+					<head>
+						Πρὸς Κορινθίους α᾽.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Παῦλος κλητὸς ἀπόστολος Χριστοῦ Ἰησοῦ διὰ θελήματος θεοῦ καὶ Σωσθένης ὁ ἀδελφὸς
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ ἐκκλησίᾳ τοῦ θεοῦ τῇ οὔσῃ ἐν Κορίνθῳ,
+										ἡγιασμένοις ἐν Χριστῷ Ἰησοῦ,
+										κλητοῖς ἁγίοις,
+										σὺν πᾶσιν τοῖς ἐπικαλουμένοις τὸ ὄνομα τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ ἐν παντὶ τόπῳ,
+										αὐτῶν καὶ ἡμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									ὁ γὰρ σταυρὸς τοῦ Χριστοῦ τοῖς μὲν ἀπολλυμένοις μωρία ἐστίν,
+									τοῖς δὲ σῳζομένοις
+									<pb n="505" />
+									δύναμις καὶ σοφία θεοῦ ἐστιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									γέγραπται γάρ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀπολῶ τὴν σοφίαν τῶν σοφῶν,
+										καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐχὶ ἐμώρανεν ὁ θεὸς τὴν σοφίαν τοῦ κόσμου;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ἐπειδὴ ἐν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ σοφίᾳ τοῦ θεοῦ οὐκ ἔγνω ὁ κόσμος
+									</supplied>
+									διὰ τῆς σοφίας τὸν κύριον,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εὐδόκησεν ὁ θεὸς διὰ τῆς μωρίας τοῦ κηρύγματος σῶσαι τοὺς πιστεύοντας·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									ἐπειδὴ Ἰουδαῖοι
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σημεῖα αἰτοῦσιν καὶ Ἕλληνες σοφίαν ζητοῦσιν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡμεῖς δὲ κηρύσσομεν Χριστὸν ἐσταυρωμένον,
+										Ἰουδαίοις μὲν σκάνδαλον,
+										ἔθνεσιν δὲ μωρίαν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι τὸ μωρὸν τοῦ θεοῦ σοφώτερον τῶν ἀνθρώπων ἐστίν,
+										καὶ τὸ ἀσθενὲς τοῦ θεοῦ ἰσχυρότερον τῶν ἀνθρώπων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ τὰ μωρὰ τοῦ κόσμου ἐξελέξατο ὁ θεὸς ἵνα
+									</supplied>
+									καταισχύνῃ τὰ σοφά,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τὰ ἀσθενῆ τοῦ κόσμου ἐξελέξατο ὁ θεὸς ἵνα καταισχύνῃ τὰ ἰσχυρα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									καὶ τὰ ἀγενῆ καὶ τὰ ἐλάχιστα καὶ τὰ ἐξουθενημένα
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐξελέξατο ὁ θεός,
+										τὰ μὴ ὄντα,
+										ἵνα τὰ ὄντα καταργήσῃ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅπως μὴ καυχήσηται πᾶσα σὰρξ ἐνώπιον τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα καθὼς γέγραπται·
+										ὁ καυχώμενος ἐν κυρίῳ καυχάσθω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σοφίαν δὲ λαλοῦμεν ἐν τοῖς τελείοις,
+										σοφίαν δὲ οὐ τοῦ αἰῶνος τούτου οὐδὲ τῶν ἀρχόντων τοῦ αἰῶνος τούτου τῶν καταργουμένων·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ λαλοῦμεν θεοῦ σοφίαν ἐν μυστηρίῳ τὴν ἀποκεκρυμμένην,
+										ἣν προώρισεν ὁ θεὸς πρὸ τῶν αἰώνων εἰς δόξαν ἡμῶν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἣν οὐδεὶς τῶν ἀρχόντων τοῦ αἰῶνος τούτου ἔγνωκεν·
+										εἰ γὰρ ἔγνωσαν,
+										οὐκ ἂν τὸν κύριον τῆς δόξης ἐσταύρωσαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τίς γὰρ ἔγνω νοῦν κυρίου,
+										ὃς συμβιβάσει αὐτόν;
+										ἡμεῖς δὲ νοῦν Χριστοῦ ἔχομεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										κατὰ τὴν χάριν τοῦ θεοῦ τὴν δοθεῖσάν μοι ὡς σοφὸς ἀρχιτέκτων θεμέλιον ἔθηκα,
+										ἄλλος δὲ ἐποικοδομεῖ.
+										ἕκαστος δὲ βλεπέτω πῶς ἐποικοδομεῖ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θεμέλιον γὰρ ἄλλον οὐδεὶς δύναται θεῖναι παρὰ τὸν κείμενον,
+										ὅς ἐστιν Ἰησοῦς Χριστός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δέ τις ἐποικοδομεῖ ἐπὶ τὸν θεμέλιον χρυσίον,
+										ἀργύριον,
+										λίθους τιμίους,
+										ξύλα,
+										χόρτον,
+										καλάμην,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἑκάστου τὸ ἔργον φανερὸν γενήσεται·
+										ἡ γὰρ ἡμέρα δηλώσει,
+										ὅτι ἐν πυρὶ ἀποκαλύπτεται,
+										καὶ ἑκάστου τὸ ἔργον ὁποῖόν ἐστιν τὸ πῦρ αὐτὸ δοκιμάσει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴ τινος τὸ ἔργον μενεῖ ὃ ἐποικοδόμησεν,
+										μισθὸν λήμψεται·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴ τινος τὸ ἔργον κατακαήσεται,
+										ζημιωθήσεται,
+										αὐτὸς δὲ σωθήσεται,
+										οὕτως δὲ ὡς διὰ πυρός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ οἴδατε ὅτι ναὸς θεοῦ ἐστε καὶ τὸ πνεῦμα τοῦ θεοῦ οἰκεῖ ἐν ὑμῖν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴ τις τὸν ναὸν τοῦ θεοῦ
+									</supplied>
+									φθείρει,
+									φθαρήσεται
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτον ὁ θεός·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μηδεὶς ἑαυτὸν ἐξαπατάτω·
+										εἴ τις δοκεῖ σοφὸς εἶναι ἐν ὑμῖν ἐν τῷ αἰῶνι τούτω,
+									</supplied>
+									μωροὶ γίνεσθε,
+									ἵνα γένησθε σοφοί.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία παρὰ τῷ θεῷ ἐστιν.
+										γέγραπται γάρ·
+										ὁ δρασσόμενος τοὺς σοφοὺς ἐν τῇ πανουργίᾳ αὐτῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ πάλιν·
+										κύριος γινώσκει τοὺς διαλογισμοὺς τῶν σοφῶν,
+										ὅτι εἰσὶν μάταιοι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε μηδεὶς καυχάσθω ἐν ἀνθρώποις·
+										πάντα γὰρ ὑμῶν ἐστιν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴτε Παῦλος εἴτε Κηφᾶς,
+										εἴτε κόσμος εἴτε ζωὴ εἴτε θάνατος,
+										εἴτε ἐνεστῶτα εἴτε μέλλοντα,
+										πάντα ὑμῶν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									ὑμεῖς δὲ Χριστοῦ,
+									Χριστὸς δὲ θεοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε μὴ πρὸ καιροῦ τι κρίνετε,
+										ἕως ἂν ἔλθῃ ὁ κύριος,
+										ὃς καὶ φωτίσει τὰ κρυπτὰ τοῦ σκότους καὶ φανερώσει τὰς βουλὰς τῶν καρδιῶν·
+										καὶ τότε ὁ ἔπαινος γενήσεται ἑκάστῳ ἀπὸ τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι θέατρον ἐγενήθημεν τῷ κόσμῳ καὶ ἀγγέλοις καὶ ἀνθρώποις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="506" />
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν γὰρ μυρίους παιδαγωγοὺς ἔχητε ἐν Χριστῷ,
+										ἀλλ᾽ οὐ πολλοὺς πατέρας·
+									</supplied>
+									ἐν γὰρ τῷ εὐαγγελίῳ ἐγὼ ὑμᾶς ἐγέννησα.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅλως ἀκούεται ἐν ὑμῖν πορνεία,
+										καὶ τοιαύτη πορνεία ἥτις οὐδὲ ἐν τοῖς ἔθνεσιν,
+										ὥστε γυναῖκά τινα τοῦ πατρὸς ἔχειν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἐγὼ μὲν γάρ ὡς ἀπὼν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῷ σώματι,
+										παρὼν δὲ τῷ πνεύματι,
+										ἤδη κέκρικα ὡς παρὼν τὸν οὕτως τοῦτο κατεργασάμενον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									ἐν τῷ ὀνόματι τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										συναχθέντων ὑμῶν καὶ τοῦ ἐμοῦ πνεύματος
+									</supplied>
+									σὺν τῇ δυνάμει τοῦ κυρίου ἡμῶν Ἰησοῦ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παραδοῦναι τὸν τοιοῦτον τῷ σατανᾷ εἰς ὄλεθρον τῆς σαρκός,
+										ἵνα τὸ πνεῦμα σωθῇ ἐν τῇ ἡμέρᾳ τοῦ κυρίου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐκκαθάρατε τὴν παλαιὰν ζύμην,
+										ἵνα ἦτε νέον φύραμα,
+										καθώς ἐστε ἄζυμοι·
+										καὶ γὰρ τὸ πάσχα ἡμῶν ἐτύθη Χριστός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									τοὺς δὲ ἔξω ὁ θεὸς κρινεῖ.
+									ἐξάρατε τὸν πονηρὸν ἐξ ὑμῶν αὐτῶν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="13b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ δὲ σῶμα οὐ τῇ πορνείᾳ ἀλλὰ τῷ κυρίῳ,
+										καὶ ὁ κύριος τῷ σώματι·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ δὲ θεὸς καὶ τὸν κύριον ἤγειρεν καὶ ἡμᾶς ἐξεγερεῖ διὰ τῆς δυνάμεως αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ οἴδατε ὅτι τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν;
+										ἄρας οὖν τὰ μέλη τοῦ Χριστοῦ ποιήσω πόρνης μέλη;
+										μὴ γένοιτο.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἢ οὐκ οἴδατε ὅτι ὁ κολλώμενος τῇ πόρνῃ ἓν σῶμά ἐστιν;
+										ἔσονται γάρ,
+										φησίν,
+										οἱ δύο εἰς σάρκα μίαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἠγοράσθητε γὰρ τιμῆς·
+									</supplied>
+									δοξάσατε,
+									ἄρατε τὸν θεὸν
+									<pb n="507" />
+									ἐν τῷ σώματι ὑμῶν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περὶ δὲ ὧν ἐγράψατε,
+										καλὸν ἀνθρώπῳ γυναικὸς μὴ ἅπτεσθαι·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ δὲ τὰς πορνείας ἕκαστος τὴν ἑαυτοῦ γυναῖκα ἐχέτω,
+										καὶ ἑκάστη τὸν ἴδιον ἄνδρα ἐχέτω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ γυναικὶ ὁ ἀνὴρ τὴν ὀφειλὴν ἀποδιδότω,
+										ὁμοίως δὲ καὶ ἡ γυνὴ τῷ ἀνδρί.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ γυνὴ τοῦ ἰδίου σώματος οὐκ ἐξουσιάζει ἀλλὰ ὁ ἀνήρ·
+										ὁμοίως δὲ καὶ ὁ ἀνὴρ τοῦ ἰδίου σώματος οὐκ ἐξουσιάζει ἀλλὰ ἡ γυνή.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ ἀποστερεῖτε ἀλλήλους,
+										εἰ μήτι ἂν ἐκ συμφώνου πρὸς καιρὸν ἵνα σχολάσητε τῇ προσευχῇ καὶ πάλιν ἐπὶ τὸ αὐτὸ ἦτε,
+										ἵνα μὴ πειράζῃ ὑμᾶς ὁ σατανᾶς διὰ τὴν ἀκρασίαν ὑμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτο δὲ λέγω κατὰ συγγνώμην,
+										οὐ κατ᾽ ἐπιταγήν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θέλω δὲ πάντας ἀνθρώπους εἶναι ὡς καὶ ἐμαυτόν·
+										ἀλλὰ ἕκαστος ἴδιον ἔχει χάρισμα ἐκ θεοῦ,
+										ὁ μὲν οὕτως,
+										ὁ δὲ οὕτως.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										λέγω δὲ τοῖς ἀγάμοις καὶ ταῖς χήραις,
+										καλὸν αὐτοῖς ἐὰν μείνωσιν ὡς κἀγώ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ οὐκ ἐγκρατεύονται,
+										γαμησάτωσαν·
+										κρεῖττον γάρ ἐστιν γαμεῖν ἢ πυροῦσθαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῖς δὲ γεγαμηκόσιν παραγγέλλω,
+										οὐκ ἐγὼ ἀλλὰ ὁ κύριος,
+										γυναῖκα ἀπὸ ἀνδρὸς μὴ χωρισθῆναι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν δὲ καὶ χωρισθῇ,
+										μενέτω ἄγαμος ἢ τῷ ἀνδρὶ καταλλαγήτω,
+										καὶ ἄνδρα γυναῖκα μὴ ἀφιέναι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῖς δὲ λοιποῖς λέγω ἐγώ,
+										οὐχ ὁ κύριος,
+										εἴ τις ἀδελφὸς γυναῖκα ἔχει ἄπιστον καὶ αὕτη συνευδοκεῖ οἰκεῖν μετ᾽ αὐτοῦ,
+										μὴ ἀφιέτω αὐτήν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γυνὴ εἴ τις ἔχει ἄνδρα ἄπιστον καὶ οὗτος συνευδοκεῖ οἰκεῖν μετ᾽ αὐτῆς,
+										μὴ ἀφιέτω τὸν ἄνδρα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡγίασται γὰρ ὁ ἀνὴρ ὁ ἄπιστος ἐν τῇ γυναικί,
+										καὶ ἡγίασται ἡ γυνὴ ἡ ἄπιστος ἐν τῷ ἀδελφῷ·
+										ἐπεὶ ἄρα τὰ τέκνα ὑμῶν ἀκάθαρτά ἐστιν,
+										νῦν δὲ ἅγιά ἐστιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ὁ ἄπιστος χωρίζεται,
+										χωριζέσθω·
+										οὐ δεδούλωται ὁ ἀδελφὸς ἢ ἡ ἀδελφὴ ἐν τοῖς τοιούτοις.
+										ἐν δὲ εἰρήνῃ κέκληκεν ὑμᾶς ὁ θεός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τί γὰρ οἶδας,
+										γύναι,
+										εἰ τὸν ἄνδρα σώσεις;
+										ἢ τί οἶδας,
+										ἄνερ,
+										εἰ τὴν γυναῖκα σώσεις;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ μὴ ἑκάστῳ ὡς μεμέρικεν ὁ κύριος,
+										ἕκαστον ὡς κέκληκεν ὁ θεός,
+										οὕτως περιπατείτω.
+										καὶ οὕτως ἐν ταῖς ἐκκλησίαις πάσαις διατάσσομαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περιτετμημένος τις ἐκλήθη;
+										μὴ ἐπισπάσθω·
+										ἐν ἀκροβυστίᾳ κέκληταί τις;
+										μὴ περιτεμνέσθω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ περιτομὴ οὐδέν ἐστιν,
+										καὶ ἡ ἀκροβυστία οὐδέν ἐστιν,
+										ἀλλὰ τήρησις ἐντολῶν θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἕκαστος ἐν τῇ κλήσει ᾗ ἐκλήθη,
+										ἐν ταύτῃ μενέτω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δοῦλος ἐκλήθης;
+										μή σοι μελέτω·
+										ἀλλ᾽ εἰ καὶ δύνασαι ἐλεύθερος γενέσθαι,
+										μᾶλλον χρῆσαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ γὰρ ἐν κυρίῳ κληθεὶς δοῦλος ἀπελεύθερος κυρίου ἐστίν·
+										ὁμοίως ὁ ἐλεύθερος κληθεὶς δοῦλός ἐστιν Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τιμῆς ἠγοράσθητε·
+										μὴ γίνεσθε δοῦλοι ἀνθρώπων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἕκαστος ἐν ᾧ ἐκλήθη,
+										ἀδελφοί,
+										ἐν τούτῳ μενέτω παρὰ θεῷ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περὶ δὲ τῶν παρθένων ἐπιταγὴν κυρίου οὐκ ἔχω,
+										γνώμην δὲ δίδωμι ὡς ἠλεημένος ὑπὸ κυρίου πιστὸς εἶναι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νομίζω οὖν τοῦτο καλὸν ὑπάρχειν διὰ τὴν ἐνεστῶσαν ἀνάγκην,
+										ὅτι καλὸν ἀνθρώπῳ τὸ οὕτως εἶναι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δέδεσαι γυναικί;
+										μὴ ζήτει λύσιν·
+										λέλυσαι ἀπὸ γυναικός;
+										μὴ ζήτει γυναῖκα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν δὲ καὶ γαμήσῃς,
+										οὐχ ἥμαρτες,
+										καὶ ἐὰν γήμῃ ἡ παρθένος,
+										οὐχ ἥμαρτεν·
+										θλῖψιν δὲ τῇ σαρκὶ ἕξουσιν οἱ τοιοῦτοι,
+										ἐγὼ δὲ ὑμῶν φείδομαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτο δέ φημι,
+										ἀδελφοί,
+									</supplied>
+									ὅτι ὁ καιρὸς συνεσταλμένος ἐστίν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="8">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περὶ τῆς βρώσεως οὖν τῶν εἰδωλοθύτων οἴδαμεν ὅτι οὐδὲν εἴδωλον ἐν κόσμῳ,
+										καὶ ὅτι οὐδεὶς θεὸς εἰ μὴ εἷς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ εἴπερ εἰσὶν λεγόμενοι θεοὶ εἴτε ἐν οὐρανῷ εἴτε ἐπὶ γῆς,
+										ὥσπερ εἰσὶν θεοὶ πολλοὶ καὶ κύριοι πολλοί,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ἡμῖν εἷς θεὸς ὁ πατήρ,
+										ἐξ οὗ τὰ πάντα καὶ ἡμεῖς εἰς αὐτόν,
+										καὶ εἷς κύριος Ἰησοῦς Χριστός,
+										δι᾽ οὗ τὰ πάντα καὶ ἡμεῖς δι᾽ αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="9">
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τίς στρατεύεται ἰδίοις ὀψωνίοις ποτέ;
+										τίς φυτεύει ἀμπελῶνα καὶ τὸν καρπὸν αὐτοῦ οὐκ ἐσθίει;
+										ἢ τίς ποιμαίνει ποίμνην καὶ ἐκ τοῦ γάλακτος τῆς ποίμνης οὐκ ἐσθίει;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ κατὰ ἄνθρωπον ταῦτα λαλῶ,
+									</supplied>
+									ἢ
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἢ
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἢ
+										</rdg>
+									</app>
+									καὶ ὁ νόμος Μωϋσέως ταῦτα οὐ λέγει;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν γὰρ τῷ Μωϋσέως νόμῳ γέγραπται·
+										οὐ κημώσεις βοῦν ἀλοῶντα.
+										μὴ τῶν βοῶν μέλει τῷ θεῷ;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἢ δι᾽ ἡμᾶς πάντως λέγει;
+										δι᾽ ἡμᾶς γὰρ ἐγράφη,
+										ὅτι ὀφείλει ἐπ᾽ ἐλπίδι ὁ ἀροτριῶν ἀροτριᾶν,
+										καὶ ὁ ἀλοῶν ἐπ᾽ ἐλπίδι τοῦ μετέχειν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ δὲ οὐ κέχρημαι οὐδενὶ τούτων.
+										οὐκ ἔγραψα δὲ ταῦτα ἵνα οὕτως γένηται ἐν ἐμοί·
+										καλὸν γάρ μοι μᾶλλον ἀποθανεῖν ἤ τὸ καύχημά μου οὐδεὶς κενώσει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="10">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ θέλω γὰρ ὑμᾶς ἀγνοεῖν,
+										ἀδελφοί,
+										ὅτι οἱ πατέρες ἡμῶν πάντες ὑπὸ τὴν νεφέλην ἦσαν καὶ πάντες διὰ τῆς θαλάσσης διῆλθον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ πάντες εἰς τὸν Μωϋσῆν ἐβαπτίσθησαν ἐν τῇ νεφέλῃ καὶ ἐν τῇ θαλάσσῃ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ πάντες τὸ αὐτὸ
+									</supplied>
+									πνευματικὸν
+									<pb n="508" />
+									ἔφαγον βρῶμα,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ πάντες τὸ αὐτὸ πνευματικὸν ἔπιον πόμα·
+										ἔπινον γὰρ ἐκ πνευματικῆς ἀκολουθούσης πέτρας,
+										ἡ πέτρα δὲ ἦν ὁ Χριστός·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ οὐκ ἐν τοῖς πλείοσιν αὐτῶν εὐδόκησεν ὁ θεός·
+										κατεστρώθησαν γὰρ ἐν τῇ ἐρήμῳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									ταῦτα δὲ τύποι ἡμῖν ἐγενήθησαν,
+									πρὸς τὸ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ εἶναι ἡμᾶς ἐπιθυμητὰς κακῶν,
+										καθὼς κἀκεῖνοι ἐπεθύμησαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μηδὲ εἰδωλολάτραι γίνεσθε,
+										καθώς τινες αὐτῶν,
+									</supplied>
+									ὥς γέγραπται·
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐκάθισεν ὁ λαὸς φαγεῖν καὶ πεῖν,
+										καὶ ἀνέστησαν παίζειν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									μηδὲ ἐκπειράζωμεν τὸν Χριστόν,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καθώς τινες αὐτῶν ἐξεπείρασαν καὶ ὑπὸ τῶν ὄφεων ἀπώλλυντο.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μηδὲ γογγύζετε,
+										καθάπερ τινὲς αὐτῶν ἐγόγγυσαν καὶ ἀπώλοντο ὑπὸ τοῦ ὀλοθρευτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ταῦτα δὲ καθῶς συνέβαινεν ἐκείνοις,
+									ἐγράφη πρὸς νουθεσίαν ἡμῶν,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς οὓς τὰ τέλη τῶν αἰώνων κατήντηκεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									τί οὖν φημι;
+									ὅτι ἱερόθυτόν
+									<pb n="509" />
+									τί ἐστιν ἢ εἰδωλόθυτον τί ἐστιν;
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									ἀλλ᾽ ὅτι ἃ θύουσι,
+									δαιμονίοις καὶ οὐ θεῷ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πᾶν τὸ ἐν μακέλλῳ πωλούμενον ἐσθίετε μηδὲν ἀνακρίνοντες διὰ τὴν συνείδησιν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦ κυρίου γὰρ ἡ γῆ καὶ τὸ πλήρωμα αὐτῆς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θέλω δὲ ὑμᾶς εἰδέναι ὅτι παντὸς ἀνδρὸς ἡ κεφαλὴ ὁ Χριστός ἐστιν,
+										κεφαλὴ δὲ γυναικὸς ὁ ἀνήρ,
+										κεφαλὴ δὲ τοῦ Χριστοῦ ὁ θεός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πᾶσα δὲ γυνὴ προσευχομένη ἢ προφητεύουσα ἀκατακαλύπτῳ τῇ κεφαλῇ καταισχύνει τὴν κεφαλὴν αὐτῆς·
+										ἓν γάρ ἐστιν καὶ τὸ αὐτὸ τῇ ἐξυρημένῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνὴρ μὲν γὰρ οὐκ ὀφείλει κατακαλύπτεσθαι τὴν κεφαλήν,
+										εἰκὼν καὶ δόξα θεοῦ ὑπάρχων·
+										ἡ γυνὴ δὲ δόξα ἀνδρός ἐστιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γάρ ἐστιν ἀνὴρ ἐκ γυναικός,
+										ἀλλὰ γυνὴ ἐξ ἀνδρός·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ οὐκ ἐκτίσθη ἀνὴρ διὰ τὴν γυναῖκα,
+										ἀλλὰ γυνὴ διὰ τὸν ἄνδρα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τοῦτο ὀφείλει ἡ γυνὴ ἐξουσίαν ἔχειν ἐπὶ τῆς κεφαλῆς διὰ τοὺς ἀγγέλους.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δεῖ γὰρ καὶ αἱρέσεις ἐν ὑμῖν εἶναι,
+										ἵνα οἱ δόκιμοι φανεροὶ γένωνται ἐν ὑμῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										συνερχομένων οὖν ὑμῶν ἐπὶ τὸ αὐτὸ οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν·
+										<app type="variants">
+											<lem resp="#Zahn">
+												συνερχομένων οὖν ὑμῶν ἐπὶ τὸ αὐτὸ οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν·
+											</lem>
+											<rdg resp="#Zahn" type="proposition" cert="low">
+												συνερχομένων οὖν ὑμῶν ἐπὶ τὸ αὐτὸ οὐκ ἔστιν κυριακὸν δεῖπνον φαγεῖν·
+											</rdg>
+										</app>
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἕκαστος γὰρ τὸ ἴδιον δεῖπνον προλαμβάνει ἐν τῷ φαγεῖν,
+										καὶ ὃς μὲν πεινᾷ,
+										ὃς δὲ μεθύει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ γὰρ οἰκίας οὐκ ἔχετε εἰς τὸ ἐσθίειν καὶ πίνειν;
+										ἢ τῆς ἐκκλησίας τοῦ θεοῦ καταφρονεῖτε,
+										καὶ καταισχύνετε τοὺς μὴ ἔχοντας;
+										τί εἴπω ὑμῖν;
+										ἐπαινέσω ὑμᾶς;
+										ἐν τούτῳ οὐκ ἐπαινῶ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ γὰρ παρέλαβον ἀπὸ τοῦ κυρίου,
+										ὃ καὶ παρέδωκα ὑμῖν,
+										ὅτι ὁ κύριος Ἰησοῦς,
+										ἐν τῇ νυκτὶ ᾗ παρεδίδετο,
+										ἔλαβεν ἄρτον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ εὐχαριστήσας ἔκλασεν καὶ εἶπεν·
+										τοῦτό μού ἐστιν τὸ σῶμα τὸ ὑπὲρ ὑμῶν·
+										τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὡσαύτως καὶ τὸ ποτήριον μετὰ τὸ δειπνῆσαι,
+										λέγων·
+										τοῦτο τὸ ποτήριον ἡ καινὴ διαθήκη ἐστὶν ἐν τῷ ἐμῷ αἵματι·
+										τοῦτο ποιεῖτε,
+										ὁσάκις ἐὰν πίνητε,
+										εἰς τὴν ἐμὴν ἀνάμνησιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁσάκις γὰρ ἐὰν ἐσθίητε τὸν ἄρτον τοῦτον καὶ τὸ ποτήριον πίνητε,
+										τὸν θάνατον τοῦ κυρίου καταγγέλλετε,
+										ἄχρι οὗ ἔλθῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε ὃς ἂν ἐσθίῃ τὸν ἄρτον ἢ πίνῃ τὸ ποτήριον τοῦ κυρίου ἀναξίως,
+										ἔνοχος ἔσται τοῦ σώματος καὶ τοῦ αἵματος τοῦ κυρίου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δοκιμαζέτω δὲ ἄνθρωπος ἑαυτόν,
+										καὶ οὕτως ἐκ τοῦ ἄρτου ἐσθιέτω,
+										καὶ ἐκ τοῦ ποτηρίου πινέτω·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ γὰρ ἐσθίων καὶ πίνων,
+										κρίμα ἑαυτῷ ἐσθίει καὶ πίνει,
+										μὴ διακρίνων τὸ σῶμα.
+										<app type="variants">
+											<lem resp="#Zahn">
+												ὁ γὰρ ἐσθίων καὶ πίνων,
+												κρίμα ἑαυτῷ ἐσθίει καὶ πίνει,
+												μὴ διακρίνων τὸ σῶμα.
+											</lem>
+											<rdg resp="#Zahn" type="proposition" cert="low">
+												ὁ γὰρ ἐσθίων καὶ πίνων,
+												κρίμα ἑαυτῷ ἐσθίει καὶ πίνει,
+												μὴ διακρίνων τὸ σῶμα.
+											</rdg>
+										</app>
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="30">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τοῦτο ἐν ὑμῖν πολλοὶ ἀσθενεῖς καὶ ἄρρωστοι καὶ κοιμῶνται ἱκανοί.
+										<app type="variants">
+											<lem resp="#Zahn">
+												διὰ τοῦτο ἐν ὑμῖν πολλοὶ ἀσθενεῖς καὶ ἄρρωστοι καὶ κοιμῶνται ἱκανοί.
+											</lem>
+											<rdg resp="#Zahn" type="proposition" cert="low">
+												διὰ τοῦτο ἐν ὑμῖν πολλοὶ ἀσθενεῖς καὶ ἄρρωστοι καὶ κοιμῶνται ἱκανοί.
+											</rdg>
+										</app>
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ἑαυτοὺς διεκρίνομεν,
+										οὐκ ἂν ἐκρινόμεθα·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										κρινόμενοι δὲ ὑπὸ τοῦ κυρίου παιδευόμεθα,
+										ἵνα μὴ σὺν τῷ κόσμῳ κατακριθῶμεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε,
+										ἀδελφοί μου,
+										συνερχόμενοι εἰς τὸ φαγεῖν ἀλλήλους ἐκδέχεσθε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴ τις πεινᾷ,
+										ἐν οἴκῳ ἐσθιέτω,
+										ἵνα μὴ εἰς κρίμα συνέρχησθε.
+										τὰ δὲ λοιπὰ ὡς ἂν ἔλθω διατάξομαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περὶ δὲ τῶν πνευματικῶν,
+										ἀδελφοί,
+										οὐ θέλω ὑμᾶς ἀγνοεῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ᾧ μὲν γὰρ διὰ τοῦ πνεύματος δίδοται λόγος σοφίας,
+										ἄλλῳ δὲ λόγος γνώσεως κατὰ τὸ αὐτὸ πνεῦμα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἑτέρῳ πίστις ἐν τῷ αὐτῷ πνεύματι,
+										ἄλλῳ δὲ
+									</supplied>
+									χαρίσμα ἰαμάτων
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν τῷ ἑνὶ πνεύματι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄλλῳ δὲ ἐνεργήματα δυνάμεων,
+										ἄλλῳ δὲ προφητεία,
+										ἄλλῳ δὲ διάκρισις πνευμάτων,
+										ἑτέρῳ γένη γλωσσῶν,
+										ἄλλῳ δὲ ἑρμηνεία γλωσσῶν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καθάπερ γὰρ τὸ σῶμα ἕν ἐστιν καὶ μέλη πολλὰ ἔχει,
+										πάντα δὲ τὰ μέλη τοῦ σώματος πολλὰ ὄντα ἕν ἐστιν σῶμα,
+										οὕτως καὶ ὁ Χριστός·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ ἐν ἑνὶ πνεύματι ἡμεῖς πάντες εἰς ἓν σῶμα ἐβαπτίσθημεν,
+										εἴτε Ἰουδαῖοι εἴτε Ἕλληνες,
+										εἴτε δοῦλοι εἴτε ἐλεύθεροι,
+										καὶ πάντες ἓν πνεῦμα ἐποτίσθημεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ τὸ σῶμα οὐκ ἔστιν ἓν μέλος ἀλλὰ πολλά.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν εἴπῃ ὁ πούς·
+										ὅτι οὐκ εἰμὶ χείρ,
+										οὐκ εἰμὶ ἐκ τοῦ σώματος,
+										οὐ παρὰ τοῦτο οὐκ ἔστιν ἐκ τοῦ σώματος.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἐὰν εἴπῃ τὸ οὖς·
+										ὅτι οὐκ εἰμὶ ὀφθαλμός,
+										οὐκ εἰμὶ ἐκ τοῦ σώματος,
+										οὐ παρὰ τοῦτο οὐκ ἔστιν ἐκ τοῦ σώματος.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ ὅλον τὸ σῶμα ὀφθαλμός,
+										ποῦ ἡ ἀκοή;
+										εἰ ὅλον ἀκοή,
+										ποῦ ἡ ὄσφρησις;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νυνὶ δὲ ὁ θεὸς ἔθετο τὰ μέλη,
+										ἓν ἕκαστον αὐτῶν ἐν τῷ σώματι καθὼς ἠθέλησεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ἦν τὰ πάντα ἓν μέλος,
+										ποῦ τὸ σῶμα;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νῦν δὲ πολλὰ μὲν μέλη,
+										ἓν δὲ σῶμα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ δύναται δὲ ὁ ὀφθαλμὸς εἰπεῖν τῇ χειρί·
+										χρείαν σου οὐκ ἔχω,
+										ἢ πάλιν ἡ κεφαλὴ τοῖς ποσίν·
+										χρείαν ὑμῶν οὐκ ἔχω·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ πολλῷ μᾶλλον τὰ δοκοῦντα μέλη τοῦ σώματος ἀσθενέστερα ὑπάρχειν ἀναγκαῖά ἐστιν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἃ δοκοῦμεν ἀτιμότερα εἶναι τοῦ σώματος,
+										τούτοις τιμὴν περισσοτέραν περιτίθεμεν,
+										καὶ τὰ ἀσχήμονα ἡμῶν εὐσχημοσύνην περισσοτέραν ἔχει,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὰ δὲ εὐσχήμονα ἡμῶν οὐ χρείαν ἔχει.
+										ἀλλὰ ὁ θεὸς συνεκέρασεν τὸ σῶμα,
+									</supplied>
+									τῷ ὑστεροῦντι
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περισσοτέραν δοὺς τιμήν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ζηλοῦτε δὲ τὰ χαρίσματα τὰ μείζονα·
+										καὶ ἔτι καθ᾽ ὑπερβολὴν ὁδὸν ὑμῖν δείκνυμι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="14">
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ἐν ἐκκλησίᾳ θέλω
+									</supplied>
+									πέντε
+									<pb n="510" />
+									λόγους διὰ τὸν νόμον λαλῆσαι,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα καὶ ἄλλους κατηχήσω,
+										ἢ μυρίους λόγους ἐν γλώσσῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν τῷ νόμῳ γέγραπται ὅτι ἐν ἑτερογλώσσοις καὶ ἐν χείλεσιν ἑτέρων λαλήσω πρὸς τὸν λαὸν τοῦτον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τί οὖν ἐστιν,
+										ἀδελφοί;
+										ὅταν συνέρχησθε,
+										ἕκαστος ψαλμὸν ἔχει,
+										διδαχὴν ἔχει,
+										ἀποκάλυψιν ἔχει,
+										γλῶσσαν ἔχει,
+										ἑρμηνείαν ἔχει·
+										πάντα πρὸς οἰκοδομὴν γινέσθω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									αἱ γυναῖκες ἐν ἐκκλησίᾳ σιγάτωσαν·
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γὰρ ἐπιτρέπεται αὐταῖς λαλεῖν,
+										ἀλλὰ ὑποτασσέσθωσαν,
+										καθὼς καὶ ὁ νόμος λέγει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δέ τι μαθεῖν θέλουσιν,
+										ἐν οἴκῳ τοὺς ἰδίους ἄνδρας ἐπερωτάτωσαν·
+										αἰσχρὸν γάρ ἐστιν γυναικὶ λαλεῖν ἐν ἐκκλησίᾳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="15">
+						<div type="textpart" subtype="verse" n="1a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										γνωρίζω δὲ ὑμῖν,
+										ἀδελφοί,
+										τὸ εὐαγγέλιον ὃ εὐηγγελισάμην ὑμῖν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παρέδωκα γὰρ ὑμῖν ἐν πρώτοις,
+										ὃ καὶ παρέλαβον,
+										ὅτι Χριστὸς ἀπέθανεν ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν κατὰ τὰς γραφάς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὅτι ἐτάφη,
+										καὶ ὅτι ἐγήγερται τῇ ἡμέρᾳ τῇ τρίτῃ κατὰ τὰς γραφάς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὕτως κηρύσσομεν καὶ οὕτως ἐπιστεύσατε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ Χριστὸς κηρύσσεται ὅτι ἐγήγερται ἐκ νεκρῶν,
+										πῶς λέγουσιν ἐν ὑμῖν τινες ὅτι ἀνάστασις νεκρῶν οὐκ ἔστιν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ Χριστὸς οὐκ ἐγήγερται,
+										ματαία ἡ πίστις ὑμῶν,
+										ἔτι ἐστὲ ἐν ταῖς ἁμαρτίαις ὑμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐπειδὴ γὰρ δι᾽ ἀνθρώπου θάνατος,
+										καὶ δι᾽ ἀνθρώπου ἀνάστασις νεκρῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥσπερ γὰρ ἐν τῷ Ἀδὰμ πάντες ἀποθνῄσκουσιν,
+										οὕτως καὶ ἐν τῷ Χριστῷ πάντες ζῳοποιηθήσονται.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δεῖ γὰρ αὐτὸν βασιλεύειν ἄχρι οὗ θῇ πάντας τοὺς ἐχθροὺς ὑπὸ τοὺς πόδας αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐπεὶ τί ποιήσουσιν οἱ βαπτιζόμενοι ὑπὲρ τῶν νεκρῶν;
+										εἰ ὅλως νεκροὶ οὐκ ἐγείρονται,
+										τί καὶ βαπτίζονται ὑπὲρ αὐτῶν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="30">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τί καὶ ἡμεῖς κινδυνεύομεν πᾶσαν ὥραν;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καθ᾽ ἡμέραν ἀποθνῄσκω,
+										νὴ τὴν ὑμετέραν καύχησιν,
+										ἀδελφοί,
+										ἣν ἔχω ἐν Χριστῷ Ἰησοῦ τῷ κυρίῳ ἡμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ κατὰ ἄνθρωπον ἐθηριομάχησα ἐν Ἐφέσῳ,
+										τί μοι τὸ ὄφελος;
+										εἰ νεκροὶ οὐκ ἐγείρονται,
+										φάγωμεν καὶ πίωμεν,
+										αὔριον γὰρ ἀποθνῄσκομεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ πλανᾶσθε·
+										φθείρουσιν ἤθη χρηστὰ ὁμιλίαι κακαί.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐκνήψατε δικαίως καὶ μὴ ἁμαρτάνετε·
+										ἀγνωσίαν γὰρ θεοῦ τινες ἔχουσιν·
+										πρὸς ἐντροπὴν ὑμῖν λαλῶ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ἐρεῖ τις·
+										πῶς ἐγείρονται οἱ νεκροί;
+										ποίῳ δὲ σώματι ἔρχονται;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="36">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄφρων,
+										σὺ ὃ σπείρεις,
+										οὐ ζῳοποιεῖται ἐὰν μὴ
+									</supplied>
+									<pb n="511" />
+									πρῶτον ἀποθάνῃ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="37">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὃ σπείρεις,
+										οὐ τὸ σῶμα τὸ γενησόμενον σπείρεις,
+										ἀλλὰ γυμνὸν κόκκον εἰ τύχοι σίτου ἤ τινος τῶν λοιπῶν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="38">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ δὲ θεὸς δίδωσιν αὐτῷ σῶμα καθὼς ἠθέλησεν,
+										καὶ ἑκάστῳ τῶν σπερμάτων ἴδιον σῶμα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="39">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ πᾶσα σὰρξ ἡ αὐτὴ σάρξ,
+										ἀλλὰ ἄλλη μὲν ἀνθρώπων,
+										ἄλλη δὲ σὰρξ κτηνῶν,
+										ἄλλη δὲ σὰρξ πτηνῶν,
+										ἄλλη δὲ ἰχθύων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="40">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ σώματα ἐπουράνια,
+										καὶ σώματα ἐπίγεια·
+										ἀλλὰ ἑτέρα μὲν ἡ τῶν ἐπουρανίων δόξα,
+										ἑτέρα δὲ ἡ τῶν ἐπιγείων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="41">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄλλη δόξα ἡλίου,
+										καὶ ἄλλη δόξα σελήνης,
+										καὶ ἄλλη δόξα ἀστέρων·
+										ἀστὴρ γὰρ ἀστέρος διαφέρει ἐν δόξῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="42">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὕτως καὶ ἡ ἀνάστασις τῶν νεκρῶν.
+										σπείρεται ἐν φθορᾷ,
+										ἐγείρεται ἐν ἀφθαρσίᾳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="43">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σπείρεται ἐν ἀτιμίᾳ,
+										ἐγείρεται ἐν δόξῃ·
+										σπείρεται ἐν ἀσθενείᾳ,
+										ἐγείρεται ἐν δυνάμει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="44">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σπείρεται σῶμα ψυχικόν,
+										ἐγείρεται σῶμα πνευματικόν.
+										εἰ ἔστιν σῶμα ψυχικόν,
+										ἔστιν καὶ πνευματικόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="45">
+							<p>
+								<s>
+									ἐγένετο ὁ πρῶτος ἄνθρωπος Ἀδὰμ εἰς ψυχὴν ζῶσαν,
+									ὁ ἔσχατος κύριος εἰς πνεῦμα ζῳοποιοῦν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="46">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ οὐ πρῶτον τὸ πνευματικὸν ἀλλὰ τὸ ψυχικόν,
+										ἔπειτα τὸ πνευματικόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="47">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ πρῶτος ἄνθρωπος ἐκ γῆς χοϊκός,
+									</supplied>
+									ὁ δεύτερος κύριος ἐξ οὐρανοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="48">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἷος ὁ χοϊκός,
+										τοιοῦτοι καὶ οἱ χοϊκοί,
+										καὶ οἷος ὁ ἐπουράνιος,
+										τοιοῦτοι καὶ οἱ ἐπουράνιοι·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="49">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ καθὼς ἐφορέσαμεν τὴν εἰκόνα τοῦ χοϊκοῦ,
+										φορέσωμεν καὶ τὴν εἰκόνα τοῦ ἐπουρανίου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="50">
+							<p>
+								<s>
+									τοῦτο γὰρ φημι,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀδελφοί,
+										ὅτι σὰρξ καὶ αἷμα
+									</supplied>
+									βασιλείαν θεοῦ οὐ κληρονομήσουσιν,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲ ἡ φθορὰ τὴν ἀφθαρσίαν κληρονομεῖ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="512" />
+						<div type="textpart" subtype="verse" n="51">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἰδοὺ μυστήριον ὑμῖν λέγω·
+										πάντες οὐ κοιμηθησόμεθα,
+										πάντες δὲ ἀλλαγησόμεθα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="52">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν ἀτόμῳ,
+										ἐν ῥιπῇ ὀφθαλμοῦ,
+										ἐν τῇ ἐσχάτῃ σάλπιγγι·
+										σαλπίσει γάρ,
+										καὶ οἱ νεκροὶ ἐγερθήσονται ἄφθαρτοι καὶ ἡμεῖς ἀλλαγησόμεθα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="53">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δεῖ γὰρ τὸ φθαρτὸν τοῦτο ἐνδύσασθαι ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσασθαι ἀθανασίαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="54">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅταν δὲ τὸ φθαρτὸν τοῦτο ἐνδύσηται ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν,
+										τότε γενήσεται ὁ λόγος ὁ γεγραμμένος·
+										κατεπόθη ὁ θάνατος εἰς νῖκος.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="55">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ποῦ σου θάνατε τὸ νῖκος;
+										ποῦ σου θάνατε τὸ κέντρον;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="57">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῷ δὲ θεῷ χάρις τῷ διδόντι ἡμῖν τὸ νῖκος διὰ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="2Cor">
+					<head>
+						Πρὸς Κορινθίους β΄.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									εὐλογητὸς ὁ θεὸς τοῦ κυρίου
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡμῶν Ἰησοῦ Χριστοῦ,
+										ὁ πατὴρ τῶν οἰκτιρμῶν καὶ θεὸς πάσης παρακλήσεως,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅσαι γὰρ ἐπαγγελίαι θεοῦ,
+										ἐν αὐτῷ τὸ ναί·
+										διὸ καὶ δι᾽ αὐτοῦ τὸ ἀμὴν τῷ θεῷ πρὸς δόξαν δι᾽ ἡμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῷ δὲ θεῷ χάρις τῷ πάντοτε θριαμβεύοντι ἡμᾶς ἐν τῷ Χριστῷ καὶ τὴν ὀσμὴν τῆς γνώσεως αὐτοῦ φανεροῦντι δι᾽ ἡμῶν ἐν παντὶ τόπῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι Χριστοῦ εὐωδία ἐσμὲν τῷ θεῷ ἐν τοῖς σῳζομένοις καὶ ἐν τοῖς ἀπολλυμένοις,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἷς μὲν ὀσμὴ ἐκ θανάτου εἰς θάνατον,
+										οἷς δὲ ὀσμὴ ἐκ ζωῆς εἰς ζωήν.
+										καὶ πρὸς ταῦτα τίς ἱκανός;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γάρ ἐσμεν ὡς οἱ λοιποὶ καπηλεύοντες τὸν λόγον τοῦ θεοῦ,
+										ἀλλ᾽ ὡς ἐκ θεοῦ κατέναντι θεοῦ ἐν Χριστῷ λαλοῦμεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										φανερούμενοι ὅτι ἐστὲ ἐπιστολὴ Χριστοῦ διακονηθεῖσα ὑφ᾽ ἡμῶν,
+										ἐνγεγραμμένη οὐ μέλανι ἀλλὰ πνεύματι θεοῦ ζῶντος,
+										οὐκ ἐν πλαξὶν λιθίναις,
+										ἀλλ᾽ ἐν πλαξὶν καρδίαις σαρκίναις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πεποίθησιν δὲ τοιαύτην ἔχομεν διὰ τοῦ Χριστοῦ πρὸς τὸν θεόν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐχ ὅτι ἀφ᾽ ἑαυτῶν ἱκανοί ἐσμεν λογίσασθαί τι ὡς ἐξ ἑαυτῶν,
+										ἀλλ᾽ ἡ ἱκανότης ἡμῶν ἐκ τοῦ θεοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃς καὶ ἱκάνωσεν ἡμᾶς διακόνους καινῆς διαθήκης,
+										οὐ γράμματος ἀλλὰ πνεύματος·
+										τὸ γὰρ γράμμα ἀποκτέννει,
+										τὸ δὲ πνεῦμα ζῳοποιεῖ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ ἡ διακονία τοῦ θανάτου ἐν γράμμασιν ἐντετυπωμένη λίθοις ἐγενήθη ἐν δόξῃ,
+										ὥστε μὴ δύνασθαι ἀτενίσαι τοὺς υἱοὺς Ἰσραὴλ εἰς τὸ πρόσωπον Μωϋσέως διὰ τὴν δόξαν τοῦ προσώπου αὐτοῦ τὴν καταργουμένην,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πῶς οὐχὶ μᾶλλον ἡ διακονία τοῦ πνεύματος ἔσται ἐν δόξῃ;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ γὰρ τῇ διακονίᾳ τῆς κατακρίσεως δόξα,
+										πολλῷ μᾶλλον περισσεύει ἡ διακονία τῆς δικαιοσύνης δόξῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ οὐ δεδόξασται τὸ δεδοξασμένον ἐν τούτῳ τῷ μέρει εἵνεκεν τῆς ὑπερβαλλούσης δόξης.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ γὰρ τὸ καταργούμενον διὰ δόξης,
+										πολλῷ μᾶλλον τὸ μένον ἐν δόξῃ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔχοντες οὖν τοιαύτην ἐλπίδα πολλῇ παρρησίᾳ χρώμεθα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ οὐ καθάπερ Μωϋσῆς ἐτίθει κάλυμμα ἐπὶ τὸ πρόσωπον ἑαυτοῦ,
+										πρὸς τὸ μὴ ἀτενίσαι τοὺς υἱοὺς Ἰσραὴλ εἰς τὸ τέλος τοῦ καταργουμένου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ἀλλ᾽
+									<pb n="513" />
+									ἐπωρώθη τὰ νοήματα τοῦ κόσμου.
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄχρι γὰρ τῆς σήμερον ἡμέρας τὸ αὐτὸ κάλυμμα ἐπὶ τῇ ἀναγνώσει τῆς παλαιᾶς διαθήκης μένει,
+										μὴ ἀνακαλυπτόμενον ὅτι ἐν Χριστῷ καταργεῖται·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ἕως σήμερον ἡνίκα ἂν ἀναγινώσκηται Μωϋσῆς κάλυμμα ἐπὶ τὴν καρδίαν αὐτῶν κεῖται·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡνίκα δὲ ἐὰν ἐπιστρέψῃ
+									</supplied>
+									πρὸς τὸν θεόν,
+									περιαιρεθήσεται τὸ κάλυμμα.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡμεῖς δὲ πάντες ἀνακεκαλυμμένῳ προσώπῳ τὴν δόξαν κυρίου κατοπτριζόμενοι τὴν αὐτὴν εἰκόνα μεταμορφούμεθα ἀπὸ δόξης εἰς δόξαν,
+										καθάπερ ἀπὸ
+									</supplied>
+									κυρίου πνευμάτων.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν οἷς ὁ θεὸς τοῦ αἰῶνος τούτου ἐτύφλωσεν τὰ νοήματα τῶν ἀπίστων εἰς τὸ μὴ αὐγάσαι τὸν φωτισμὸν τοῦ εὐαγγελίου τῆς δόξης τοῦ Χριστοῦ,
+										ὅς ἐστιν εἰκὼν τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γὰρ ἑαυτοὺς κηρύσσομεν ἀλλὰ Χριστὸν Ἰησοῦν κύριον,
+										ἑαυτοὺς δὲ δούλους ὑμῶν
+									</supplied>
+									διὰ Ἰησοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι ὁ θεὸς ὁ εἰπών·
+										ἐκ σκότους φῶς
+									</supplied>
+									λάμψαι,
+									ἔλαμψεν ἐν ταῖς καρδίαις ἡμῶν
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἡμῶν
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἡμῶν
+										</rdg>
+									</app>
+									πρὸς φωτισμὸν τῆς γνώσεως
+									<app type="variants">
+										<lem resp="#Zahn">
+											γνώσεως
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											γνώσεως
+										</rdg>
+									</app>
+									αὐτοῦ ἐν προσώπῳ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔχομεν δὲ τὸν θησαυρὸν τοῦτον ἐν ὀστρακίνοις σκεύεσιν,
+										ἵνα ἡ ὑπερβολὴ τῆς δυνάμεως ᾖ τοῦ θεοῦ καὶ μὴ ἐξ ἡμῶν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν παντὶ θλιβόμενοι ἀλλ᾽ οὐ στενοχωρούμενοι,
+										ἀπορούμενοι ἀλλ᾽ οὐκ ἐξαπορούμενοι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διωκόμενοι ἀλλ᾽ οὐκ ἐγκαταλειπόμενοι,
+										καταβαλλόμενοι ἀλλ᾽ οὐκ ἀπολλύμενοι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πάντοτε τὴν νέκρωσιν τοῦ Ἰησοῦ ἐν τῷ σώματι περιφέροντες,
+										ἵνα καὶ ἡ ζωὴ τοῦ Ἰησοῦ ἐν τοῖς σώμασιν ἡμῶν φανερωθῇ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									ἡμεῖς γὰρ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ ζῶντες εἰς θάνατον παραδιδόμεθα διὰ Ἰησοῦν,
+										ἵνα καὶ ἡ ζωὴ τοῦ Ἰησοῦ φανερωθῇ ἐν τῇ
+									</supplied>
+									θνητῇ ἡμῶν σαρκί.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔχοντες δὲ τὸ αὐτὸ πνεῦμα τῆς πίστεως,
+									</supplied>
+									καὶ ἡμεῖς πιστεύομεν καὶ λαλοῦμεν.
+								</s>
+							</p>
+						</div>
+						<pb n="514" />
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὸ οὐκ ἐγκακοῦμεν,
+										ἀλλ᾽ εἰ καὶ ὁ ἔξω ἡμῶν ἄνθρωπος διαφθείρεται,
+										ἀλλ᾽ ὁ ἔσω ἡμῶν ἀνακαινοῦται ἡμέρᾳ καὶ ἡμέρᾳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ γὰρ παραυτίκα ἐλαφρὸν τῆς θλίψεως ἡμῶν καθ᾽ ὑπερβολὴν εἰς ὑπερβολὴν αἰώνιον βάρος δόξης κατεργάζεται ἡμῖν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ σκοπούντων ἡμῶν τὰ βλεπόμενα ἀλλὰ τὰ μὴ βλεπόμενα·
+										τὰ γὰρ βλεπόμενα πρόσκαιρα,
+										τὰ δὲ μὴ βλεπόμενα αἰώνια.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἴδαμεν γὰρ ὅτι ἐὰν ἡ ἐπίγειος ἡμῶν οἰκία τοῦ σκήνους καταλυθῇ,
+										οἰκοδομὴν ἐκ θεοῦ ἔχομεν,
+										οἰκίαν ἀχειροποίητον αἰώνιον ἐν τοῖς οὐρανοῖς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ ἐν τούτῳ στενάζομεν,
+										τὸ οἰκητήριον ἡμῶν τὸ ἐξ οὐρανοῦ ἐπενδύσασθαι ἐπιποθοῦντες,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									εἴγε καὶ ἐκδυσάμενοι
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γυμνοὶ εὑρεθησόμεθα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ οἱ ὄντες
+									</supplied>
+									ἐν τοῦτῳ τῷ σκήνει τοῦ σώματος βαρυνόμενοι,
+									οὐ θέλοντες ἐκδύσασθαι
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ἐπενδύσασθαι,
+										ἵνα καταποθῇ
+									</supplied>
+									τὸ θνητὸν τοῦτο ὑπὸ τῆς ζωῆς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ δὲ κατεργασάμενος ἡμᾶς εἰς αὐτὸ τοῦτο θεός,
+										ὁ δοὺς ἡμῖν τὸν ἀραβῶνα τοῦ πνεύματος.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θαρροῦντες οὖν πάντοτε,
+										καὶ εἰδότες,
+										ὅτι ἐνδημοῦντες ἐν τῷ σώματι ἐκδημοῦμεν ἀπὸ τοῦ κυρίου·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										θαρροῦμεν δὲ καὶ εὐδοκοῦμεν μᾶλλον ἐκδημῆσαι ἐκ τοῦ σώματος καὶ ἐνδημῆσαι πρὸς τὸν κύριον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοὺς γὰρ πάντας ἡμᾶς φανερωθῆναι δεῖ ἔμπροσθεν τοῦ βήματος τοῦ Χριστοῦ,
+										ἵνα κομίσηται
+									</supplied>
+									ἕκαστος ἃ διὰ τοῦ σώματος ἔπραξεν,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἴτε ἀγαθὸν,
+										εἴτε φαῦλον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε εἴ τις ἐν Χριστῷ,
+										καινὴ κτίσις·
+										τὰ ἀρχαῖα παρῆλθεν,
+										ἰδοὺ
+									</supplied>
+									γέγονεν τὰ πάντα καινά.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ταύτας οὖν ἔχοντες τὰς ἐπαγγελίας,
+										ἀγαπητοί,
+									</supplied>
+									καθαρίσωμεν ἑαυτοὺς
+									<pb n="515" />
+									ἀπὸ μολυσμοῦ σαρκὸς καὶ ἅιματος,
+									μὴ δυναμένων χωρῆσαι τὴν βασιλείαν τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ζηλῶ γὰρ ὑμᾶς θεοῦ ζήλῳ,
+									</supplied>
+									ἡρμοσάμην γὰρ ὑμᾶς
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἑνὶ ἀνδρὶ
+									</supplied>
+									παρθένον ἁγνὴν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παραστῆσαι
+									</supplied>
+									τῷ Χριστῷ·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ γὰρ τοιοῦτοι ψευδαπόστολοι,
+										ἐργάται δόλιοι,
+										μετασχηματιζόμενοι εἰς ἀποστόλους Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ οὐ θαῦμα·
+										αὐτὸς γὰρ ὁ σατανᾶς μετασχηματίζεται εἰς ἄγγελον φωτός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἶδα ἄνθρωπον ἐν Χριστῷ πρὸ ἐτῶν δεκατεσσάρων,
+										εἴτε ἐν σώματι οὐκ οἶδα,
+										εἴτε ἐκτὸς τοῦ σώματος οὐκ οἶδα,
+										ὁ θεὸς οἶδεν,
+										ἁρπαγέντα τὸν τοιοῦτον ἕως τρίτου οὐρανοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ οἶδα τὸν τοιοῦτον ἄνθρωπον,
+										εἴτε ἐν σώματι εἴτε χωρὶς τοῦ σώματος οὐκ οἶδα,
+										ὁ θεὸς οἶδεν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι ἡρπάγη εἰς τὸν παράδεισον καὶ ἤκουσεν ἄρρητα ῥήματα,
+										ἃ οὐκ ἐξὸν ἀνθρώπῳ λαλῆσαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὑπὲρ τοῦ τοιούτου καυχήσομαι,
+										ὑπὲρ δὲ ἐμαυτοῦ οὐ καυχήσομαι εἰ μὴ ἐν ταῖς ἀσθενείαις μου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν γὰρ θελήσω καυχήσασθαι,
+										οὐκ ἔσομαι ἄφρων,
+										ἀλήθειαν γὰρ ἐρῶ·
+										φείδομαι δέ,
+										μή τις εἰς ἐμὲ λογίσηται ὑπὲρ ὃ βλέπει με ἢ ἀκούει ἐξ ἐμοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τῇ ὑπερβολῇ τῶν ἀποκαλύψεων ἵνα μὴ ὑπεραίρωμαι,
+										ἐδόθη μοι σκόλοψ τῇ σαρκί,
+										ἄγγελος σατανᾶ,
+										ἵνα με κολαφίζῃ,
+										ἵνα μὴ ὑπεραίρωμαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὑπὲρ τούτου τρὶς τὸν κύριον παρεκάλεσα,
+										ἵνα ἀποστῇ ἀπ᾽ ἐμοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ εἴρηκέν μοι·
+										ἀρκεῖ σοι ἡ χάρις μου·
+										ἡ γὰρ δύναμις ἐν ἀσθενείᾳ τελεῖται.
+										ἥδιστα οὖν μᾶλλον καυχήσομαι ἐν ταῖς ἀσθενείαις μου,
+										ἵνα ἐπισκηνώσῃ ἐπ᾽ ἐμὲ ἡ δύναμις τοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="13">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τρίτον τοῦτο ἔρχομαι πρὸς ὑμᾶς·
+										ἐπὶ
+									</supplied>
+									στόματι δύο ἢ
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἢ
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἢ
+										</rdg>
+									</app>
+									τριῶν μαρτύρων
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σταθήσεται πᾶν ῥῆμα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										προείρηκα καὶ προλέγω,
+										ὡς παρὼν τὸ δεύτερον καὶ ἀπὼν νῦν,
+										τοῖς προημαρτηκόσιν καὶ τοῖς λοιποῖς πᾶσιν,
+										ὅτι ἐὰν ἔλθω εἰς τὸ πάλιν οὐ φείσομαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τοῦτο ταῦτα ἀπὼν γράφω,
+										ἵνα παρὼν μὴ ἀποτόμως χρήσωμαι κατὰ τὴν ἐξουσίαν ἣν ὁ κύριος ἔδωκέν μοι εἰς οἰκοδομὴν καὶ οὐκ εἰς καθαίρεσιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Rom">
+					<head>
+						Πρὸς Ῥωμαίους.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γὰρ ἐπαισχύνομαι τὸ εὐαγγέλιον,
+										δύναμις γὰρ θεοῦ ἐστιν εἰς σωτηρίαν παντὶ τῷ πιστεύοντι,
+									</supplied>
+									Ἰουδαίῳ τε πρῶτον
+									<app type="variants">
+										<lem resp="#Zahn">
+											τε πρῶτον
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											τε πρῶτον
+										</rdg>
+									</app>
+									καὶ Ἕλληνι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δικαιοσύνη γὰρ θεοῦ ἐν αὐτῷ ἀποκαλύπτεται ἐκ πίστεως εἰς πίστιν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀποκαλύπτεται γὰρ
+									</supplied>
+									ὀργὴ ἀπ᾽
+									<pb n="516" />
+									οὐρανοῦ ἐπὶ ἀσέβειαν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἀδικίαν ἀνθρώπων τῶν τὴν ἀλήθειαν ἐν ἀδικίᾳ κατεχόντων,
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									οἴδαμεν δὲ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι τὸ κρίμα τοῦ θεοῦ ἐστιν κατὰ
+									</supplied>
+									ἀλήθειαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅσοι γὰρ ἀνόμως ἥμαρτον,
+										ἀνόμως καὶ ἀπολοῦνται·
+										καὶ ὅσοι
+									</supplied>
+									ἐννόμως ἥμαρτον,
+									διὰ νόμου κριθήσονται.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γὰρ οἱ ἀκροαταὶ
+									</supplied>
+									τοῦ νόμου
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δίκαιοι παρὰ τῷ θεῷ,
+										ἀλλ᾽ οἱ ποιηταὶ
+									</supplied>
+									τοῦ νόμου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅταν γὰρ ἔθνη τὰ μὴ νόμον ἔχοντα φύσει τὰ τοῦ νόμου ποιῶσιν,
+										οὗτοι νόμον μὴ ἔχοντες ἑαυτοῖς εἰσιν νόμος,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν ἡμέρᾳ ὅτε κρινεῖ ὁ θεὸς τὰ κρυπτὰ τῶν ἀνθρώπων κατὰ
+									</supplied>
+									τὸ εὐαγγέλιόν μου
+									<app type="variants">
+										<lem resp="#Zahn">
+											μου
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											μου
+										</rdg>
+									</app>
+									διὰ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔχοντα τὴν μόρφωσιν τῆς γνώσεως καὶ τῆς ἀληθείας ἐν τῷ νόμῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ οὖν διδάσκων ἕτερον σεαυτὸν οὐ διδάσκεις;
+										ὁ κηρύσσων μὴ κλέπτειν κλέπτεις;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ λέγων μὴ μοιχεύειν μοιχεύεις;
+										ὁ βδελυσσόμενος τὰ εἴδωλα ἱεροσυλεῖς;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃς ἐν νόμῳ καυχᾶσαι,
+										διὰ τῆς παραβάσεως τοῦ νόμου τὸν θεὸν ἀτιμάζεις;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ γὰρ ὄνομα τοῦ θεοῦ δι᾽ ὑμᾶς βλασφημεῖται ἐν τοῖς ἔθνεσιν,
+										καθὼς γέγραπται.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περιτομὴ μὲν γὰρ ὠφελεῖ ἐὰν νόμον πράσσῃς·
+										ἐὰν δὲ παραβάτης νόμου ᾖς,
+										ἡ περιτομή σου ἀκροβυστία γέγονεν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐὰν οὖν ἡ ἀκροβυστία τὰ δικαιώματα τοῦ νόμου φυλάσσῃ,
+										οὐχ ἡ ἀκροβυστία αὐτοῦ εἰς περιτομὴν λογισθήσεται;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="27">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ κρινεῖ ἡ ἐκ φύσεως ἀκροβυστία τὸν νόμον τελοῦσα σὲ τὸν διὰ γράμματος καὶ περιτομῆς παραβάτην νόμου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐ γὰρ ὁ ἐν τῷ φανερῷ Ἰουδαῖός ἐστιν,
+										οὐδὲ ἡ ἐν τῷ φανερῷ ἐν σαρκὶ περιτομή·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλ᾽ ὁ ἐν τῷ κρυπτῷ Ἰουδαῖος,
+										καὶ περιτομὴ καρδίας ἐν πνεύματι οὐ γράμματι,
+										οὗ ὁ ἔπαινος οὐκ ἐξ ἀνθρώπων ἀλλ᾽ ἐκ τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δικαιοσύνη δὲ θεοῦ διὰ πίστεως Ἰησοῦ Χριστοῦ,
+										εἰς πάντας τοὺς πιστεύοντας.
+										οὐ γάρ ἐστιν διαστολή·
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										δικαιωθέντες οὖν ἐκ πίστεως εἰρήνην ἔχωμεν πρὸς τὸν θεὸν διὰ τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="517" />
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔτι γὰρ Χριστὸς,
+										ὄντων ἡμῶν ἀσθενῶν ἔτι,
+										κατὰ καιρὸν ὑπὲρ ἀσεβῶν ἀπέθανεν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νόμος δὲ παρεισῆλθεν
+									</supplied>
+									ἵνα πλεονάσῃ τὸ παράπτωμα,
+									ἵνα ὑπερπερισσεύσῃ ἡ χάρις,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα ὥσπερ ἐβασίλευσεν
+									</supplied>
+									ἡ ἁμαρτία εἰς θάνατον,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὕτως καὶ ἡ χάρις
+									</supplied>
+									βασιλεύσῃ ἐν δικαιοσύνῃ εἰς ζωὴν διὰ Ἰησοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="7">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε,
+										ἀδελφοί μου,
+										καὶ ὑμεῖς ἐθανατώθητε τῷ νόμῳ διὰ τοῦ σώματος τοῦ Χριστοῦ,
+										εἰς τὸ γενέσθαι ὑμᾶς ἑτέρῳ,
+										τῷ ἐκ νεκρῶν ἐγερθέντι,
+										ἵνα καρποφορήσωμεν τῷ θεῷ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τί οὖν ἐροῦμεν;
+										ὁ νόμος ἁμαρτία;
+										μὴ γένοιτο·
+									</supplied>
+									ἀλλὰ ἐγὼ τὴν ἁμαρτίαν οὐκ οἶδα
+									<app type="variants">
+										<lem resp="#Zahn">
+											οἶδα
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											οἶδα
+										</rdg>
+									</app>
+									εἰ μὴ διὰ νόμου.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀφορμὴν δὲ λαβοῦσα ἡ ἁμαρτία διὰ τῆς ἐντολῆς κατηργάσατο ἐν ἐμοὶ πᾶσαν ἐπιθυμίαν·
+										χωρὶς γὰρ νόμου ἁμαρτία νεκρά.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὥστε ὁ μὲν νόμος ἅγιος,
+										καὶ ἡ ἐντολὴ ἁγία καὶ δικαία καὶ ἀγαθή.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ οὖν ἀγαθὸν ἐμοὶ ἐγένετο θάνατος;
+										μὴ γένοιτο,
+										ἀλλὰ ἡ ἁμαρτία,
+										ἵνα φανῇ ἁμαρτία,
+										διὰ τοῦ ἀγαθοῦ μοι κατεργαζομένη θάνατον,
+										ἵνα γένηται καθ᾽ ὑπερβολὴν ἁμαρτωλὸς ἡ ἁμαρτία διὰ τῆς ἐντολῆς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἴδαμεν γὰρ ὅτι ὁ νόμος πνευματικός ἐστιν·
+										ἐγὼ δὲ σάρκινός εἰμι,
+										πεπραμένος ὑπὸ τὴν ἁμαρτίαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										βλέπω δὲ ἕτερον νόμον ἐν τοῖς μέλεσίν μου ἀντιστρατευόμενον τῷ νόμῳ τοῦ νοός μου καὶ αἰχμαλωτίζοντά με ἐν τῷ νόμῳ τῆς ἁμαρτίας τῷ ὄντι ἐν τοῖς μέλεσίν μου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25b">
+							<p>
+								<s>
+									ἄρα γὰρ
+									<app type="variants">
+										<lem resp="#Zahn">
+											γὰρ
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											γὰρ
+										</rdg>
+									</app>
+									αὐτὸς ἐγὼ τῷ μὲν νοῒ δουλεύω
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νόμῳ θεοῦ,
+										τῇ δὲ σαρκὶ νόμῳ ἁμαρτίας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="8">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐδὲν ἄρα νῦν κατάκριμα τοῖς ἐν Χριστῷ Ἰησοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ γὰρ νόμος τοῦ πνεύματος τῆς ζωῆς ἐν Χριστῷ Ἰησοῦ ἠλευθέρωσέν σε ἀπὸ τοῦ νόμου τῆς ἁμαρτίας καὶ τοῦ θανάτου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ γὰρ ἀδύνατον τοῦ νόμου,
+										ἐν ᾧ ἠσθένει διὰ τῆς σαρκός,
+										ὁ θεὸς τὸν ἑαυτοῦ υἱὸν πέμψας ἐν ὁμοιώματι σαρκὸς ἁμαρτίας καὶ περὶ ἁμαρτίας κατέκρινεν τὴν ἁμαρτίαν ἐν τῇ σαρκί,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα τὸ δικαίωμα τοῦ νόμου πληρωθῇ ἐν ἡμῖν τοῖς μὴ κατὰ σάρκα περιπατοῦσιν ἀλλὰ κατὰ πνεῦμα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ γὰρ κατὰ σάρκα ὄντες τὰ τῆς σαρκὸς φρονοῦσιν,
+										οἱ δὲ κατὰ πνεῦμα τὰ τοῦ πνεύματος·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ γὰρ φρόνημα τῆς σαρκὸς θάνατος,
+										τὸ δὲ φρόνημα τοῦ πνεύματος ζωὴ καὶ εἰρήνη.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διότι τὸ φρόνημα τῆς σαρκὸς ἔχθρα εἰς θεόν·
+										τῷ γὰρ νόμῳ τοῦ θεοῦ οὐχ ὑποτάσσεται·
+										οὐδὲ γὰρ δύναται.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ δὲ ἐν σαρκὶ ὄντες θεῷ ἀρέσαι οὐ δύνανται.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὑμεῖς δὲ οὐκ ἐστὲ ἐν σαρκὶ ἀλλὰ ἐν πνεύματι,
+										εἴπερ πνεῦμα θεοῦ οἰκεῖ ἐν ὑμῖν.
+										εἰ δέ τις πνεῦμα Χριστοῦ οὐκ ἔχει,
+										οὗτος οὐκ ἔστιν αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ Χριστὸς ἐν ὑμῖν,
+										τὸ μὲν σῶμα νεκρὸν διὰ ἁμαρτίαν,
+										τὸ δὲ πνεῦμα ζωὴ διὰ δικαιοσύνην.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δὲ τὸ πνεῦμα τοῦ ἐγείραντος τὸν Ἰησοῦν ἐκ νεκρῶν οἰκεῖ ἐν ὑμῖν,
+										ὁ ἐγείρας ἐκ νεκρῶν
+									</supplied>
+									Χριστὸν,
+									ζῳοποιήσει καὶ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὰ θνητὰ σώματα ὑμῶν διὰ τοῦ ἐνοικοῦντος αὐτοῦ πνεύματος ἐν ὑμῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<pb n="518" />
+					<div type="textpart" subtype="chapter" n="10">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μαρτυρῶ γὰρ αὐτοῖς ὅτι ζῆλον θεοῦ ἔχουσιν,
+										ἀλλ᾽ οὐ κατ᾽ ἐπίγνωσιν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									ἀγνοοῦντες γὰρ τὸν θεὸν καὶ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὴν ἰδίαν δικαιοσύνην ζητοῦντες στῆσαι,
+										τῇ δικαιοσύνῃ τοῦ θεοῦ οὐχ ὑπετάγησαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τέλος γὰρ νόμου Χριστὸς εἰς δικαιοσύνην παντὶ τῷ πιστεύοντι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="11">
+						<div type="textpart" subtype="verse" n="33">
+							<p>
+								<s>
+									Ὦ βάθος πλούτου καὶ σοφίας θεοῦ καὶ ἀνεξιχνίαστοι αἱ ὁδοὶ αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="34">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τίς γὰρ ἔγνω νοῦν κυρίου;
+										ἢ τίς σύμβουλος αὐτοῦ ἐγένετο;
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="35">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἢ τίς προέδωκεν αὐτῷ,
+										καὶ ἀνταποδοθήσεται αὐτῷ;
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="12">
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ ἀγάπη ἀνυπόκριτος.
+										ἀποστυγοῦντες τὸ πονηρόν,
+										κολλώμενοι τῷ ἀγαθῷ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ φιλαδελφίᾳ εἰς ἀλλήλους φιλόστοργοι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ ἐλπίδι χαίροντες,
+									</supplied>
+									τὴν θλῖψιν ὑπομένοντες,
+									<pb n="519" />
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τῇ προσευχῇ προσκαρτεροῦντες.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εὐλογεῖτε καὶ μὴ καταρᾶσθε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ τὰ ὑψηλὰ φρονοῦντες ἀλλὰ τοῖς ταπεινοῖς συναπαγόμενοι·
+										μὴ γίνεσθε φρόνιμοι παρ᾽ ἑαυτοῖς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μηδενὶ κακὸν ἀντὶ κακοῦ
+									</supplied>
+									ἀποδίδοτε.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									μὴ ἑαυτοὺς ἐκδικοῦντες·
+									ἐμοὶ γάρ ἐκδίκησις,
+									κἀγὼ ἐκδικήσω,
+									λέγει κύριος.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									μετὰ πάντων ἀνθρώπων εἰρηνεύετε.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="13">
+						<div type="textpart" subtype="verse" n="8b">
+							<p>
+								<s>
+									ὁ γὰρ ἀγαπῶν τὸν πλησίον νόμον πεπλήρωκεν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									τὸ γὰρ·
+									οὐ φονεύσεις,
+									οὐ μοιχεύσεις,
+									οὐ κλέψεις καὶ εἴ τις ἑτέρα ἐντολή,
+									ἐν τούτῳ τῷ λόγῳ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνακεφαλαιοῦται,
+										ἐν τῷ·
+										ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ ἀγάπη τῷ πλησίον κακὸν
+									</supplied>
+									οὐ συνεργάζεται·
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πλήρωμα οὖν νόμου ἡ ἀγάπη.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="14">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σὺ δὲ τί κρίνεις τὸν ἀδελφόν σου;
+										ἢ καὶ σὺ τί ἐξουθενεῖς τὸν ἀδελφόν σου;
+										πάντες γὰρ παραστησόμεθα
+									</supplied>
+									τῷ βήματι τοῦ Χριστοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23b">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πᾶν δὲ ὃ οὐκ ἐκ πίστεως ἁμαρτία ἐστίν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<pb n="520" />
+				<div type="textpart" subtype="book" n="1Thes">
+					<head>
+						Πρὸς Θεσσαλονικεῖς α᾽.
+					</head>
+					<pb n="521" />
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									τῶν καὶ τὸν κύριον ἀποκτεινάντων καὶ τοὺς προφήτας αὐτῶν,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἡμᾶς ἐκδιωξάντων καὶ θεῷ μὴ ἀρεσκόντων καὶ πᾶσιν ἀνθρώποις ἐναντίων.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτο γάρ ἐστιν θέλημα τοῦ θεοῦ,
+										ὁ ἁγιασμὸς ὑμῶν,
+										ἀπέχεσθαι ὑμᾶς ἀπὸ τῆς πορνείας,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰδέναι ἕκαστον ὑμῶν τὸ ἑαυτοῦ σκεῦος κτᾶσθαι ἐν ἁγιασμῷ καὶ τιμῇ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ ἐν πάθει ἐπιθυμίας καθάπερ καὶ τὰ ἔθνη τὰ μὴ εἰδότα τὸν θεόν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι αὐτὸς ὁ κύριος ἐν κελεύσματι,
+										ἐν φωνῇ ἀρχαγγέλου καὶ ἐν σάλπιγγι θεοῦ καταβήσεται ἀπ᾽ οὐρανοῦ,
+										καὶ οἱ νεκροὶ ἐν Χριστῷ
+									</supplied>
+									ἀναστήσονται πρῶτοι.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἔπειτα ἡμεῖς οἱ ζῶντες οἱ περιλειπόμενοι ἅμα σὺν αὐτοῖς ἁρπαγησόμεθα ἐν νεφέλαις εἰς ἀπάντησιν τοῦ κυρίου εἰς ἀέρα·
+										καὶ οὕτως πάντοτε σὺν κυρίῳ ἐσόμεθα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ πνεῦμα μὴ σβέννυτε,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										προφητείας μὴ ἐξουθενεῖτε·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										αὐτὸς δὲ ὁ θεὸς τῆς εἰρήνης ἁγιάσαι ὑμᾶς ὁλοτελεῖς,
+									</supplied>
+									καὶ
+									<pb n="522" />
+									τὸ πνεῦμα ὑμῶν καὶ τὸ σῶμα καὶ ἡ ψυχὴ ἀμέμπτως ἐν τῇ παρουσίᾳ τοῦ κυρίου ἡμῶν καὶ σωτῆρος Χριστοῦ τηρηθείη.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="2Thes">
+					<head>
+						Πρὸς Θεσσαλονικεῖς β΄.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									εἴπερ δίκαιον παρὰ κυρίῷ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀνταποδοῦναι τοῖς θλίβουσιν ὑμᾶς θλῖψιν
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑμῖν τοῖς θλιβομένοις ἄνεσιν μεθ᾽ ἡμῶν,
+										ἐν τῇ ἀποκαλύψει τοῦ κυρίου
+									</supplied>
+									Ἰησοῦ ἐρχομένου ἀπ᾽ οὐρανοῦ μετ᾽ ἀγγέλων δυνάμεως αὐτοῦ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									εἰς ἐκδίκησιν τοῖς
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ εἰδόσιν θεὸν καὶ τοῖς μὴ ὑπακούουσιν
+									</supplied>
+									τῷ εὐαγγελίῳ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									οἵτινες δίκην τίσουσιν ὀλέθριον,
+									αἰώνιον
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀπὸ προσώπου τοῦ κυρίου καὶ ἀπὸ τῆς δόξης τῆς ἰσχύος αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μή τις ὑμᾶς ἐξαπατήσῃ κατὰ μηδένα τρόπον,
+										ὅτι ἐὰν μὴ ἔλθῃ ἡ ἀποστασία πρῶτον καὶ ἀποκαλυφθῇ ὁ ἄνθρωπος τῆς ἀνομίας,
+										ὁ υἱὸς τῆς ἀπωλείας,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὁ ἀντικείμενος καὶ ὑπεραιρόμενος ἐπὶ πάντα λεγόμενον θεὸν ἢ σέβασμα,
+										ὥστε αὐτὸν εἰς τὸν ναὸν τοῦ θεοῦ καθίσαι,
+										ἀποδεικνύντα ἑαυτὸν ὅτι ἔστιν θεός,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὗ ἐστιν ἡ παρουσία κατ᾽ ἐνέργειαν τοῦ σατανᾶ ἐν πάσῃ δυνάμει καὶ σημείοις καὶ τέρασιν ψεύδους
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἐν πάσῃ ἀπάτῃ ἀδικίας τοῖς ἀπολλυμένοις,
+										ἀνθ᾽ ὧν τὴν ἀγάπην τῆς ἀληθείας οὐκ ἐδέξαντο εἰς τὸ σωθῆναι αὐτούς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									καὶ διὰ τοῦτο ἔσται αὐτοῖς ἐνέργεια πλάνης,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα κριθῶσιν ἅπαντες οἱ μὴ πιστεύσαντες τῇ ἀληθείᾳ ἀλλὰ εὐδοκήσαντες τῇ ἀδικίᾳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ γὰρ ὅτε ἦμεν πρὸς ὑμᾶς,
+										τοῦτο παρηγγέλλομεν ὑμῖν,
+										ὅτι εἴ τις οὐ θέλει ἐργάζεσθαι,
+										μηδὲ ἐσθιέτω.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Lao">
+					<head>
+						Πρὸς Λαοδικεῖς.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										γνωρίσας ἡμῖν τὸ μυστήριον τοῦ θελήματος αὐτοῦ,
+										κατὰ τὴν
+									</supplied>
+									εὐδοκίαν,
+									ἣν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										προέθετο
+									</supplied>
+									.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς οἰκονομίαν τοῦ πληρώματος τῶν καιρῶν,
+										ἀνακεφαλαιώσασθαι τὰ πάντα ἐν τῷ Χριστῷ,
+										τὰ ἐπὶ τοῖς οὐρανοῖς καὶ τὰ ἐπὶ τῆς γῆς,
+										ἐν αὐτῷ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς τὸ εἶναι ἡμᾶς εἰς ἔπαινον
+									</supplied>
+									δόξης,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοὺς προηλπικότας ἐν τῷ Χριστῷ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<pb n="523" />
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν ᾧ καὶ ὑμεῖς,
+										ἀκούσαντες τὸν λόγον τῆς ἀληθείας,
+									</supplied>
+									τὸ εὐαγγέλιον,
+									ἐν ᾧ πιστεύσαντες ἐσφραγίσθητε τῷ πνεύματι τῆς ἐπαγγελίας αὐτοῦ τῷ ἁγίῳ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἵνα ὁ θεὸς τοῦ κυρίου ἡμῶν Ἰησοῦ Χριστοῦ,
+										ὁ πατὴρ τῆς δόξης,
+										δώῃ ὑμῖν πνεῦμα σοφίας καὶ ἀποκαλύψεως ἐν ἐπιγνώσει αὐτοῦ
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πεφωτισμένους τοὺς ὀφθαλμοὺς τῆς καρδίας ὑμῶν,
+										εἰς τὸ εἰδέναι ὑμᾶς τίς ἐστιν ἡ ἐλπὶς τῆς κλήσεως αὐτοῦ,
+										τίς ὁ πλοῦτος τῆς δόξης τῆς κληρονομίας αὐτοῦ ἐν τοῖς ἁγίοις,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τί τὸ ὑπερβάλλον μέγεθος τῆς δυνάμεως αὐτοῦ εἰς ἡμᾶς τοὺς πιστεύοντας κατὰ τὴν ἐνέργειαν τοῦ κράτους τῆς ἰσχύος αὐτοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἣν ἐνήργηκεν ἐν τῷ Χριστῷ ἐγείρας αὐτὸν ἐκ νεκρῶν καὶ καθίσας αὐτὸν ἐν δεξιᾷ αὐτοῦ ἐν τοῖς ἐπουρανίοις
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ πάντα ὑπέταξεν ὑπὸ τοὺς πόδας αὐτοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑμᾶς ὄντας νεκροὺς τοῖς παραπτώμασιν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									ἐν οἷς
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περιεπατήσατε κατὰ τὸν αἰῶνα τοῦ κόσμου τούτου,
+										κατὰ τὸν ἄρχοντα τῆς ἐξουσίας
+									</supplied>
+									τοῦ ἀέρος τοῦ ἐνεργοῦντος
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν τοῖς υἱοῖς τῆς ἀπειθείας,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν οἷς καὶ ἡμεῖς πάντες ἀνεστράφημέν ποτε ἐν ταῖς ἐπιθυμίαις τῆς σαρκὸς ἡμῶν,
+										ποιοῦντες τὰ θελήματα τῆς σαρκὸς καὶ τῶν διανοιῶν,
+										καὶ ἤμεθα τέκνα φύσει ὀργῆς ὡς καὶ οἱ λοιποί·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										αὐτοῦ γάρ ἐσμεν ποίημα,
+										κτισθέντες ἐν Χριστῷ Ἰησοῦ ἐπὶ ἔργοις ἀγαθοῖς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									μνημονεύοντες ὑμεῖς ποτε τὰ ἔθνη,
+									οἱ λεγόμενοι
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀκροβυστία ὑπὸ τῆς λεγομένης περιτομῆς ἐν σαρκὶ χειροποιήτου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									ὅτι ἦτε ἐν τῷ καιρῷ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐκείνῳ χωρὶς Χριστοῦ ἀπηλλοτριωμένοι τῆς πολιτείας τοῦ Ἰσραὴλ καὶ
+									</supplied>
+									ξένοι τῶν διαθηκῶν καὶ τῆς ἐπαγγελίας,
+									ἐλπίδα μὴ ἔχοντες
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἄθεοι ἐν τῷ κόσμῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									νυνὶ δὲ ἐν Χριστῷ Ἰησοῦ
+									<app type="variants">
+										<lem resp="#Zahn">
+											Ἰησοῦ
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											Ἰησοῦ
+										</rdg>
+									</app>
+									<pb n="524" />
+									ὑμεῖς οἵ ποτε
+									<app type="variants">
+										<lem resp="#Zahn">
+											ποτε
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ποτε
+										</rdg>
+									</app>
+									ὄντες
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μακρὰν ἐγενήθητε ἐγγὺς ἐν τῷ
+									</supplied>
+									αἵματι αὐτοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										αὐτὸς γάρ ἐστιν ἡ εἰρήνη ἡμῶν,
+										ὁ ποιήσας τὰ ἀμφότερα ἓν
+									</supplied>
+									τὸ μεσότοιχον λύσας τὴς ἔχθρας
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἔχθρας
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἔχθρας
+										</rdg>
+									</app>
+									ἐν τῇ σαρκὶ
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸν νόμον τῶν ἐντολῶν ἐν δόγμασιν καταργήσας,
+										ἵνα τοὺς δύο κτίσῃ
+									</supplied>
+									ἐν ἑαυτῷ
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς ἕνα καινὸν ἄνθρωπον ποιῶν εἰρήνην,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἀποκαταλλάξῃ τοὺς ἀμφοτέρους
+									</supplied>
+									τῷ θεῷ ἐν ἑνὶ σώματι,
+									ἀποκτείνας τὴν ἔχθραν ἐν αὐτῷ διὰ τοῦ σταυροῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἐλθὼν εὐηγγελίσατο εἰρήνην ὑμῖν
+									</supplied>
+									τοῖς μακρὰν καὶ τοῖς ἐγγύς,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι δι᾽ αὐτοῦ ἔχομεν τὴν προσαγωγὴν οἱ ἀμφότεροι ἐν ἑνὶ πνεύματι πρὸς τὸν πατέρα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄρα οὖν οὐκέτι ἐστὲ ξένοι καὶ πάροικοι,
+									</supplied>
+									ἀλλὰ συμπολῖται τῶν ἁγίων,
+									ἀλλ᾽ οἰκεῖοι τοῦ θεοῦ.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐποικοδομηθέντες ἐπὶ τῷ θεμελίῳ τῶν ἀποστόλων,
+										ὄντος ἀκρογωνιαίου αὐτοῦ Χριστοῦ Ἰησοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν ᾧ πᾶσα οἰκοδομὴ συναρμολογουμένη αὔξει εἰς ναὸν ἅγιον ἐν κυρίῳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐμοὶ τῷ ἐλαχιστοτέρῳ πάντων ἁγίων ἐδόθη ἡ χάρις αὕτη,
+									</supplied>
+									ἐν τοῖς ἔθνεσιν εὐαγγελίσασθαι τὸν ἀνεξιχνίαστον πλοῦτον τοῦ Χριστοῦ,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									καὶ φωτίσαι πάντας,
+									τίς ἡ οἰκονομία
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦ μυστηρίου τοῦ
+									</supplied>
+									ἀποκεκρυμμένου ἀπὸ τῶν αἰώνων τῷ θεῷ τῷ τὰ πάντα κτίσαντι,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									ἵνα γνωρισθῇ ταῖς ἀρχαῖς
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ταῖς ἐξουσίαις ἐν τοῖς ἐπουρανίοις διὰ τῆς ἐκκλησίας ἡ πολυποίκιλος σοφία τοῦ θεοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἷς κύριος,
+										μία πίστις,
+										ἓν βάπτισμα·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἷς θεὸς καὶ πατὴρ πάντων,
+										ὁ ἐπὶ πάντων καὶ διὰ πάντων καὶ
+									</supplied>
+									ἐν πᾶσιν ἡμῖν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὸ λέγει·
+										ἀναβὰς εἰς ὕψος ᾐχμαλώτευσεν αἰχμαλωσίαν,
+										ἔδωκεν δόματα τοῖς ἀνθρώποις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὸ ἀποθέμενοι τὸ ψεῦδος λαλεῖτε ἀλήθειαν ἕκαστος μετὰ τοῦ πλησίον αὐτοῦ,
+										ὅτι ἐσμὲν ἀλλήλων μέλη.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="26">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὀργίζεσθε καὶ
+									</supplied>
+									μὴ ἁμαρτάνετε,
+									ὁ ἥλιος ἵνα μὴ
+									<pb n="525" />
+									ἐπιδύῃ ἐπὶ τῷ παροργισμῷ ὑμῶν.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="5">
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ περιπατεῖτε ἐν ἀγάπῃ,
+										καθὼς καὶ ὁ Χριστὸς ἠγάπησεν ὑμᾶς καὶ παρέδωκεν ἑαυτὸν ὑπὲρ ἡμῶν προσφορὰν καὶ θυσίαν τῷ θεῷ εἰς ὀσμὴν εὐωδίας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ μὴ συνκοινωνεῖτε τοῖς ἔργοις τοῖς ἀκάρποις τοῦ σκότους,
+										μᾶλλον δὲ καὶ ἐλέγχετε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὸ λέγει·
+										ἔγειρε ὁ καθεύδων καὶ ἀνάστα ἐκ τῶν νεκρῶν,
+										καὶ ἐπιφαύσει σοι ὁ Χριστός.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ μὴ μεθύσκεσθε οἴνῳ,
+										ἐν ᾧ ἐστιν ἀσωτία,
+										ἀλλὰ πληροῦσθε ἐν πνεύματι,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										λαλοῦντες ἑαυτοῖς ψαλμοῖς καὶ ὕμνοις καὶ ᾠδαῖς πνευματικαῖς,
+										ᾄδοντες καὶ ψάλλοντες τῇ καρδίᾳ ὑμῶν τῷ κυρίῳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									αἱ γυναῖκες τοῖς ἀνδράσιν ὑποτασσέσθωσαν,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι ἀνήρ ἐστιν κεφαλὴ τῆς γυναικὸς ὡς καὶ ὁ Χριστὸς κεφαλὴ τῆς ἐκκλησίας.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="28b">
+							<p>
+								<s>
+									τὴν ἑαυτοῦ σάρκα ἀγαπᾷ ὁ
+									<pb n="526" />
+									γυναῖκα ἀγαπῶν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="29">
+							<p>
+								<s>
+									οὐδεὶς τὴν ἑαυτοῦ σάρκα μισεῖ,
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ἐκτρέφει καὶ θάλπει αὐτήν,
+										καθὼς καὶ ὁ Χριστὸς τὴν ἐκκλησίαν·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="31">
+							<p>
+								<s>
+									ἀντὶ ταύτης καταλείψει
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἄνθρωπος τὸν πατέρα καὶ τὴν
+									</supplied>
+									μητέρα,
+									καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="32">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὸ μυστήριον τοῦτο μέγα ἐστίν,
+										ἐγὼ δὲ λέγω εἰς Χριστὸν καὶ εἰς τὴν ἐκκλησίαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="6">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τὰ τέκνα,
+										ὑπακούετε τοῖς γονεῦσιν ὑμῶν ἐν κυρίῳ·
+										τοῦτο γάρ ἐστιν δίκαιον.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τίμα τὸν πατέρα σου καὶ τὴν μητέρα,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									καὶ οἱ γονεῖς ἐκτρέφετε τὰ τέκνα ὑμῶν ἐν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παιδείᾳ καὶ νουθεσίᾳ κυρίου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐνδύσασθε τὴν πανοπλίαν τοῦ θεοῦ πρὸς τὸ δύνασθαι ὑμᾶς στῆναι πρὸς τὰς μεθοδίας τοῦ διαβόλου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι οὐκ ἔστιν ἡμῖν ἡ πάλη πρὸς αἷμα καὶ σάρκα,
+										ἀλλὰ πρὸς τὰς ἀρχάς,
+										πρὸς τὰς ἐξουσίας,
+										πρὸς τοὺς κοσμοκράτορας τοῦ σκότους τούτου,
+										πρὸς τὰ πνευματικὰ τῆς πονηρίας ἐν τοῖς ἐπουρανίοις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										στῆτε οὖν περιζωσάμενοι τὴν ὀσφὺν ὑμῶν ἐν ἀληθείᾳ,
+										καὶ ἐνδυσάμενοι τὸν θώρακα τῆς δικαιοσύνης,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑποδησάμενοι τοὺς πόδας ἐν ἑτοιμασίᾳ τοῦ εὐαγγελίου τῆς εἰρήνης,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν πᾶσιν ἀναλαβόντες τὸν θυρεὸν τῆς πίστεως,
+										ἐν ᾧ δυνήσεσθε πάντα τὰ βέλη τοῦ πονηροῦ τὰ πεπυρωμένα σβέσαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τὴν περικεφαλαίαν τοῦ σωτηρίου δέξασθε,
+										καὶ τὴν μάχαιραν τοῦ πνεύματος,
+										ὅ ἐστιν ῥῆμα θεοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ πάσης προσευχῆς καὶ δεήσεως προσευχόμενοι ἐν παντὶ καιρῷ ἐν πνεύματι,
+										καὶ εἰς αὐτὸ ἀγρυπνοῦντες ἐν πάσῃ προσκαρτερήσει καὶ δεήσει περὶ πάντων τῶν ἁγίων,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑπὲρ ἐμοῦ,
+										ἵνα μοι δοθῇ λόγος ἐν ἀνοίξει τοῦ στόματός μου,
+										ἐν παρρησίᾳ γνωρίσαι τὸ μυστήριον τοῦ εὐαγγελίου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὑπὲρ οὗ πρεσβεύω ἐν ἁλύσει,
+										ἵνα ἐν αὐτῷ παρρησιάσωμαι ὡς δεῖ με λαλῆσαι.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<pb n="527" />
+				<div type="textpart" subtype="book" n="Col">
+					<head>
+						Πρὸς Κολασσαεῖς.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τὴν ἐλπίδα τὴν ἀποκειμένην ἐν τοῖς οὐρανοῖς,
+									</supplied>
+									ἣν ἠκούσατε
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐν τῷ λόγῳ τῆς ἀληθείας τοῦ εὐαγγελίου
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦ παρόντος εἰς ὑμᾶς καθὼς καὶ ἐν παντὶ τῷ κόσμῳ ἐστὶν,
+										καρποφορούμενον καὶ αὐξανόμενον καθὼς καὶ ἐν ὑμῖν,
+										ἀφ᾽ ἧς ἡμέρας ἠκούσατε καὶ ἐπέγνωτε τὴν χάριν τοῦ θεοῦ ἐν ἀληθείᾳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅς ἐστιν εἰκὼν τοῦ θεοῦ τοῦ ἀοράτου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ αὐτός ἐστιν πρὸ πάντων,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅτι ἐν αὐτῷ εὐδόκησεν πᾶν τὸ πλήρωμα κατοικῆσαι
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ δι᾽ αὐτοῦ ἀποκαταλλάξαι τὰ πάντα εἰς αὐτόν,
+										εἰρηνοποιήσας διὰ τοῦ αἵματος τοῦ σταυροῦ αὐτοῦ,
+										δι᾽ αὐτοῦ,
+										εἴτε τὰ ἐπὶ τῆς γῆς εἴτε τὰ ἐν τοῖς οὐρανοῖς.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑμᾶς ποτε ὄντας ἀπηλλοτριωμένους καὶ ἐχθροὺς τῇ διανοίᾳ ἐν τοῖς ἔργοις τοῖς πονηροῖς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νυνὶ δὲ ἀποκατήλλαξεν ἐν τῷ σώματι αὐτοῦ διὰ τοῦ θανάτου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										νῦν χαίρω ἐν τοῖς παθήμασιν ὑπὲρ ὑμῶν,
+										καὶ ἀνταναπληρῶ τὰ ὑστερήματα τῶν θλίψεων τοῦ Χριστοῦ ἐν τῇ σαρκί μου ὑπὲρ τοῦ σώματος αὐτοῦ,
+										ὅ ἐστιν ἡ ἐκκλησία.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τοῦτο λέγω ἵνα μηδεὶς ὑμᾶς παραλογίζηται ἐν πιθανολογίᾳ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										βλέπετε μή τις ὑμᾶς ἔσται ὁ συλαγωγῶν διὰ τῆς φιλοσοφίας καὶ κενῆς ἀπάτης κατὰ τὴν παράδοσιν τῶν ἀνθρώπων,
+										κατὰ τὰ στοιχεῖα τοῦ κόσμου καὶ οὐ κατὰ Χριστόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὑμᾶς νεκροὺς ὄντας τοῖς παραπτώμασιν καὶ τῇ ἀκροβυστίᾳ τῆς σαρκὸς ὑμῶν,
+										συνεζωοποίησεν ὑμᾶς σὺν αὐτῷ,
+										χαρισάμενος ἡμῖν πάντα τὰ παραπτώματα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ οὖν τις ὑμᾶς κρινέτω ἐν βρώσει ἢ ἐν πόσει ἢ ἐν μέρει ἑορτῆς ἢ νουμηνίας
+									</supplied>
+									καὶ σαββάτων,
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									ὅ ἐστιν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										σκιὰ τῶν μελλόντων,
+										τὸ δὲ σῶμα τοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μηδεὶς ὑμᾶς καταβραβευέτω,
+									</supplied>
+									θέλων ἐν ταπεινοφροσύνῃ τῶν ἀγγέλων,
+									ἃ
+									<app type="variants">
+										<lem resp="#Zahn">
+											ἃ
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											ἃ
+										</rdg>
+									</app>
+									ἑώρακεν,
+									ἐμβατεύειν
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰκῇ φυσιούμενος ὑπὸ τοῦ νοὸς τῆς σαρκὸς αὐτοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ οὐ κρατῶν τὴν κεφαλήν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ ἅψῃ μηδὲ γεύσῃ μηδὲ θίγῃς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἅ ἐστιν πάντα εἰς φθορὰν τῇ ἀποχρήσει,
+										κατὰ τὰ ἐντάλματα καὶ διδασκαλίας τῶν ἀνθρώπων;
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μὴ ψεύδεσθε εἰς ἀλλήλους,
+										ἀπεκδυσάμενοι τὸν παλαιὸν ἄνθρωπον σὺν ταῖς πράξεσιν αὐτοῦ
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ἐνδυσάμενοι τὸν νέον τὸν ἀνακαινούμενον εἰς ἐπίγνωσιν κατ᾽ εἰκόνα τοῦ κτίσαντος αὐτόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="4">
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀσπάζεται ὑμᾶς Ἀρίσταρχος ὁ συναιχμάλωτός μου,
+										καὶ Μᾶρκος ὁ ἀνεψιὸς Βαρναβᾶ,
+										περὶ οὗ ἐλάβετε ἐντολάς,
+									</supplied>
+									ἵνα ἐὰν ἔλθῃ
+									<pb n="528" />
+									πρὸς ὑμᾶς δέξησθε αὐτόν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ Ἰησοῦς ὁ λεγόμενος Ἰοῦστος,
+										οἱ ὄντες ἐκ περιτομῆς,
+									</supplied>
+									οὗτοι γὰρ μόνοι μου εἰσὶ συνεργοί
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰς τὴν βασιλείαν τοῦ θεοῦ,
+										οἵτινες ἐγενήθησάν μοι παρηγορία.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀσπάζεται ὑμᾶς Ἐπαφρᾶς ὁ ἐξ ὑμῶν,
+										δοῦλος Χριστοῦ Ἰησοῦ,
+										πάντοτε ἀγωνιζόμενος ὑπὲρ ὑμῶν ἐν ταῖς προσευχαῖς,
+										ἵνα σταθῆτε τέλειοι καὶ πεπληροφορημένοι ἐν παντὶ θελήματι τοῦ θεοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										μαρτυρῶ γὰρ αὐτῷ,
+										ὅτι ἔχει πολὺν πόνον ὑπὲρ ὑμῶν καὶ τῶν ἐν Λαοδικίᾳ καὶ τῶν ἐν Ἱεραπόλει.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									ἀσπάζεται ὑμᾶς Λουκᾶς καὶ Δημᾶς.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ ὅταν ἀναγνωσθῇ παρ᾽ ὑμῖν ἡ ἐπιστολή,
+										ποιήσατε ἵνα καὶ ἐν τῇ Λαοδικέων ἐκκλησίᾳ ἀναγνωσθῇ,
+										καὶ τὴν ἐκ Λαοδικίας ἵνα καὶ ὑμεῖς ἀναγνῶτε.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Phlp">
+					<head>
+						Πρὸς Φιλιππησίους.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ τοὺς πλείονας τῶν ἀδελφῶν ἐν κυρίῳ πεποιθότας τοῖς δεσμοῖς μου περισσοτέρως τολμᾶν ἀφόβως τὸν λόγον τοῦ θεοῦ λαλεῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τινὲς μὲν καὶ διὰ φθόνον καὶ ἔριν,
+									</supplied>
+									τινὲς δὲ καὶ δι᾽ οἴησιν
+									<app type="variants">
+										<lem resp="#Zahn">
+											οἴησιν
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											οἴησιν
+										</rdg>
+									</app>
+									λόγου·
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16a">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οἱ μὲν ἐξ ἀγάπης,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									οἱ δὲ ἐξ ἐριθείας,
+									ἤδη δὲ καὶ τινες ἐκ μίσους
+									<app type="variants">
+										<lem resp="#Zahn">
+											μίσους
+										</lem>
+										<rdg resp="#Zahn" type="proposition" cert="low">
+											μίσους
+										</rdg>
+									</app>
+									τὸν Χριστὸν κηρύσσουσιν.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18a">
+							<p>
+								<s>
+									οὐδέν μοι διαφέρει,
+									εἴτε προφάσει,
+									εἴτε ἀληθείᾳ,
+									Χριστὸς καταγγέλλεται.
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="2">
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃς ἐν μορφῇ θεοῦ ὑπάρχων οὐχ ἁρπαγμὸν ἡγήσατο τὸ εἶναι ἴσα θεῷ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ ἑαυτὸν ἐκένωσεν μορφὴν δούλου λαβών,
+										ἐν ὁμοιώματι
+									</supplied>
+									ἀνθρώπου γενόμενος
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ σχήματι
+									</supplied>
+									εὑρεθεὶς ἄνθρωπος.
+								</s>
+							</p>
+						</div>
+						<pb n="529" />
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐταπείνωσεν ἑαυτὸν γενόμενος ὑπήκοος μέχρι θανάτου,
+										θανάτου δὲ σταυροῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+					<div type="textpart" subtype="chapter" n="3">
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καίπερ ἐγὼ ἔχων πεποίθησιν καὶ ἐν σαρκί.
+										εἴ τις δοκεῖ ἄλλος πεποιθέναι ἐν σαρκί,
+										ἐγὼ μᾶλλον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										περιτομῇ ὀκταήμερος,
+										ἐκ γένους Ἰσραήλ,
+										φυλῆς Βενιαμείν,
+										Ἑβραῖος ἐξ Ἑβραίων,
+										κατὰ νόμον Φαρισαῖος,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἅτινα ἦν μοι κέρδη,
+										ταῦτα ἥγημαι διὰ τὸν Χριστὸν ζημίαν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀλλὰ μενοῦνγε καὶ ἡγοῦμαι πάντα ζημίαν εἶναι διὰ τὸ ὑπερέχον τῆς γνώσεως Χριστοῦ Ἰησοῦ τοῦ κυρίου μου,
+										δι᾽ ὃν τὰ πάντα ἐζημιώθην,
+										καὶ ἡγοῦμαι σκύβαλα ἵνα Χριστὸν κερδήσω,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ εὑρεθῶ ἐν αὐτῷ,
+										μὴ ἔχων ἐμὴν δικαιοσύνην τὴν ἐκ νόμου,
+									</supplied>
+									ἀλλὰ τὴν δι᾽ αὐτοῦ ἐκ θεοῦ δικαιοσύνην.
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡμῶν γὰρ τὸ πολίτευμα ἐν οὐρανοῖς ὑπάρχει,
+										ἐξ οὗ καὶ σωτῆρα ἀπεκδεχόμεθα κύριον Ἰησοῦν Χριστόν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									ὃς μετασχηματίσει τὸ σῶμα τῆς ταπεινώσεως ἡμῶν σύνμορφον τῷ σώματι τῆς δόξης αὐτοῦ,
+									κατὰ τὴν ἐνέργειαν τοῦ δύνασθαι αὐτὸν καὶ ὑποτάξαι αὐτῷ τὰ πάντα.
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div type="textpart" subtype="book" n="Phlm">
+					<head>
+						Πρὸς Φιλήμονα.
+					</head>
+					<div type="textpart" subtype="chapter" n="1">
+						<div type="textpart" subtype="verse" n="1">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Παῦλος,
+										δέσμιος Χριστοῦ Ἰησοῦ,
+										καὶ Τιμόθεος ὁ ἀδελφὸς,
+										Φιλήμονι τῷ ἀγαπητῷ καὶ συνεργῷ ἡμῶν,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="2">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										καὶ Ἀπφίᾳ τῇ ἀδελφῇ,
+										καὶ Ἀρχίππῳ τῷ συστρατιώτῃ ἡμῶν,
+										καὶ τῇ κατ᾽ οἶκόν σου ἐκκλησίᾳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="3">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χάρις ὑμῖν καὶ εἰρήνη ἀπὸ θεοῦ πατρὸς ἡμῶν καὶ κυρίου Ἰησοῦ Χριστοῦ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="4">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εὐχαριστῶ τῷ θεῷ μου πάντοτε μνείαν σου ποιούμενος ἐπὶ τῶν προσευχῶν μου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="5">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀκούων σου τὴν ἀγάπην καὶ τὴν πίστιν,
+										ἣν ἔχεις πρὸς τὸν κύριον Ἰησοῦν καὶ εἰς πάντας τοὺς ἁγίους,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="6">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὅπως ἡ κοινωνία τῆς πίστεώς σου ἐνεργὴς γένηται ἐν ἐπιγνώσει παντὸς ἀγαθοῦ τοῦ ἐν ἡμῖν εἰς Χριστόν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="7">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χαρὰν γὰρ πολλὴν ἔσχον καὶ παράκλησιν ἐπὶ τῇ ἀγάπῃ σου,
+										ὅτι τὰ σπλάγχνα τῶν ἁγίων ἀναπέπαυται διὰ σοῦ,
+										ἀδελφέ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="8">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διό πολλὴν ἐν Χριστῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="9">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										διὰ τὴν ἀγάπην μᾶλλον παρακαλῶ·
+										τοιοῦτος ὢν ὡς Παῦλος πρεσβύτης,
+										νυνὶ δὲ καὶ δέσμιος Χριστοῦ Ἰησοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="10">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										παρακαλῶ σε περὶ τοῦ ἐμοῦ τέκνου,
+										ὃν ἐγέννησα ἐν τοῖς δεσμοῖς,
+										Ὀνήσιμον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="11">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τόν ποτέ σοι ἄχρηστον,
+										νυνὶ δὲ καὶ σοὶ καὶ ἐμοὶ εὔχρηστον,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="12">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃν ἀνέπεμψά σοι αὐτόν,
+										τοῦτ᾽ ἔστιν τὰ ἐμὰ σπλάγχνα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="13">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ὃν ἐγὼ ἐβουλόμην πρὸς ἐμαυτὸν κατέχειν,
+										ἵνα ὑπὲρ σοῦ μοι διακονῇ ἐν τοῖς δεσμοῖς τοῦ εὐαγγελίου,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="14">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										χωρὶς δὲ τῆς σῆς γνώμης οὐδὲν ἠθέλησα ποιῆσαι,
+										ἵνα μὴ ὡς κατὰ ἀνάγκην τὸ ἀγαθόν σου ᾖ ἀλλὰ κατὰ ἑκούσιον·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="15">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										τάχα γὰρ διὰ τοῦτο ἐχωρίσθη πρὸς ὥραν,
+										ἵνα αἰώνιον αὐτὸν ἀπέχῃς,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="16">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										οὐκ ἔτι ὡς δοῦλον ἀλλὰ ὑπὲρ δοῦλον,
+										ἀδελφὸν ἀγαπητόν,
+										μάλιστα ἐμοί,
+										πόσῳ δὲ μᾶλλον σοὶ καὶ ἐν σαρκὶ καὶ ἐν κυρίῳ·
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="17">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ οὖν με ἔχεις κοινωνόν,
+										προσλαβοῦ αὐτὸν ὡς ἐμέ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="18">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										εἰ δέ τι ἠδίκησέν σε ἢ ὀφείλει,
+										τοῦτο ἐμοὶ ἐλλόγα.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="19">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἐγὼ Παῦλος ἔγραψα τῇ ἐμῇ χειρί,
+										ἐγὼ ἀποτίσω·
+										ἵνα μὴ λέγω σοι ὅτι καὶ σεαυτόν μοι προσοφείλεις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="20">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ναί,
+										ἀδελφέ,
+										ἐγώ σου ὀναίμην ἐν κυρίῳ·
+										ἀνάπαυσόν μου τὰ σπλάγχνα ἐν Χριστῷ.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="21">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										πεποιθὼς τῇ ὑπακοῇ σου ἔγραψά σοι,
+										εἰδὼς ὅτι καὶ ὑπὲρ ἃ λέγω ποιήσεις.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="22">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἅμα δὲ καὶ ἑτοίμαζέ μοι ξενίαν·
+										ἐλπίζω γὰρ ὅτι διὰ τῶν προσευχῶν ὑμῶν χαρισθήσομαι ὑμῖν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="23">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἀσπάζεταί σε Ἐπαφρᾶς ὁ συναιχμάλωτός μου ἐν Χριστῷ Ἰησοῦ,
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="24">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										Μάρκος,
+										Ἀρίσταρχος,
+										Δημᾶς,
+										Λουκᾶς,
+										οἱ συνεργοί μου.
+									</supplied>
+								</s>
+							</p>
+						</div>
+						<div type="textpart" subtype="verse" n="25">
+							<p>
+								<s>
+									<supplied reason="omitted-in-original" source="#EOCM" resp="#MGB">
+										ἡ χάρις τοῦ κυρίου Ἰησοῦ Χριστοῦ μετὰ τοῦ πνεύματος ὑμῶν.
+									</supplied>
+								</s>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

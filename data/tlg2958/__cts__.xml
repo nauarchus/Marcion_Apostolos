@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" projid="greekLit:tlg2958" urn="urn:cts:greekLit:tlg2958">
+
+<ti:groupname xml:lang="eng">Marcion of Sinope</ti:groupname>
+<ti:groupname xml:lang="lat">Marcion Sinopensis</ti:groupname>
+<ti:groupname xml:lang="deu">Marcion von Sinope</ti:groupname>
+<ti:groupname xml:lang="fra">Marcion de Sinope</ti:groupname>
+
+ </ti:textgroup>
